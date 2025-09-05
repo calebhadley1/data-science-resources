@@ -1,0 +1,24 @@
+[Patterns, Predictions, and Actions](https://mlstory.org/)
+- This book presents the foundations of Machine Learning. The first two chapters are a great starting point for understanding the history of Data Science and the foundations of prediction.
+- Chapter 1:
+    - 17th century: Pastor Neumann sent a manuscript to Leibniz regarding birth/death data he had recorded. Leibniz sent it to his royal society. It eventually resulted in Halley’s “life table”, a table summarizing stats about the birth/deaths. This was used to predict things like what percent of the population can own guns
+    - 18th century: Life insurance industry grew based on the insights gained from Halley
+    - 20th century: Advancements from computer scientists Turing, Gödel, Von Neumann.
+    - WWII: Weapons systems created thru connectionism theories (Wiener’s Cybernetics & Shannon’s Mathematic Theory of Computation).
+    - 1950s: Pattern classification (Rosenblatt’s Perceptron). Advancements then included Multi layer Perceptrons, Mistake bound, generalization. This area of research became known as pattern recognition. Now this is mainly known as supervised learning
+    - 1960s/70s. “Artificial inteelligence” research. Similar goal to connectionism. “Rejecting the numerical pattern fitting of the connectionist era, the proponents of this new discipline saw the future in symbolic and logical manipulation of knowledge represented in formal languages.” Led to creation of “Expert Systems”
+    - 1980s: benchmarks. David Aha compiled datasets and made available over FTP. *dataset-as-benchmark paradigm.*
+    - Intersection of “Prediction and action” with “Dynamic programming” techniques. (AlphaGo)
+    - Causal Inference
+- Chapter 2:
+    - *Prediction* is the art and science of leveraging patterns found in natural and social processes to conjecture about uncertain events. We use the word *prediction* broadly to refer to statements about things we don’t know for sure *yet*, including but not limited to the outcome of future events.
+    - Machine learning is to a large extent the study of algorithmic prediction.
+    - Given population of N instances where each instance has a number of attributes, we want to predict Y by observing X alone. If we make a deterministic prediction f(x) = y, we can minimize mean error rate to optimize f.
+    - Create a “Threshold function” (In the case of binary classification, where the first N groups in a bar chart show one group and the second group shows another. This is called “minimum error rule”. To compute this rule you need to examine/enumerate the entire population. It also means prediction is pointless.
+    - “Fundamentally, what makes prediction without enumeration possible is *knowledge* about the population. Human beings organize and represent knowledge in different ways. In this chapter, we will explore in depth the consequences of one particular way to represent populations, specifically, as *probability distributions*.” We call these distributions “models”
+    - Location: Central point or position of the data on a number line
+    - Scale: Spread or dispersion of the data
+    - Skew: Indicates the asymmetry of the distribution; a symmetric distribution has zero skew, while right-skewed (positive skew) distributions have a long tail to the right, and left-skewed (negative skew) distributions have a long tail to the left.
+    - “Balance” between two classes
+    - *“generative model* or *likelihood function”*
+    - Loss functions
