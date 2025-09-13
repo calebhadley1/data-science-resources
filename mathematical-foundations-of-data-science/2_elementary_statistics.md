@@ -244,4 +244,36 @@
         - Quartiles (every 25th percentile), Q1, Q2, Q3. Q2 = P50
         - Methods for calculating percentiles
     - Boxplots
-    - TODO: add exercise sols
+    - Chapter 1.4 Exercise Solutions:
+        - 1. IQ scores have a mean of 100 and a standard deviation of 15. Compute the z-scores of the famous people below and state which ones are unusual.
+            Name IQ score
+            Garry Kasporov (chess champion) 190
+            Albert Einstein (scientist) 160
+            Arnold Schwarzenegger (actor) 135
+            Tim Tebow (football player) 104
+            Howard Stern (talk radio host) 99
+            George W Bush (43rd president) 125
+            Muhammad Ali (boxer) 78
+            Barack Obama (44th president) 130
+            - Z Scores:
+                - Garry: 190 - 100 / 15 = ..
+        2. Heights of adult males have a mean of 69 inches and a standard deviation of 3 inches. How tall must a man be to be considered unusually short or unusually tall?
+            - Unusually tall will be z scores -2 < z > 2
+            - First lets solve for the -2 case
+            - -2 = (X - 69) / 3  ->  -6 = X - 69  ->  X=63. So over 63 inches is unusually tall. You can do the same logic for the 2 case
+        3. For a data set with 38 values, compute the location (position) of the 45th percentile.
+            - 38 * (45/100) = 17.1. This means percentile is at the 17th position in the array
+        4. If a student scores at the 85th percentile on a standardized test, what does that mean?
+            - It means their score is higher or equal to than 85% of other students
+        5. Find the Five-Number summary for 17, 7, 9, 10, 8, 7, 14, 20, 8, 5, 15, and 8.
+            - Min, 25th, 50th, 75th percentiles, and Max
+            - Order them, then use the calculation len(x) * (25/100) = some number. Once you find this number you can iterate over the array to grab the correct num.
+        6. For the following grades on a history test, compute the Five-Number summary. 67, 72, 99, 100, 82, 83, 94, 90, 80, 85, 85, 77, 48, 88, 75, 50, 75, 82 and 95.
+        Did the class do well on the test? Explain.
+            - Same steps as above problem. Calculate the summary and see how high the mean is, see if any students did really poorly (min and 25th percentiles)
+        7. Create a regular box-plot for the data in the previous exercise.
+            - N/A
+        8. Compute the lower and upper fences for the history test data and state which values, if any, are outliers. Then create a modified boxplot.
+            - N/A
+        9. Based on the boxplots below, state the characteristics of the data sets. Which one is more spread out?
+            - N/A
