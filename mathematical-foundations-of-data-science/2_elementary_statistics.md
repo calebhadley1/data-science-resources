@@ -119,7 +119,45 @@
         - Outliers: are data values (small parts of the graph) that are far from the other data
         (parts).
     - Time series graphs
-    - TODO: add exercise sols
+    - Chapter 1.2 Exercise Solutions:
+        1. When grouping data into classes, why should we use only a small number of classes? If a data set has 1000 values, why not use 100 classes?
+            - Too much granularity for the classes to be useful
+
+        1. When computing relative frequencies, how do we know that we have calculated them correctly?
+            - They must add to 100%
+        2. For the classes shown below, state the lower limits, upper limits, midpoints, and boundaries, then find the class width.
+        1-23 24-46 47-69 70-92 93-115
+            - lower limits = 1, 24, 47, 70, 93
+            - upper limits = 23, 46, 69, 92, 115
+            - midpoints = 12, 35, 58, …
+            - boundaries = 23.5, 46.5, …
+            - class width = 23
+        3. What is the difference between a bar graph and a Pareto chart? Can a Pareto chart be done from quantitative data? Why or why not?
+            - Pareto is a bar graph for qualitative data (classes). It cannot be used for quant data, that would just be a bar chart.
+        4. Group the following data, calculate the frequencies and relative frequencies. Convert relative frequencies to nearest whole percent. A Farmer kept a log for one month of which days it rained. Here is the order. Tuesday, Saturday, Sunday, Tuesday, Friday, Sunday, Wednesday, Sunday, Friday, Tuesday
+            - Classes = M,T,W,Th,F,Sat,Sun except you can remove any which have no values I think
+            - Tuesday freq = 3, rel freq = 3/10
+        5. Make a pie-chart and a bar graph for the distribution you created from the farmer’s
+        observations in the previous exercise.
+            - N/A
+        6. Group the following data into classes, calculate the frequencies and relative frequencies.
+        Convert relative frequencies to nearest tenth of a percent. The grades on a history test
+        were as follows: 67, 72, 99, 100, 82, 83, 94, 90, 80, 85, 85, 77, 48, 88, 75, 50, 75, 82,
+        and 95. Use Classes of under 60, 60-69, 70-79, 80-89, and 90-100.
+            - Classes = 0-60, 60-69, 70-79, 80-89, 90-100
+            - Freqs = 2 for 0-60, 1, for 60-69, etc.
+            - Relative freqs = 2/19, 1/19, …
+
+        7. Make a pie-chart and a histogram for the distribution you created from the history
+        grades in the previous exercise.
+            - N/A
+        8. The Covid-19 fully vaccinated rates for the 50 US states are shown in the distribution below. Fill in the missing values. The data comes from [www.usafacts.org](http://www.usafacts.org/) as of May 15th, 2022. The lowest rate is 51% in Wyoming. The highest rate is 83% in Rhode Island.
+            - N/A
+        9. Describe the characteristics of the following graph (center, spread, shape, symmetry,
+        outliers).
+            - Center is at 6, spread is moderate, concentrated from 5-8, shape is bell shape ish, not perfectly symmetrical, outlier to the left
+        10. Describe two issues that are bad or misleading about the following graph.
+            - Data does not start at 0, exaggerating the differences. Pareto bar chart is ok, but the classes do not indicate what they are describing
 
 - Chapter 1.3
     - Notations
@@ -143,7 +181,57 @@
             - variance of pop = omega^2
             - We can compare the std of two similar datasets
             - When they are not similar, we use Coefficient of Variation
-    - TODO: add exercise sols
+    - Chapter 1.3 Exercise Solutions:
+        1. Compute the mean, median, and mode of the following data sets. Use the round-off rule.
+        (a) 1, 2, 3, 4, 5, 6, 7
+        (b) 1, -2, 0, 3, 4, 0
+        (c) 123, 318, 222, 301, 188, 195, 253, 172, 230, 103, 155, 281
+            - To compute mean, sum the numbers and divide by the len
+            - To compute median, sort the numbers and find the middle element. Apply round off rule
+            - To compute mode, count occurrences and return highest
+        2. For the following data, compute the mean, median, and mode. Use the round-off rule.
+        The grades on a history test were as follows: 67, 72, 99, 100, 82, 83, 94, 90, 80, 85, 85,
+        77, 48, 88, 75, 50, 75, 82, and 95
+            - To compute mean, sum the numbers and divide by the len
+            - To compute median, sort the numbers and find the middle element. Apply round off rule
+            - To compute mode, count occurrences and return highest
+        3. For the following data, compute the min, max, range, variance and standard deviation.
+        One of the hottest selling concerts of 2013 was the Honda Civic Tour featuring Maroon
+        5, Kelly Clarkson, and Rozzi Crane. A sample of ticket prices for the Atlanta Lakewood
+        show on August 1st were $44, $74, $94, and $116.
+            - Min 44, Max 116, Range 44-116 inclusive, std dev = sqrt(sum of the squared differences between mean and the element) / len - 1)
+        4. Explain what the standard deviation from the previous exercise tells you about the
+        ticket prices.
+            - It tells us whether the average element is far from the mean
+        5. How are the mean, median and mode affected by extreme values?
+            - Extreme values can mean the mean non-representative. For example, salary calculations are skewed by high earners, making the mean seem decent. The median is a better stat in this case. The mode is not affected either
+        6. If a set of data is not known to be from a sample or a population, then there are
+        two possible standard deviation formulas to use. Explain why the sample standard
+        deviation is always larger than the population standard deviation.
+            - Bessel's correction gives it a small upward bias
+        7. College GPA is a weighted average of the grades earned in all of your courses. Letter
+        grades are equated to a numeric value called quality points. The weights are the credit
+        hours earned for the course. On a typical A-F system with no plus/minus, the points
+        40 are A = 4.0, B = 3.0, C = 2.0, D = 1.0, and F = 0. If a student had the following
+        grades for their first semester, what would their GPA be for that semester? Grade B
+        in College Algebra(3 credits), Grade B in Chemistry(4 credits), Grade A in Phys Ed(2
+        credits), Grade C in Writing(3 credits), Grade A in Economics(3 credits).
+            - Setup a division with the den/num as follows
+            - Calculate the denominator as 3*3 + 3*4 + 4*2 + 2*3 + 4 * 3
+            - Calculate numerator as 3 + 4 + 2 + 3 + 3
+        8. A fitness company did a study and found the following statistics for 1000 women in
+        the Atlanta area. Mean weight = 162 pounds, median weight = 141 pounds, standard
+        deviation = 45 pounds. What do these statistics suggest about the distribution of
+        women’s weights?
+            - This shows that there are some outliers which are shifting the mean. The mean is greater than the median, so it is right skewed. The standard deviation shows the average woman is 45 pounds from the mean.
+        9. Estimate the mean of the following frequency distribution.
+        Class 10-14 15-19 20-24 25-29 30-34 35-39
+        Frequency 12 5 7 2 6 3
+            - First find the midpoints for each class. Then setup a division with the denominator as sum[i..x](midpoint[x] * freq[x]) and numerator as sum(freq)
+        10. Which data set is more spread out, the shot put throws for a high school track team:
+        s = 5.5 feet and x = 38 feet, or the gymnastics scores for a college team: s = 1.4
+        points and x = 8.45 points?
+            - Since they are different measurements you need to compare them relatively
 
 - Chapter 1.4
     - Measures of Relative Standing (measures that describe how particular data values compare to each other)
