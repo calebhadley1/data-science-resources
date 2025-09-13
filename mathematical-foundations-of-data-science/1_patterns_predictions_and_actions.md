@@ -1,5 +1,8 @@
-[Patterns, Predictions, and Actions](https://mlstory.org/)
+# [Patterns, Predictions, and Actions](https://mlstory.org/)
 - This book presents the foundations of Machine Learning. The first two chapters are a great starting point for understanding the history of Data Science and the foundations of prediction.
+
+## Overview, Data and Uncertainty
+
 - Chapter 1:
     - 17th century: Pastor Neumann sent a manuscript to Leibniz regarding birth/death data he had recorded. Leibniz sent it to his royal society. It eventually resulted in Halley’s “life table”, a table summarizing stats about the birth/deaths. This was used to predict things like what percent of the population can own guns
     - 18th century: Life insurance industry grew based on the insights gained from Halley
