@@ -8,6 +8,8 @@
     year={2016}
 }
 
+## Overview, Data and Uncertainty
+
 [Chapter 3 - Probability and Information Theory](https://www.deeplearningbook.org/contents/prob.html)
 
 3.1 - Why Probability?

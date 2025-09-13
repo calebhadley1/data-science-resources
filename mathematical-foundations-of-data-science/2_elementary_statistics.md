@@ -119,6 +119,7 @@
         - Outliers: are data values (small parts of the graph) that are far from the other data
         (parts).
     - Time series graphs
+    - TODO: add exercise sols
 
 - Chapter 1.3
     - Notations
@@ -142,6 +143,7 @@
             - variance of pop = omega^2
             - We can compare the std of two similar datasets
             - When they are not similar, we use Coefficient of Variation
+    - TODO: add exercise sols
 
 - Chapter 1.4
     - Measures of Relative Standing (measures that describe how particular data values compare to each other)
@@ -154,3 +156,4 @@
         - Quartiles (every 25th percentile), Q1, Q2, Q3. Q2 = P50
         - Methods for calculating percentiles
     - Boxplots
+    - TODO: add exercise sols

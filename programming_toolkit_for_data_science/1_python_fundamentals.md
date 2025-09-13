@@ -1,5 +1,4 @@
-Before diving into the toolkit for Data Science, it is important to learn
-the fundamentals of Python.
+Before diving into the toolkit for Data Science, it is important to learn the fundamentals of Python.
 
 [Whirlwind Tour of Python - VanderPlas](https://jakevdp.github.io/WhirlwindTourOfPython) covers key concepts such as syntax, variables, operators, data structures, control flow, and more.
 

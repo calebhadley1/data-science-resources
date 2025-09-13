@@ -1,7 +1,9 @@
-[Data Science for Business: What You Need to Know About Data Mining and Data-Analytic Thinking](https://www.academia.edu/38731456/Data_Science_for_Business)
+# [Data Science for Business: What You Need to Know About Data Mining and Data-Analytic Thinking](https://www.academia.edu/38731456/Data_Science_for_Business)
 
 This book mainly covers case studies in Data Science across different business domains. It shows how DS can make an impact on business
 and how data should be viewed as a business asset.
+
+## Overview, Data and Uncertainty
 
 Chapter 1: Introduction to Data Analytic Thinking
 - The volume of data has surpassed the ability for statisticians and models to manually inspect data and derive insights. To address this Data Science has risen in popularity.
@@ -17,3 +19,8 @@ Chapter 1: Introduction to Data Analytic Thinking
 - **Data should be viewed as a strategic asset** - Signet Bank to Capital One story. 
 - Cross Industry Process for Data Mining (CRISP-DM).
 - Data Science vs the Tools of Data Science (Analogy of how Chemists are not just the test tubes. Likewise Data Scienctists are not just Python, Pandas, Numpy etc. It is the science of discovering trends from data that is important)
+
+## Sampling and Descriptive Statistics
+
+Chapter 2:
+TODO fill me in
