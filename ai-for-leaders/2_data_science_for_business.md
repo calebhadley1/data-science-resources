@@ -3,7 +3,7 @@
 This book mainly covers case studies in Data Science across different business domains. It shows how DS can make an impact on business
 and how data should be viewed as a business asset.
 
-## Overview, Data and Uncertainty
+## Introduction to Data Analytic Thinking
 
 Chapter 1: Introduction to Data Analytic Thinking
 - The volume of data has surpassed the ability for statisticians and models to manually inspect data and derive insights. To address this Data Science has risen in popularity.
@@ -20,7 +20,103 @@ Chapter 1: Introduction to Data Analytic Thinking
 - Cross Industry Process for Data Mining (CRISP-DM).
 - Data Science vs the Tools of Data Science (Analogy of how Chemists are not just the test tubes. Likewise Data Scienctists are not just Python, Pandas, Numpy etc. It is the science of discovering trends from data that is important)
 
-## Sampling and Descriptive Statistics
+## Business Problems and Data Science Solutions
 
-Chapter 2:
-TODO fill me in
+Chapter 2: Business Problems in Data Science:
+- Data mining is a *process* with fairly well defined stages
+- “Each data driven business decision making problem is unique, comprising its own combination of goals, desires, constraints and even personalities. As with much engineering, though, there are sets of common tasks that underlie the business problems. In collaboration with business stakeholders, data scientists decompose a business problem into subtasks.”
+- Types of problems:
+    - “*Classification* and class *probability* *estimation* attempt to predict, for each individual in a population, which of a (small) set of classes this individual belongs to.”
+        - Classes are usually mutually exclusive
+        - Ex: Among all MegaTelCo customers, which are likely to response to a given offer? Classes are “will respond” and “will not respond”
+        - Closely related tasks are *scoring* or class *probability estimation* (score representing the likelihood an individual belongs to a class)
+        - Fundamentally predicts *whether* something will happen
+    - Regression (*value estimation*)
+        - “…estimate or predict, for each individual, the numerical value of some variable for that individual.
+        - Ex: How much will a given customer use the service? What is the estimated income of an individual?
+        - Fundamentally predicts *how much* something will happen
+    - Similarity matching
+        - *Identify* similar individuals based on data known about them
+        - Ex: IBM wants to find companies similar to their best business customers in order to identify the best sales opportunities
+        - This is the basis for one of the most popular methods for making product recommendations
+        - Similarity measures underlie certain solutions to other data mining tasks such as classification, regression, and clustering. (Chapter 6)
+    - Clustering
+        - *Groups* individuals in a population together by their similarity, but not driven by any specific purpose
+        - Ex: Do our customers naturally form groups or segments?
+        - Useful in preliminary domain exploration to see which natural groups exist because these groups in turn may suggest other data mining tasks or approaches
+        - Used as an input to decision making processes focus on questions like “What products should be offer or develop?”
+    - Co-occurence grouping (frequent itemset mining, association rule discovery, and market basket analysis)
+        - *Associations* between entities based on transactions involving them
+        - Ex: What items are commonly purchased together?
+        - Clustering vs co-occurence grouping:
+            - Clustering looks at grouping between objects based on objects’ attributes
+            - Co-occurence considers similarity of objects based on their appearing together in transactions
+    - Profiling (behavior description)
+        - Characterize behavior of an individual, group, or population
+        - Ex: What is the typical cell phone usage of this customer segment?
+        - Use case: Identify norms for anomoly detection applications like fraud detection
+    - Link prediction
+        - Predict connects between data items, usually by suggesting that a link should exist, and possibily also estimating the strength of the link
+        - Common in social networking systems
+        - Ex: You and Karen share 10 friends, maybe you want to be friends?
+        - Can also estimate strength of a link
+        - Forms basis of recommendation
+    - Data reduction
+        - Attempts to take a large set of data and replace it with a similar set of data that contains much of the important information in the larger set
+        - Ex: A massive dataset on consumer viewing preferences may be reduced to a smaller one on consumer taste preferences
+        - Involves loss of information. What is important is trade off for improved insight
+    - Causal modeling
+        - Attempts to help us understand what events or actions actually influence others
+        - Ex: We use predictive modeling to target ads to consumers, and we observe the targeted consumers purchase at a higher rate. Was this because ads influenced consumer to purchase? Or did the model just predict who was going to buy anyways
+        - Testing strategies include A/B tests/controlled experiments. Counterfactual analysis
+        - ** In all cases a carful DS should always include with a causal conclusions the exact assumptions that must be made for it to hold
+- Supervised vs unsupervised methods
+    - Is a target being predicted? Then it is supervised
+    - Supervised requires that there is data on the target available (how do you validate predictions without)
+    - Supervised methods include classification, regression, causal modeling
+    - Unsupervised methods include clustering, co-occurence grouping, profiling
+    - Similarity matching, link prediction, and data reduction could be either
+- Data Mining and Its Results
+    - Mining data to find patterns and build models vs using the results
+    - The latter is how the models are used in productions on new examples generally.
+- Cross industry standard process for data mining (CRISP-DM)
+- Business understanding
+    - It is an iterative process to recast the problem statement and design a solution
+    - The design team should first think carefully about the problem o be solved and the use case
+- Data understanding
+    - If solving the business problem is the goal, data comprises the available raw material to build the solution
+    - Understand strengths/limitations of data. E.g. Historical data does generally not have the DS problem as its purpose for existence. Customer, transaction, and marketing DBs can contain difference information, intersection populations, and have varying reliability.
+    - Data cost can be variable
+    - Dataset might be missing data on your target variable
+- Data preparation
+    - Data type conversion (e.g. tabular)
+    - Missing values
+    - Data types
+    - Normalization and scaling
+    - Leaks (does data contain information on the target variable)
+- Modeling
+    - Preliminary stage where data mining techniques are applied to the data
+    - Model or pattern capturing regularities of the data
+- Evaluation
+    - Assess data mining results rigorously and to gain confidence that they are valid and reliable before moving on
+    - Ensure model satisfies original business goals e.g. does fraud detection solution produce too many false alarms (comprehensibility of the model through testing in prod like environment)
+- Deployment
+    - Put results of data mining into real world use
+    - Increasing these are automated deployments of the data mining techniques. E.g. when new ad campaign is presented, systems are deployed that build and test models in production
+        - Do this because the world is changing faster than the data science team can adapt or business has too many tasks for data science to handle
+- Managing a Data Science Team
+    - Do not think of CRISP-DM as the software engineering lifecycle. It is closer to research and development than engineering. It iterates on *approaches* and *strategy* rather than software designs. Outcomes are less certain and the findings from a step can. fundamentally change the understanding of the problem
+    - “Engineering a data mining solution directly for deployment can be an expensive premature commitment. Instead … prepare to invest in information to reduce uncertainty”
+        - Pilot studies
+        - Throwaway prototypes
+        - Review literature to see what else is done and how it has worked
+- Other Analytics Techniques and Technologies
+    - Statistics
+        - Summary statistics vs the field of stats
+    - Database Querying
+        - SQL vs OLAP
+    - Data Warehousing
+        - Integration of distributed datasets (not always necessary)
+    - Regression Analysis
+    - Machine Learning and Data Mining
+    - Answer business problems using the techniques/technologies outlined above. Refer to page 40-41
