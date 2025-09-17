@@ -24,7 +24,7 @@ This document provides links to common places to find datasets
 
 [Academic Torrents Data](https://academictorrents.com/)
 
-[World Bank Open Data](https://www.who.int/data)
+[World Bank Open Data](https://data.worldbank.org/)
 
 [Humanitarian Data Exchange](https://data.humdata.org/)
 
