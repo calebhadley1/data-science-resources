@@ -120,3 +120,42 @@ Chapter 2: Business Problems in Data Science:
     - Regression Analysis
     - Machine Learning and Data Mining
     - Answer business problems using the techniques/technologies outlined above. Refer to page 40-41
+
+## Introduction to Predictive Modeling: From Correlation to Supervised Segmentation Part 1
+Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised Segmentation
+- "Fundamental concepts: Identifying informative attributes; Segmenting data by progressive attribute selection"
+- Exemplary techniques: Finding correlations, Attribute/variable selection; Tree induction
+- We think of predictive modeling as "Supervised Segmentation"-how can we segment the population into groups that differ from each  other with  respect to some quantity of interest. -> Segment in  terms of something we want to predict or estimate
+- Target can be  cast negatively (something we want to prevent) or positively
+- "information is a quantity  that reduces uncertainty about something"
+- "Finding informative attributes  also is the basis for *tree induction*"
+- Model accuracy vs intelligibility  trade off (Best model vs one that makes sense)
+- Models, Induction and Prediction
+    - "Supervised  learning is model creation where the model describes a relationship between a set of select  variables (attrs or features) and a predefined  variable called the target variable"
+    - Model induction = creation of models from data
+        - Induction is a term from philosophy "to generalize from specific cases to general rules"
+        - Induction algorithm/learner = procedure which creates the model from data
+- Supervised Segmentation
+    - How can we judge if a variable contains important information about the target variable? How much?
+        - One method is "direct, multivariate supervised segmentation" (in classification)
+            - When segmenting, we would prefer "pure" segments (each instance in the segment have same val for target), in the real world its not realistic though ("homogenous w.r.t. target variable")
+            - 1. Attrs rarely split a group purely.
+            - 2. Is it better when a group splits more broadly or more purely?
+            - 3. Not all attrs are binary. How do we compare  these?
+            - 4. Can you segment numeric attrs?
+            - You solve these questions using a *purity measure* for classification problems
+            - Most common splitting criterion is *information gain*. It is based on a purity measure called *entropy* (Shannon, 1948)
+            - Explanation of entropy and information gain (p 51-55)
+            - Information gain is not the correct splitting criterion for regression, variance is better for numeric but is technically a purity measure
+- Example: Attr Selection with Information Gain
+    - Discusses using information gain to reduce the entropy of a mushroom dataset
+- Supervised Segmentation with Tree Structured Models
+    - Classification/decision trees (p 63). Similar concept to trees in programming. The leaf nodes represent the class to predict. The decision points descend based on information gain. The first one after the root gives your best information gain.
+    - *"Tree induction"* - How to create a tree structured model
+    - Advantages to trees:
+        - Easy to understand, simple to describe, easy to use, robust to common data problems, relatively efficient
+    - Goal of tree: "Partition instances based on their attrs into subgroups that havee similar values for their target variables"
+    - "Divide and conquer approach" - create purest subgroups possible
+    - When do you stop splitting? When there are no more variables or you chose to stop earlier (simpler tree, Chapter 5)
+- Visualizing Segmentations
+    - 
