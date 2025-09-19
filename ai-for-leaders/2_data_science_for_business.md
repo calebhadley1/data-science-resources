@@ -158,4 +158,28 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
     - "Divide and conquer approach" - create purest subgroups possible
     - When do you stop splitting? When there are no more variables or you chose to stop earlier (simpler tree, Chapter 5)
 - Visualizing Segmentations
-    - 
+    - Visualize how a classification tree partitions the instance space
+    - Common form of instance space visualization is the scatter plot (p 70)
+- Trees as Sets of Rules
+    - Trees can be interpreted as logical statements using IF AND THEN syntax (p 71)
+- Probability Estimation
+    - Sometimes we need a more informative prediction than classification. For example is one prediction a more strong yes/no than another? How likely is someone to churn? This is whree probability estimation comes in
+    - We would like each "segment to be assigned an estimate of the probability of membership in the different classes" (p 72)
+    - *probability estimation tree*
+    - frequency based estimate of class membership probability (extends the previously built up example of segmenting with trees)
+        - Can lead to overfitting when there are not many examples at a leaf node
+        - You can use smoothing "*Laplace correction*", which moderates influence of leafs with few instances
+- Example: Addressing the Churn Problem with Tree Induction
+    - Before building the model, check how good each variable is independetly with information gain
+    - Apply classification tree alg
+    - Notice that the order of the tree decisions does not necessarily match the initial information gain rankings. This is because "Nodes in the clf tree depend on the instances abovee them in the tree"
+    - When do you stop building the tree?
+        - Generality and overfitting come in here (CH 5)
+        - Stop before these happen
+    - Now that we have a model and we test it on some data, do we trust it? This is where *model evaluation* comes in (CH 7/8)
+- Summary (p 78/79)
+    - Information Gain
+    - Entropy
+    - Feature Selection
+    - Segmenting
+    - Trees and their history/implmentations
