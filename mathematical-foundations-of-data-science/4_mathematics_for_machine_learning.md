@@ -1,7 +1,8 @@
 # [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
 
-## Chapter 6
-### Section 4
+## Descriptive Statistics
+### Chapter 6
+#### Section 4
 - Means and Covariances
     - Mean and (co)variance are often useful to describe properties of probability distributions (expected values and spread). We will see in Section 6.6 that there is a useful family of distributions (called the exponential family), where the statistics of the random variable capture all possible information.
 - Expected Value: "The expected value serves as a fundamental concept to evaluate models, frame problems, and guide decision-making within a business context by using the Expected Value Framework to quantify potential costs and benefits of a model's probabilistic predictions."
@@ -16,8 +17,9 @@
 - Correlation
 - Population vs Sample
 
-## Chapter 8: When Models Meet Data
-### Section 1: Data, Models and Learning
+## What do Models Do?
+### Chapter 8: When Models Meet Data
+#### Section 1: Data, Models and Learning
 - Data as Vectors
     - Discusses how data should be tabular usually, where each row represents a vector of features or attributes
     - Definitions for vectors of features (xn) and targets (y)
@@ -47,5 +49,6 @@
     - *hyperparameter*
     - *model selection* 
     - *nested cross validation* - For non-probabilistic models, model selection is often done using this method
-    
 
+### Chapter 9: Linear Regression
+- TODO fill this out
