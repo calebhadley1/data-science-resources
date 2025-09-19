@@ -22,3 +22,6 @@
 - "Degree of belief"
 - Frequentist prob
 - Bayesian prob
+
+## What Do Models Do?
+[Chapter 4.3: Gradient Based Optimization](https://www.deeplearningbook.org/contents/numerical.html)
