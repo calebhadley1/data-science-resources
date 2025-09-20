@@ -51,4 +51,9 @@
     - *nested cross validation* - For non-probabilistic models, model selection is often done using this method
 
 ### Chapter 9: Linear Regression
-- TODO fill this out
+- This chapter motivates linear regression from the problem of modeling noisy data, presenting the same linear regression formula as a maximum likelihood solution.
+#### Section 0
+
+#### Section 1
+
+#### Section 2 (until 9.2.2)
