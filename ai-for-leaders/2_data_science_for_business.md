@@ -121,7 +121,7 @@ Chapter 2: Business Problems in Data Science:
     - Machine Learning and Data Mining
     - Answer business problems using the techniques/technologies outlined above. Refer to page 40-41
 
-## Introduction to Predictive Modeling: From Correlation to Supervised Segmentation Part 1
+## Introduction to Predictive Modeling: From Correlation to Supervised Segmentation
 Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised Segmentation
 - "Fundamental concepts: Identifying informative attributes; Segmenting data by progressive attribute selection"
 - Exemplary techniques: Finding correlations, Attribute/variable selection; Tree induction
