@@ -15,6 +15,7 @@ Other useful functions are scatter, legend, subplots, bar charts, savefig
 It is important to label clearly your plots with title, x/y labels, annotations, etc. And be mindful of the Y scale, it should generally start at 0 so that small changes are not over emphasized. Also be consistent with colors. 
 
 Matplot resources:
+
 https://jakevdp.github.io/PythonDataScienceHandbook/04.01-simple-line-plots.html
 
 https://matplotlib.org/stable/users/explain/quick_start.html
