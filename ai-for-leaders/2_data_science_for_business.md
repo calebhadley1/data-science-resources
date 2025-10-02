@@ -3,7 +3,7 @@
 This book mainly covers case studies in Data Science across different business domains. It shows how DS can make an impact on business
 and how data should be viewed as a business asset.
 
-## Introduction to Data Analytic Thinking
+## Ch 1: Introduction to Data Analytic Thinking
 
 Chapter 1: Introduction to Data Analytic Thinking
 - The volume of data has surpassed the ability for statisticians and models to manually inspect data and derive insights. To address this Data Science has risen in popularity.
@@ -20,7 +20,7 @@ Chapter 1: Introduction to Data Analytic Thinking
 - Cross Industry Process for Data Mining (CRISP-DM).
 - Data Science vs the Tools of Data Science (Analogy of how Chemists are not just the test tubes. Likewise Data Scienctists are not just Python, Pandas, Numpy etc. It is the science of discovering trends from data that is important)
 
-## Business Problems and Data Science Solutions
+## Ch 2: Business Problems and Data Science Solutions
 
 Chapter 2: Business Problems in Data Science:
 - Data mining is a *process* with fairly well defined stages
@@ -121,7 +121,7 @@ Chapter 2: Business Problems in Data Science:
     - Machine Learning and Data Mining
     - Answer business problems using the techniques/technologies outlined above. Refer to page 40-41
 
-## Introduction to Predictive Modeling: From Correlation to Supervised Segmentation
+## Ch 3: Introduction to Predictive Modeling: From Correlation to Supervised Segmentation
 Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised Segmentation
 - "Fundamental concepts: Identifying informative attributes; Segmenting data by progressive attribute selection"
 - Exemplary techniques: Finding correlations, Attribute/variable selection; Tree induction
@@ -183,3 +183,6 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
     - Feature Selection
     - Segmenting
     - Trees and their history/implmentations
+
+
+## Ch 4: TODO
