@@ -42,9 +42,17 @@
         - Information gain
         - Tree induction
         - Model accuracy vs intelligibility
+        - Build supervised segmentation model by recursively finding informative attrs to split the instance space on
+            - Results in a tree model & the numeric params of the model (prob estimates of leaf nodes)
 5. Fitting a Model to Data Pt 1
     - [Data Science for Business - Chapter 4](2_data_science_for_business.md)
     - [Support Vector Machines](https://www.kdnuggets.com/2016/07/support-vector-machines-simple-explanation.html)
     - Key concepts:
         - Linear discriminants
         - Support Vector Machines (Soft vs Kernal)
+        - Model parameter optimization
+        - Objective function
+        - Loss function
+        - Linear regression
+        - Logistic regression
+        

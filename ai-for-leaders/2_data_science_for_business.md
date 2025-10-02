@@ -185,4 +185,61 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
     - Trees and their history/implmentations
 
 
-## Ch 4: TODO
+## Ch 4: Fitting a Model to Data
+- Fundamental concepts: finding optimal model parameters based on data. Choosing the goal for data mining (objective function, loss function)
+- Exemplary techniques: Linear regression, logistic regression, support vector machines
+- *Parameter learning* / *Parametric modeling*
+    - A different approach to how we learned the supervised segmentation model. Instead of recursively splitting the instace space by finding informative attrs, we start by
+        1. Specify structure of the model with certain param left unspecified
+        2. Data mining calculates best param vaues given set of training data
+        3. Params can be chosen by domain knowledge, or attr selection (ch 3 approach)
+    - Fundamentally we chose the model and attrs and the goal of data mining is to tune the params so that the model fits the data best as possible without overfitting
+    - An example of this are linear models
+- Page 83-85 shows a great comparison between how trees versus linear models split the param space. Deicision trees get many horizontal/vertical "cuts", whereas the linear picks one but has the flexibility to draw horizontal, vertical, or a combination of the two (linear discriminant function). It can also be described as perpendicular cuts vs piecewise function (p 103)
+    - Trees of rules versus numerical function
+- Linear disciminant
+    - The function of the decision boundary is a weighted sum of the attrs
+    - P 88 shows that many linear boundaries can separate the groups of points. How do we best chose the line? This is where the objective function comes in
+- Optimizing an Objective Function
+    - The objective function represents our goal. We optimize the parameters to satisfy this goal. Therefore our parameters are only good if we truly believe the objective function represents what we want to achieve.
+    - Finding a true representation is often impossible so we must rely on faith and experience
+        - One is support vector machine
+- An Example of Mining a Linear Discriminant from Data
+    - P 89-91 shows how different models would fit the Iris dataset
+- Linear Discriminant Functions for Scoring and Ranking Instances
+    - Usually we dont want to just know whether an instance belongs to a class, we want to know *how likely* is belongs. One way to solve this is using the class probability estimation from Chapter 3 (prob from leaf nodes). There is another way with linear models.. logisitic regression
+    - Another use case is targetted market (p. 91). We don't necessary need an exact probability like 0.123456, but a score will be good enough: 12.
+- Support Vector Machines Briefly
+    - SVM's objective function incorporates the idea that "wider is better."
+    - We create a margin (p. 93) between the classes and try to optimize its width
+    - It also has a method for understanding loss when instances fall on the wrong side of the line
+    - Balance between margin width and low total error penalty
+    - "Hinge loss"
+- Regression
+    - Regression has many possible objective functions, mean squared error, absolute error, etc. What do we want to penalize? Depends on business use case
+- Class Probability Estimation and Logistic "Regression"
+    - By chosing a different objective function for our linear model, we can build a model to provide accurate estimates of class probability. Most commonly we use logistic regression for this
+    - Class probability estimates have a few considerations:
+        - "Well calibrated" & "Discriminative" (p. 98)
+    - Why use logistric reg instead of linear reg when determining class probability?
+        - For linear reg, f(x) gives a range from -inf to inf distance from the separating boundary. Prob should range from 0-1
+    - So how does log solve the infinity problem?
+        - p. 98-99 outlines a correlary using log odds to describe probability
+        - For log reg, let f(x) return the model's estimation of the log odds that x belongs to the positive class. Then we can use algebra to translate the log odds back to probability
+    - Log reg is technically a class probability estimation model, not a regression model
+- Example: Logistic Regression versus Tree Induction
+    - Model explainability vs accuracy trade-off (p. 105-107)
+- Nonlinear Functions, Support Vector Machines, and Neural Networks
+    - Nonlinear SVMs and Neural networks are the most populat models that fit parameters of complex nonlinear funcs
+    - Kernal functions (linear, polynomial, etc)
+    - Explanation of Neural Nets as a stack of models (p 109)
+        - Risk of fitting data too well
+- Summary
+    - Second type of predictive modeling technique called function fitting or parametric modeling
+    - Linear reg
+    - Log reg
+    - SVM
+    - Linear discriminants
+    - Objective functions
+    - Predictive perf vs intelligibility
+    - Overfitting
