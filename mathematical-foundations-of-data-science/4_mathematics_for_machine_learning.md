@@ -53,7 +53,9 @@
 ### Chapter 9: Linear Regression
 - This chapter motivates linear regression from the problem of modeling noisy data, presenting the same linear regression formula as a maximum likelihood solution.
 #### Section 0
+TODO
 
 #### Section 1
-
+TODO
 #### Section 2 (until 9.2.2)
+TODO

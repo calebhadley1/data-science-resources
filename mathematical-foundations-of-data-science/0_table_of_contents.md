@@ -30,4 +30,33 @@
             - Quantiles
             - Skew
     - Resampling Data
-        - 
+        - [Bootstrapping Main Ideas](https://www.youtube.com/watch?v=Xz0x-8-cgaQ)
+        - [The Danger of Overfitting](youtube.com/watch?v=Ux3X97nfHSE&list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG&index=50)
+        - [The Importance of Data Spliting](https://www.youtube.com/watch?v=L5rA1MsGXtA&list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG&index=52)
+3. What Models Do and Managing Model Errors
+    - What do Models do?
+        - [Mathematics for Machine Learning](4_mathematics_for_machine_learning.md)
+            - Chapter 8 - 8.1 - Matrices
+        - [Applied Linear Algebra](6_applied_linear_algebra_intro.md)
+            - Chapter 2.1 - Linear Functions
+    - Managing Errors
+        - [Mathematics for Machine Learning](4_mathematics_for_machine_learning.md)
+            - Chapter 9 - 9.1 - Linear Regression
+        - [Principles of Risk Minimization for Learning Theory - Vladimir Vapnik](https://proceedings.neurips.cc/paper_files/paper/1991/hash/ff4d5fbbafdf976cfdc032e3bde78de5-Abstract.html)
+            - Note a good youtube video to accompany this is: https://www.youtube.com/watch?v=Ow25mjFjSmg
+        - [Deep Learning](3_deep_learning.md)
+            - Chapter 4.3 -  Gradient Based Optimization
+        - [R-squared or coefficient of determination | Regression | Probability and Statistics | Khan Academy](https://www.youtube.com/watch?v=lng4ZgConCM)
+        - [Measuring the fit of a regression model: R^2](https://mcrovella.github.io/DS701-Tools-for-Data-Science/17-Regression-I-Linear.html#measuring-the-fit-of-a-regression-model-r-2)
+        - [What is a good value for R^2?](https://people.duke.edu/~rnau/rsquared.htm)
+    - Ordinary Least Squares Regression
+        - [Linear Models](https://mcrovella.github.io/DS701-Tools-for-Data-Science/17-Regression-I-Linear.html)
+        - [Mathematics for Machine Learning](4_mathematics_for_machine_learning.md)
+            - Chapter 9 - 9.2.2 - Linear Regression. Finish the rest of this section that wasn't covered in Managing Errors section
+4. Fitting Models to Data
+    - Model Parameter Fiting
+    - Calculating Gradients
+5. Introduction to Random Variables
+    - Introduction to Random Variables
+    - Boolean Random Variables
+    - Continuous Random Variables

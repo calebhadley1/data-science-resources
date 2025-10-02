@@ -7,7 +7,8 @@
 - The standard deviation of a vector x tells us the typical amount by which its entries deviate from their average value
 - Covers standardization of the standard deviation with zscores
 
-## What Do Models Do?
-### Chapter 2: Linear Functions
-#### Section 1: Linear Functions
+## What Models Do and Managing Model Errors
+### What Do Models Do?
+#### Chapter 2: Linear Functions
+##### Section 1: Linear Functions
 - TODO fill this out
