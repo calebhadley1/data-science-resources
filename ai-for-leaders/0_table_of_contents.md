@@ -42,4 +42,9 @@
         - Information gain
         - Tree induction
         - Model accuracy vs intelligibility
-5. TODO
+5. Fitting a Model to Data Pt 1
+    - [Data Science for Business - Chapter 4](2_data_science_for_business.md)
+    - [Support Vector Machines](https://www.kdnuggets.com/2016/07/support-vector-machines-simple-explanation.html)
+    - Key concepts:
+        - Linear discriminants
+        - Support Vector Machines (Soft vs Kernal)
