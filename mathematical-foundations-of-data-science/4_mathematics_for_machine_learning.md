@@ -3,7 +3,9 @@
 ### Chapter 6
 #### Section 1
 - This reading introduces the ideas of probability, and particularly spends time on the interpretation of probabilities.
-- 
+- TODO
+#### Section 2
+- TODO
 #### Section 4
 - Means and Covariances
     - Mean and (co)variance are often useful to describe properties of probability distributions (expected values and spread). We will see in Section 6.6 that there is a useful family of distributions (called the exponential family), where the statistics of the random variable capture all possible information.

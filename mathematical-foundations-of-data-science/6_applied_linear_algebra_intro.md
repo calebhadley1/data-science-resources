@@ -11,4 +11,13 @@
 ### What Do Models Do?
 #### Chapter 2: Linear Functions
 ##### Section 1: Linear Functions
-- TODO fill this out
+- Function Notation
+    - Explains how to write the notation like "f is a function that maps n real vectors to real numbers"
+- The inner product function 
+    - Essentially a weighted sum of the elements in a vector
+- Superposition and linearity
+    - A function that satisfies superposition is linear
+    - Homogeneity
+    - Additivity
+- Inner product representation of a linear function
+- Affine functions
