@@ -1,7 +1,9 @@
 # [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
 
-## Descriptive Statistics
 ### Chapter 6
+#### Section 1
+- This reading introduces the ideas of probability, and particularly spends time on the interpretation of probabilities.
+- 
 #### Section 4
 - Means and Covariances
     - Mean and (co)variance are often useful to describe properties of probability distributions (expected values and spread). We will see in Section 6.6 that there is a useful family of distributions (called the exponential family), where the statistics of the random variable capture all possible information.
@@ -17,7 +19,6 @@
 - Correlation
 - Population vs Sample
 
-## What do Models Do?
 ### Chapter 8: When Models Meet Data
 #### Section 1: Data, Models and Learning
 - Data as Vectors

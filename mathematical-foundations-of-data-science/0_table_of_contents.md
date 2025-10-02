@@ -55,8 +55,67 @@
             - Chapter 9 - 9.2.2 - Linear Regression. Finish the rest of this section that wasn't covered in Managing Errors section
 4. Fitting Models to Data
     - Model Parameter Fiting
+        - Key concepts:
+            - Parameters of decision trees vs linear regression
     - Calculating Gradients
+        - [Derivatives at Wolfram Mathworld](https://mathworld.wolfram.com/Derivative.html)
+        - [The paradox of the derivative](https://www.youtube.com/watch?feature=shared&v=9vKqVkMQHKk)
+        - [Derivatives through geometry](https://www.youtube.com/watch?v=S0_qX4VJhMQ)
+        - Key concepts:
+            - Gradients
+            - Limits (one and two sized)
+            - Differentiability
+            - Derivative
+                - Partial derivatives
+                - Derivatives of Linear Functions of One Variable
+                - Partial Derivatives of a Linear Function with Multiple Variables
+                - Derivatives of Constants
+                - Derivatives of Variables
+                - Derivatives of Sums
+                - Derivatives of Scaled Functions
+                - Rules for Combining Derivative Expressions
+                - Derivatives of Common Functions
+            - Extrema
+                - Zero Gradients and Local Extrema
+                - Local Extrema Without Zero Gradients
+                - Convex Functions
+            - Polynomials
+                - Polynomial Gradients and Linear Regressions
+                - Deriving the Derivative of a Monomial
+                - Derivatives of a Polynomial
+            - Deriving the Minimum Loss Parameters of a Linear Model
 5. Introduction to Random Variables
     - Introduction to Random Variables
+        - [Mathematics for Machine Learning](4_mathematics_for_machine_learning.md)
+            - Chapter 6-6.1: Probability and Distributions
+        - Key concepts:
+            - Probability Distribution
+            - Entropy
+            - Perplexity
+            - Sample Distribution 
+            - Sample Probability
+            - Resampling
+            - Mean of a Probability Distribution
+            - Variance of a Probability Distribution
     - Boolean Random Variables
+        - [Mathematics for Machine Learning](4_mathematics_for_machine_learning.md)
+            - Chapter 6.2-6.2.1: Discrete and Continuous Probabilities
+        - Key concepts:
+            - Bernoulli Distributions
+            - Uniform Random Numbers
+            - Sampling Boolean Random Variables
+            - Modeling Boolean Random Variables
+            - Calculating Sample Distributions From True Probabilities
     - Continuous Random Variables
+        - [Mathematics for Machine Learning](4_mathematics_for_machine_learning.md)
+            - Finish the rest of Chapter 6.2
+            - Chapter 6.5: Gaussian Distributions
+        - Key concepts:
+            - Boolean vs Continuous Random Variables
+            - Probability Density Functions
+            - Gaussian Distribution
+            - Standard Normal Distribution
+            - Calculating Means From Probability Density Functions
+            - Calculating Variances From Probability Density Functions
+            - Cumulative Distribution Function
+            - Sampling Continuous Distributions
