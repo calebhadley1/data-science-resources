@@ -1,11 +1,36 @@
 # [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
 
-### Chapter 6
-#### Section 1
+### Chapter 6: Probability and Distributions
 - This reading introduces the ideas of probability, and particularly spends time on the interpretation of probabilities.
-- TODO
+- Quantifying uncertainty requires the idea of a random variable, which is a function that maps outcomes of random experiments to a set of properties that we are interested in
+- Associated with the random variable is a function that measures the probability that a particular outcome (or set of outcomes) will occur; this is called the probability distribution
+- Prob distributions are the foundation of probabilistic modeling, graphical models, and model selection
+- To define the probability space, we will discuss the following topics:
+    - The sample space
+    - The events
+    - The probability of an event
+
+#### Section 1
+- Bayesian vs Frequentist probability
+- Probability space allows us to quantity the idea of a probability
+- Random variables
+- The sample space Ω:
+    - The set of all possible outcomes of the experiment, sample space usually denoted by Ω. For example, two successive coin tosses have a sample space of {hh, tt, ht, th}, where “h” denotes “heads” and “t” denotes “tails”.
+- The event space A:
+    - The event space is the space of potential results of the experiment. A event space subset A of the sample space Ω is in the event space A if at the end of the experiment we can observe whether a particular outcome ω ∈ Ω is in A. The event space A is obtained by considering the collection of subsets of Ω, and for discrete probability distributions (Section 6.2.1) A is often the power set of Ω.
+- The probability P
+    - With each event A ∈ A, we associate a number P(A) that measures the probability or degree of belief that the event will occur. P(A) is called the probability of A.
+- Target space
+    - Basically the possible results from the random variable
+- "Probability theory and statistics are often presented together, but they concern different aspects of uncertainty"
+    - Using probability, we can consider a model of some process, where the underlying uncertainty is captured by random variables, and we use the rules of probability to derive what happens
+    - In statistics, we observe that something has happened and try to figure out the underlying process that explains the observations.
+    - ML is closer to statistics in that we try to fit a model to that adequately represents the process that generated the data. However, the analysis of future inputs uses concepts from probability & stats
 #### Section 2
-- TODO
+- When target space is discrete, you can imagine the prob dist of multiple random vars as a 2d array (cartesian product of each random vars target space) (joint probability)
+- Marginal and conditional probability
+- Probability density function (pdf) vs cumulative distribution function (cdf)
+
 #### Section 4
 - Means and Covariances
     - Mean and (co)variance are often useful to describe properties of probability distributions (expected values and spread). We will see in Section 6.6 that there is a useful family of distributions (called the exponential family), where the statistics of the random variable capture all possible information.
