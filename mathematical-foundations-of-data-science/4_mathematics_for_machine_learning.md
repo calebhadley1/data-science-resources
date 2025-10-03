@@ -81,9 +81,19 @@
 ### Chapter 9: Linear Regression
 - This chapter motivates linear regression from the problem of modeling noisy data, presenting the same linear regression formula as a maximum likelihood solution.
 #### Section 0
-TODO
+- Outlines the goal of regression and some applications including time series, robotics, etc.
+- How do you find a regression function?
+    - Model type choice
+    - Finding good parameters
+    - Handling overfitting and model selection
+    - Relationship between loss fn and parameter priors
+    - Uncertainty modeling
 
 #### Section 1
-TODO
+- Describes problem formulation, how we solve for noise etc
+
 #### Section 2 (until 9.2.2)
-TODO
+- How do we find good parameters?
+- Maximum Likelihood Estimation
+- Overfitting
+- Maximum A Posteriori
