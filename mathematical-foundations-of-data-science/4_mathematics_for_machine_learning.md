@@ -30,7 +30,8 @@
 - When target space is discrete, you can imagine the prob dist of multiple random vars as a 2d array (cartesian product of each random vars target space) (joint probability)
 - Marginal and conditional probability
 - Probability density function (pdf) vs cumulative distribution function (cdf)
-
+#### Section 3
+    - TODO
 #### Section 4
 - Means and Covariances
     - Mean and (co)variance are often useful to describe properties of probability distributions (expected values and spread). We will see in Section 6.6 that there is a useful family of distributions (called the exponential family), where the statistics of the random variable capture all possible information.

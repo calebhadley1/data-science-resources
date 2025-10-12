@@ -121,3 +121,27 @@
             - Calculating Variances From Probability Density Functions
             - Cumulative Distribution Function
             - Sampling Continuous Distributions
+6. Relationship Between Random Variables
+    - Marginal and Conditional Probabilities
+        - [Mathematics for Machine Learning](4_mathematics_for_machine_learning.md)
+            - Chapter 6.3: Sum Rule, Product Rule, and Bayes' Theorem
+        - [Bayes' Theorem Proof](https://www.youtube.com/watch?v=U_85TaXbeIo)
+        - Key concepts:
+            - Univariate, bivariate and multivariate distributions
+            - Marginal and Conditional distibutions on ndarrays and DataFrames
+            - Conditional Distributions
+                - ![alt text](conditional_distribution_formula.png)
+            - Bayes' Theorem
+                - ![alt text](bayes_theorem.png)
+            - Conditional Probability Density Functions  
+    - Independence and Correlation
+        - [Mathematics for Machine Learning](4_mathematics_for_machine_learning.md)
+            - Chapter 6.4: Summary Statistics and Independence
+        - Key concepts:
+            - Independent Boolean Random Variables
+                - ![alt text](boolean_random_variable_independence.png)
+            - Chained Dependencies and Potential Fallacies
+            - Correlations Between Random Variables
+                - Pearson's Correlation Coefficient
+            - Sums of Random Variables
+                - How it applies to independent vs correlated normally distributed variables
