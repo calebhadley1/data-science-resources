@@ -55,4 +55,6 @@
         - Loss function
         - Linear regression
         - Logistic regression
-        
+6. Fitting a Model to Data Pt 2
+    - [Data Science for Business - Chapter 4](2_data_science_for_business.md)
+    - [12 Important Performance Metrics that every data scientist must know](https://medium.com/@pingsubhak/12-important-performance-metrics-that-every-data-scientist-must-know-110f59b2e305)
