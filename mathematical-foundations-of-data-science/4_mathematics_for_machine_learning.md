@@ -35,8 +35,9 @@
 - Summarizes that there are only two fundamental rules in relation to these distributions, the sum and product rules.
 - Sum rule definitions (one in case of discrete and one for continuous y)
     - *marginalization property*
-    - TODO what is the use case for sum rule?
+    - Used in Bayes' theorem
 - Product rule definition
+    - Used in Bayes' theorem
 - We use Bayes' theorem to draw conclusions about *x* given the observed values of *y*
     - Sometimes called *probabilistic inverse*
 - Relation of Bayes' theorem to the definitions of *prior*, *likelihood*, *posterior*, and *marginal likelihood/evidence*
