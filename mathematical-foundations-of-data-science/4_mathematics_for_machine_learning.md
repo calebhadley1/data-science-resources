@@ -31,7 +31,15 @@
 - Marginal and conditional probability
 - Probability density function (pdf) vs cumulative distribution function (cdf)
 #### Section 3
-    - TODO
+- Provides definitions of joint, marginal, and conditional distributions
+- Summarizes that there are only two fundamental rules in relation to these distributions, the sum and product rules.
+- Sum rule definitions (one in case of discrete and one for continuous y)
+    - *marginalization property*
+    - TODO what is the use case for sum rule?
+- Product rule definition
+- We use Bayes' theorem to draw conclusions about *x* given the observed values of *y*
+    - Sometimes called *probabilistic inverse*
+- Relation of Bayes' theorem to the definitions of *prior*, *likelihood*, *posterior*, and *marginal likelihood/evidence*
 #### Section 4
 - Means and Covariances
     - Mean and (co)variance are often useful to describe properties of probability distributions (expected values and spread). We will see in Section 6.6 that there is a useful family of distributions (called the exponential family), where the statistics of the random variable capture all possible information.
