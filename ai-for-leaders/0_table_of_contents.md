@@ -58,3 +58,15 @@
 6. Fitting a Model to Data Pt 2
     - [Data Science for Business - Chapter 4](2_data_science_for_business.md)
     - [12 Important Performance Metrics that every data scientist must know](https://medium.com/@pingsubhak/12-important-performance-metrics-that-every-data-scientist-must-know-110f59b2e305)
+7. Overfitting and its Avoidance Pt 1
+    - TODO fill me in
+8. Overfitting and its Avoidance Pt 2
+    - Personal resource reccomendations for Neural nets:
+        - [Part 1: Main Ideas of Neural Networks](https://www.youtube.com/watch?v=CqOfi41LfDw)
+        - [Part 2: Backpropagation](https://www.youtube.com/watch?v=IN2XmBhILt4)
+        - [Part 3: ReLU](https://www.youtube.com/watch?v=68BZ5f7P94E)
+        - [Part 4: Multiple Inputs and Outputs](https://www.youtube.com/watch?v=83LYR-1IcjA)
+        - [Part 5: ArgMax and SoftMax](https://www.youtube.com/watch?v=KpKog-L9veg)
+        - [Part 6: Cross Entropy](https://www.youtube.com/watch?v=6ArSys5qHAU) # TODO watch this one
+        - [Part 7: Cross Entropy Derivatives and Backpropagation](https://www.youtube.com/watch?v=xBEh66V9gZo)
+        - [Part 8: Image Classification with Convolutional Neural Networks (CNNs)](https://www.youtube.com/watch?v=HGwBXDKFk9I) # TODO watch this one
