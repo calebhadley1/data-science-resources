@@ -59,8 +59,19 @@
     - [Data Science for Business - Chapter 4](2_data_science_for_business.md)
     - [12 Important Performance Metrics that every data scientist must know](https://medium.com/@pingsubhak/12-important-performance-metrics-that-every-data-scientist-must-know-110f59b2e305)
 7. Overfitting and its Avoidance Pt 1
-    - TODO fill me in
+    - [Data Science for Business - Chapter 5](2_data_science_for_business.md)
+    - [What is overfitting? (AWS)](https://aws.amazon.com/what-is/overfitting)
+    - Key concepts:
+        - TODO add any stuff from the book
+        - Overfitting
+        - Holdout Data
+        - Fitting Graphs
+        - How Logistic Regression can overfit (and how SVM can help)
+        - How overfitting is related to spurious correlations
+        - Nearest neighbors & K Nearest neighbors
 8. Overfitting and its Avoidance Pt 2
+    - [A Gentle Intro to Neural Nets](https://medium.com/data-science/a-gentle-introduction-to-neural-networks-series-part-1-2b90b87795bc)
+    - [ML for Begineers - An Intro to Neural Nets](https://victorzhou.com/blog/intro-to-neural-networks/)
     - Personal resource reccomendations for Neural nets:
         - [Part 1: Main Ideas of Neural Networks](https://www.youtube.com/watch?v=CqOfi41LfDw)
         - [Part 2: Backpropagation](https://www.youtube.com/watch?v=IN2XmBhILt4)
@@ -70,3 +81,7 @@
         - [Part 6: Cross Entropy](https://www.youtube.com/watch?v=6ArSys5qHAU) # TODO watch this one
         - [Part 7: Cross Entropy Derivatives and Backpropagation](https://www.youtube.com/watch?v=xBEh66V9gZo)
         - [Part 8: Image Classification with Convolutional Neural Networks (CNNs)](https://www.youtube.com/watch?v=HGwBXDKFk9I) # TODO watch this one
+    - Key concepts:
+        - Cross-validation
+        - Learning curves
+        - Nested holdout testing
