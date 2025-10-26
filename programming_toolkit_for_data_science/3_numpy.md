@@ -17,6 +17,10 @@
     - https://numpy.org/doc/stable/reference/generated/numpy.frompyfunc.html
 - Saving Numpy outputs
     - https://numpy.org/doc/stable/reference/routines.io.html
+- Copies vs Views
+    - Do not continaully build up arrays with append/insert/delete like you would in Python since this will re-create a new copy of the array each time.
+- Linear Algebra
+    - Dot product, solve, invert, etc.
 
 ## Resources:
 - [Python Data Science Handbook Chapter 2: Introduction to NumPy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html)
@@ -26,3 +30,7 @@
 - [Numpy Getting Started Docs](https://numpy.org/doc/stable/user/index.html)
 - [Numba](https://numba.pydata.org/)
     - One of Numba's features is creating new ufuncs that behave like those built into NumPy.
+- [Row vs Column Major Order](https://www.youtube.com/watch?v=b5lYGvcBjy4)
+- [Copies vs Views](https://numpy.org/doc/stable/user/basics.copies.html)
+- [Indexing](https://numpy.org/doc/stable/user/basics.indexing.html)
+- [Linear Algebra Subpackage](https://numpy.org/doc/stable/reference/routines.linalg.html)
