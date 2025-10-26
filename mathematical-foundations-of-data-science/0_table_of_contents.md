@@ -178,9 +178,9 @@
         - [Vectors | Chapter 1, Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
         - [Math for ML - Chapter 7.3.1: Linear Programming](4_mathematics_for_machine_learning.md)
         - Key concepts:
-            - TODO fill me in
+            - How Linear algrebra is used in ML
     - Principle Components Analysis
         - [Mathematics of Machine Learning, Chapter 10-10.2 Dimensionality Reduction with Principal Components Analysis](4_mathematics_for_machine_learning.md)
         - [Principal Component Analysis](https://www.youtube.com/watch?v=FD4DeN81ODY)
         - Key concepts:
-            - TODO fill me in
+            - PCA as identifies common directions of variation in a dataset

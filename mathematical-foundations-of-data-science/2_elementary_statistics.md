@@ -280,4 +280,9 @@
 
 ## The Law of Large Numbers, Central Limit Theorem, and Hypothesis Testing
 - Chapter 4.2 (except 4.2.2)
-    - TODO fill me in
+    - Page 137 provides an analogy from legal trials relating to hypothesis testing to help motivatate its definition
+    - Null hypothesis and alternate hypothesis
+    - Level of significance
+    - Rejection and non-rejection regions
+    - Critical and P Value methods
+    

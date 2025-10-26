@@ -1,8 +1,28 @@
 # [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
 
 ### Chapter 2: Linear Algebra
-### go through 2.2
-- TODO fill me in :)
+- "Linear algebra is the study of vectors and certain algebra rules to manipulate vectors" (p. 17)
+- Discusses what can be considered as vectors (Numbers, polynomials, audio, and tuples)
+- ![alt text](mathematics_for_machine_learning_fig_2.2.png)
+
+### Section 1: Systems of Linear Equations
+- "Many problems can be formulated as systems of linear equations, and linear algebra gives us the tools for solving them" (p. 19)
+- "In general, for a real-valued system of linear equations we obtain either no, exactly one, or infinitely many solutions. Linear regression (Chapter 9) solves a version of Example 2.1 when we cannot solve the system of linear equations" (p. 21)
+### Section 2: Matrices
+- Matrices "...compactly represent systems of linear equations, but they also represent linear functions (linear mappings)" (p 22).
+- Provides definitions of matrices, matrix sums and dot products on page 22-23
+- Differentiates the dot product with Hadamard product (element wise)
+- Matrix sums requires matrices are same dimensions
+- Dot product requires that matrices are of sizes ab and bc respectively. It is not commutative (AB != BA)
+- Provides some properties of matrices
+    - Associativity, Distributivity, Mult with Identity Matrix
+- Inverse 
+    - Not every matrix has an inverse.  If this inverse does exist, A is called regular/invertible/nonsingular, otherwise singular/noninvertible. 
+    - A^-1 is the notation
+- Transpose
+    - A^T is the notation
+- Multiplication by scalar
+- Systems of equations as matrices
 
 ### Chapter 6: Probability and Distributions
 - This reading introduces the ideas of probability, and particularly spends time on the interpretation of probabilities.
@@ -115,8 +135,10 @@
 - Overfitting
 - Maximum A Posteriori
 
-### Chapter 10: TODO
-### Section 1
- TODO
-### Section 2
-TODO
+### Chapter 10: Dimensionality Reduction with Principal Component Analysis
+- "Dimensionality reduction exploits structure and correlation and allows us to work with a more compact representation of the data, ideally without losing information" (p. 317)
+- "principal component analysis (PCA), is an algorithm for linear dimensionality reduction. PCA, proposed by Pearson (1901) and Hotelling (1933), has been around for more than 100 years and is still one of the most commonly used techniques for data compression and data visualization. It is also used for the identification of simple patterns, latent factors, and structures of high-dimensional data." (p. 317).
+### Section 1: Problem Setting
+- Sets the scene for the problem statement. Essentially we have multi dimension data and would like some way to compress the data without losing too much information (*minimize the compression loss*). This is where PCA comes in
+### Section 2: Maximum Variance Perspective
+- "If we interpret information content in the data as how “space filling” the dataset is, then we can describe the information contained in the data by looking at the spread of the data. From Section 6.4.1, we know that the variance is an indicator of the spread of the data, and we can derive PCA as a dimensionality reduction algorithm that maximizes the variance in the low-dimensional representation of the data to retain as much information as possible. Figure 10.4 illustrates this" (p. 320).
