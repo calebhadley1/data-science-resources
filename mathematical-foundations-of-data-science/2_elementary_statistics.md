@@ -277,3 +277,7 @@
             - N/A
         9. Based on the boxplots below, state the characteristics of the data sets. Which one is more spread out?
             - N/A
+
+## The Law of Large Numbers, Central Limit Theorem, and Hypothesis Testing
+- Chapter 4.2 (except 4.2.2)
+    - TODO fill me in

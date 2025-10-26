@@ -1,5 +1,9 @@
 # [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
 
+### Chapter 2: Linear Algebra
+### go through 2.2
+- TODO fill me in :)
+
 ### Chapter 6: Probability and Distributions
 - This reading introduces the ideas of probability, and particularly spends time on the interpretation of probabilities.
 - Quantifying uncertainty requires the idea of a random variable, which is a function that maps outcomes of random experiments to a set of properties that we are interested in
@@ -56,6 +60,9 @@
 - Correlation
 - Population vs Sample
 
+### Chapter 7: Continuous Optimization
+### Section 1: Linear Programming
+
 ### Chapter 8: When Models Meet Data
 #### Section 1: Data, Models and Learning
 - Data as Vectors
@@ -107,3 +114,9 @@
 - Maximum Likelihood Estimation
 - Overfitting
 - Maximum A Posteriori
+
+### Chapter 10: TODO
+### Section 1
+ TODO
+### Section 2
+TODO

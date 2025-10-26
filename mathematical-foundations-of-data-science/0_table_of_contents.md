@@ -145,3 +145,42 @@
                 - Pearson's Correlation Coefficient
             - Sums of Random Variables
                 - How it applies to independent vs correlated normally distributed variables
+7. The Law of Large Numbers, Central Limit Theorem, and Hypothesis Testing
+    - Central Limit Theorem
+        - [Intro to Limits](https://www.youtube.com/watch?feature=shared&v=poBobcFn1Co)
+        - [Law of Large Numbers - Khan Academy](https://www.youtube.com/watch?v=VpuN8vCQ--M)
+        - [Why we gamble like monkeys (correlary to law of large numbers)](https://www.bbc.com/future/article/20150127-why-we-gamble-like-monkeys)
+        - [Gambler's Fallacy](https://www.youtube.com/watch?v=XA_0OMJjkxQ)
+        - Key concepts:
+            - Reading limit notation
+            - Finite vs Infinite Limits
+            - The Law of Large Numbers
+    - Hypothesis Testing
+        - [Patterns Predictions and Actions Chapter 2 (Errors and ROC curves)](1_patterns_predictions_and_actions.md)
+        - [Type I vs II Errors](https://www.youtube.com/watch?v=SBt7q2m_Ncw)
+        - [Classification: ROC Curves and AUC](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
+        - [Elementary Stats - Chapter 1.4.1, 4.2 (except 4.2.2)](2_elementary_statistics.md)
+        - [Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations](https://link.springer.com/article/10.1007/s10654-016-0149-3)
+        - [What is a p-value](https://www.youtube.com/watch?v=9jW9G8MO4PQ&list=PLRKtJ4IpxJpDsOT_8YDREJrO8cQUtPUVg&index=10&pp=iAQB)
+        - [How do you get a p value?](https://www.youtube.com/watch?v=9jW9G8MO4PQ&list=PLRKtJ4IpxJpDsOT_8YDREJrO8cQUtPUVg&index=10&pp=iAQB)
+        - [How to use p-values and significance levels](https://www.youtube.com/watch?v=lJSTfhkB5zw&list=PLRKtJ4IpxJpDsOT_8YDREJrO8cQUtPUVg&index=12&pp=iAQB)
+        - [The Problem of Multiple Comparisons](https://www.youtube.com/watch?v=HpjlcEH4zuY)
+        - Key concepts:
+            - Errors (Type I and II)
+            - ROC Curves
+            - AUC
+            - P Values, Confidence Intervals, and Power
+            - Signifiance Levels in relation to P Values
+            - The Problem of Multiple Comparisons
+8. Motivations for Linear Algebra
+    - Why Linear Algebra
+        - [Math for ML - Chapter 2: Linear Algebra (Up to 2.2)](4_mathematics_for_machine_learning.md)
+        - [Vectors | Chapter 1, Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+        - [Math for ML - Chapter 7.3.1: Linear Programming](4_mathematics_for_machine_learning.md)
+        - Key concepts:
+            - TODO fill me in
+    - Principle Components Analysis
+        - [Mathematics of Machine Learning, Chapter 10-10.2 Dimensionality Reduction with Principal Components Analysis](4_mathematics_for_machine_learning.md)
+        - [Principal Component Analysis](https://www.youtube.com/watch?v=FD4DeN81ODY)
+        - Key concepts:
+            - TODO fill me in
