@@ -244,4 +244,70 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
     - Predictive perf vs intelligibility
     - Overfitting
 
-## Chapter 5: todo
+## Chapter 5: Overfitting and Its Avoidance
+- Fundamental concepts: Generalization, Fitting and overfitting, Complexity control
+- Exemplary techniques: Cross-validation, Attribute selection, Tree pruning, Regularization
+- Defines overfitting as "Finding chance occurences in data that look like interesting patterns, but which do not generalize well" (p. 111)
+- Generalization
+    - Defined as "The property of a model or modeling process, whereby the model applies to data that were not used to build the model." (p. 112).
+    - We want the models to apply beyond the training dataset
+- Overfitting
+    - Defined as "The tendency of data mining procedures to tailor models to the training data, at the expense of generalization to previously unseen data points" (p. 113)
+    - All data mining procedures have the tendency to overfit to some extend (some more than others)
+    - "The answer is not to use a data mining procedure that doesn't overfit because all of them do. Nor is the answer to simply use models that produce less overfitting, because there is a fundamental trade-off between model complexity and the possibility of overfitting... The best strategy is to recognize overfitting and to manage complexity in a principled way." (p. 113)
+- Overfitting Examined
+    - Holdout Data and Fitting Graphs
+        - Fitting graph shows the accuracy of a model as a function of complexity
+        - To examine *overfitting*, we need to introduce a fundamental concept to evaluation in DS, *holdout* data
+        - We hide certain instances from the model, get predictions on them, and compare against the hidden truth values
+        - Shows on page 114 a fitting graph and the tradeoff between complexity, error rate, and holdout vs training data
+    - Overfitting in Tree Induction
+        - If you continually split nodes in the tree, eventually you will end up with a lookup table (perfectly accurate for training set)
+        - This isn't ideal, but still not as bad as the previous example of an overfitted classifier, since even for new examples it will non-trivially give some prediction.
+        - We can artifically limit the number of nodes to avoid overfitting
+        - Page 117 shows the "sweet" spot when fitting for tree induction
+    - Overfitting in Mathematical Functions
+        - Mathematical fns can become more complex by adding more variables
+        - This can give the modeling procedyre too much leeway to fit the training set
+        - Manual feature selection where possible
+- From Holdout Evaluation to Cross-Validation
+    - Cross-validation is a more sophisticated technique for the holdout training and testing procedure (p. 126)
+    - Computes mean and variance so that we can understand how performance is expected to vary across datasets
+    - Makes better use of a limited dataset by computing its estimates across all the data (systematically swaps out samples for testing)
+    - Split labeled dataset into k partitions called *folds* (usually 5-10)
+    - Iterate training and testing k times in a particular way
+        - Chose different fold as the test data each iteration
+        - Produce a model (one estimate of generalization performance)
+    - When it is done, we have used every example once for testing and k-1 times for training
+    - Now you can estimate mean and std/var
+- Learning Curves
+    - Defined as "A plot of the generalization performance against the amount of training data" (p. 131).
+    - Learning curves show generalization performance, whereas fitting graphs also shows performance on the training data plotting against model complexity.
+    - Learning curves depend on the type of modeling procedure
+        - Page 131-132 explains the difference of learning curves characteristics between logistic regression and tree induction
+- Overfitting Avoidance and Complexity Control
+    - "To avoid overfitting, we control the complexity of the models induced from the data" (p. 133).
+    - Avoiding Overfitting with Tree Induction
+        - Strategies to avoid overfitting:
+            - Stop growing the tree before it gets to complex (limit splits)
+            - Grow tree until it is too large, then "prune" it back, reducing its size
+        - There are simple ways to complete these strategies:
+            - Limit tree size by specifying min # of instances that must be present in a leaf
+                - What threshold should be use?
+                    - Use hypothesis testing (described in detail in p. 133)
+            - Pruning
+    - A General Method for Avoiding Overfitting
+        - "More generally, if we have a collection of models with different complexities, we could choose the best simply by estimating the generalization performance of each" (p. 134)
+        - "Nested holdout testing" and "Nested cross-vaalidation" is described pages 134-135
+        - "Sequential forward selection" (SFS)
+        - "Sequential backward elimination"
+    - Avoiding Overfitting for Parameter Optimization
+        - Feature selection can be used to ensure the correct set of model attributes is selected for linear models and also some non-linear models
+        - *Regularization*: Instead of optimizing to fit the data, we optimize some combination of fit and simplicity. Models will be better if they fit the data better, but they will also be better if they are simpler
+        - *ridge regression* and *lasso* (L1 vs L2 norm)
+- Summary (p. 140)
+    - Model complexity vs Overfitting
+    - All models can overfit
+    - Fitting graphs and learning curves
+    - Cross-validation and holdout sets
+    - Regularization
