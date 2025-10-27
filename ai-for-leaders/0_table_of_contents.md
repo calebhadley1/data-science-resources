@@ -62,13 +62,15 @@
     - [Data Science for Business - Chapter 5](2_data_science_for_business.md)
     - [What is overfitting? (AWS)](https://aws.amazon.com/what-is/overfitting)
     - Key concepts:
-        - TODO add any stuff from the book
         - Overfitting
         - Holdout Data
+        - Cross Validation
         - Fitting Graphs
+        - Learning Curves
         - How Logistic Regression can overfit (and how SVM can help)
         - How overfitting is related to spurious correlations
         - Nearest neighbors & K Nearest neighbors
+        - Regularization
 8. Overfitting and its Avoidance Pt 2
     - [A Gentle Intro to Neural Nets](https://medium.com/data-science/a-gentle-introduction-to-neural-networks-series-part-1-2b90b87795bc)
     - [ML for Begineers - An Intro to Neural Nets](https://victorzhou.com/blog/intro-to-neural-networks/)
@@ -78,9 +80,9 @@
         - [Part 3: ReLU](https://www.youtube.com/watch?v=68BZ5f7P94E)
         - [Part 4: Multiple Inputs and Outputs](https://www.youtube.com/watch?v=83LYR-1IcjA)
         - [Part 5: ArgMax and SoftMax](https://www.youtube.com/watch?v=KpKog-L9veg)
-        - [Part 6: Cross Entropy](https://www.youtube.com/watch?v=6ArSys5qHAU) # TODO watch this one
+        - [Part 6: Cross Entropy](https://www.youtube.com/watch?v=6ArSys5qHAU)
         - [Part 7: Cross Entropy Derivatives and Backpropagation](https://www.youtube.com/watch?v=xBEh66V9gZo)
-        - [Part 8: Image Classification with Convolutional Neural Networks (CNNs)](https://www.youtube.com/watch?v=HGwBXDKFk9I) # TODO watch this one
+        - [Part 8: Image Classification with Convolutional Neural Networks (CNNs)](https://www.youtube.com/watch?v=HGwBXDKFk9I)
     - Key concepts:
         - Cross-validation
         - Learning curves
