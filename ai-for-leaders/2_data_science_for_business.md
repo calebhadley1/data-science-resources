@@ -311,3 +311,6 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
     - Fitting graphs and learning curves
     - Cross-validation and holdout sets
     - Regularization
+
+## Chapter 6: Similarity, Neighbors, and Clusters
+- TODO fill this in

@@ -87,3 +87,5 @@
         - Cross-validation
         - Learning curves
         - Nested holdout testing
+9. Similarity, Neighbors, and Clusters Part 1
+    - [K-Nearest Neighbour Algorithm](https://www.kaggle.com/code/just4jcgeorge/k-nearest-neighbour-algorithm)
