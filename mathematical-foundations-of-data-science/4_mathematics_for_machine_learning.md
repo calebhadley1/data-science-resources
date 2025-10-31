@@ -23,6 +23,8 @@
     - A^T is the notation
 - Multiplication by scalar
 - Systems of equations as matrices
+### Section 5: Linear Independence
+- TODO
 
 ### Chapter 6: Probability and Distributions
 - This reading introduces the ideas of probability, and particularly spends time on the interpretation of probabilities.

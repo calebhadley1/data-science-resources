@@ -184,3 +184,13 @@
         - [Principal Component Analysis](https://www.youtube.com/watch?v=FD4DeN81ODY)
         - Key concepts:
             - PCA as identifies common directions of variation in a dataset
+9. Introduction to Vectors
+    - Basic Vectors Concepts
+        - [Vector Equations](https://mcrovella.github.io/CS132-Geometric-Algorithms/L04VectorEquations.html)
+        - [Mathematics of Machine Learning, Chapter 2-2.1 Linear Algebra](4_mathematics_for_machine_learning.md)
+        - [Introduction to Applied Linear Algebra, Chapters 1-1.3](6_applied_linear_algebra_intro.md)
+        - [Introduction to Applied Linear Algebra, Chapters 3.1: Norm](6_applied_linear_algebra_intro.md)
+        - [Introduction to Applied Linear Algebra, Chapters 3.2: Distance](6_applied_linear_algebra_intro.md)
+    - Vector Similarity Measures
+        - [Introduction to Applied Linear Algebra, Chapter 5.1: Linear Dependence](6_applied_linear_algebra_intro.md)
+        - [Mathematics for Machine Learning, Chapter 2.5: Linear Independence](4_mathematics_for_machine_learning.md)
