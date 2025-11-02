@@ -24,7 +24,9 @@
 - Multiplication by scalar
 - Systems of equations as matrices
 ### Section 5: Linear Independence
-- TODO
+- A basis is a set of vectors with which we can represent every vector in the vector space by adding them together and scaling them
+- A linear combination is an expression formed by multiplying each of a set of vectors by a scalar (a constant number) and then adding the results together
+- A set of linearly independent vectors consists of vectors that have no redundancy, i.e., if we remove any of those vectors from the set, we will lose something
 
 ### Chapter 6: Probability and Distributions
 - This reading introduces the ideas of probability, and particularly spends time on the interpretation of probabilities.
