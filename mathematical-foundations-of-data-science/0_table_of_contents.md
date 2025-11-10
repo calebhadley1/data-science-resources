@@ -198,11 +198,13 @@
     - Basic Matrix Concepts
         - [Mathematics of Machine Learning, Chapter 2.2 Matrices](4_mathematics_for_machine_learning.md)
         - [Introduction to Applied Linear Algebra, Chapters 6: Matrices](6_applied_linear_algebra_intro.md)
-        - [CS132 Lecture Notes: Linear Transformations](https://mcrovella.github.io/CS132-Geometric-Algorithms/L07LinearTransformations.html) # TODO read this
+        - [CS132 Lecture Notes: Linear Transformations](https://mcrovella.github.io/CS132-Geometric-Algorithms/L07LinearTransformations.html)
         - [CS132 Lecture Notes: The Matrix of a Linear Transformation](https://mcrovella.github.io/CS132-Geometric-Algorithms/L08MatrixofLinearTranformation.html) # TODO read this
         - [CS132 Lecture Notes: The Inverse of a Matrix](https://mcrovella.github.io/CS132-Geometric-Algorithms/L10MatrixInverse.html) # TODO read this
         - [CS132 Lecture Notes: Eigenvectors and Eigenvalues](https://mcrovella.github.io/CS132-Geometric-Algorithms/L16Eigenvectors.html) # TODO read this
         - [Mathematics of Machine Learning, Chapter 4.2 Eigenvectors and Eigenvalues](4_mathematics_for_machine_learning.md) # TODO read this
+        - Personal Reccomendations:
+            - [3Blue1Brown - Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
         - Key concepts:
             - Square Matrix
             - Matrix Diagonal vs Diagonal Matrix
@@ -215,7 +217,7 @@
             - Matrix/scalar and matrix/matrix operations including addition and multiplication
             - Recognize problems including linear regression that can be formulated as vector or matrix multiplication problems
     - Matrix Row Operations
-        - [CS132 Lecture Notes: Gaussian Elimination](https://mcrovella.github.io/CS132-Geometric-Algorithms/L03RowReductions.html) # TODO read this
+        - [CS132 Lecture Notes: Gaussian Elimination](https://mcrovella.github.io/CS132-Geometric-Algorithms/L03RowReductions.html)
         - Key concepts:
             - Invertability of matrix row operations
             - Tracking row operations via extra columns
