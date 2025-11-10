@@ -31,3 +31,11 @@ Merge and Joining
     - [Duplices](https://pandas.pydata.org/docs/user_guide/duplicates.html)
 - Reshaping
     - [Merging](https://pandas.pydata.org/docs/user_guide/merging.html)
+- Exploratory Data Analysis / Data Visualization
+    - [Plotting](https://pandas.pydata.org/docs/getting_started/intro_tutorials/04_plotting.html)
+    - [Chart Visualization](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
+    - [Scatter Matrix](https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html)
+    - [Handling Missing Data](https://pandas.pydata.org/docs/user_guide/missing_data.html)
+    - Supporting Resources (Not Pandas Specific)
+        - [Exploratory Data Analysis](https://www.epa.gov/caddis/exploratory-data-analysis)
+        - [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/visualizing-associations.html)
