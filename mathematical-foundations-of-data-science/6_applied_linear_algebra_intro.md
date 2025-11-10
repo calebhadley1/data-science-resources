@@ -93,8 +93,24 @@ norm-squared values of its subvectors
     - Multiplying by a scalar: Multiplying a vector by a scalar multiplies the standard deviation by the absolute value of the scalar
 - Standardized version of vector x has mean 0 and std 1
 
+## Chapter 4: TODO
+### Section 2: Eigenvectors and Eigenvalues
+- TODO fill me in
+
 ## Chapter 5: Linear Independence
 ### Section 1: Linear Dependence
 - This reading defines linear dependence and independence.
 - Linear dependence of a list of vectors does not depend on the ordering of the vectors in the list (p. 89)
 - Linear independence holds if Linear dependence is not true
+
+## Chapter 6: Matrices
+- TODO fill me in. make sure to do sec 2, 4 
+
+## Chapter 7: Matrix Examples
+- TODO try a few of these in spare time (optional)
+
+## Chapter 10: Matrix Multiplication
+- TODO fill me in
+
+## Chapter 11: Matrix Inverses
+- TODO do section 0-2
