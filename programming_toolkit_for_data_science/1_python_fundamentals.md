@@ -23,3 +23,17 @@
 ### Reading and Writing Data
 - [Open files](https://docs.python.org/3/library/functions.html#open)
 - [CSV Readeer](https://docs.python.org/3/library/csv.html)
+
+### Object Oriented Programming
+- [OOP in 7 Min](https://www.youtube.com/watch?v=pTB0EiLXUC8)
+- [Classes](https://www.youtube.com/watch?v=Rp2j6BSmzHg) and [Objects](https://www.youtube.com/watch?v=apACNr7DC_s)
+- Instance
+- [Attributes and Methods](https://www.youtube.com/watch?v=XdhDmcBcSC8)
+- Derived class (child class)
+- Multiple Inheritance
+- Base class (parent class)
+- Getters/Setters
+- [Pep8](https://peps.python.org/pep-0008/#designing-for-inheritance)
+- [Method Resolution Order](https://www.python.org/download/releases/2.3/mro/)
+- [type function](https://docs.python.org/3/library/functions.html#type)
+- [isinstance](https://docs.python.org/3/library/functions.html#isinstance)
