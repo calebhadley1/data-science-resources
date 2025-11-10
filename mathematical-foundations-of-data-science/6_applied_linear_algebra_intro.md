@@ -93,10 +93,6 @@ norm-squared values of its subvectors
     - Multiplying by a scalar: Multiplying a vector by a scalar multiplies the standard deviation by the absolute value of the scalar
 - Standardized version of vector x has mean 0 and std 1
 
-## Chapter 4: TODO
-### Section 2: Eigenvectors and Eigenvalues
-- TODO fill me in
-
 ## Chapter 5: Linear Independence
 ### Section 1: Linear Dependence
 - This reading defines linear dependence and independence.

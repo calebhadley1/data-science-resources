@@ -1,10 +1,9 @@
 # [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
 
-### Chapter 2: Linear Algebra
+## Chapter 2: Linear Algebra
 - "Linear algebra is the study of vectors and certain algebra rules to manipulate vectors" (p. 17)
 - Discusses what can be considered as vectors (Numbers, polynomials, audio, and tuples)
 - ![alt text](mathematics_for_machine_learning_fig_2.2.png)
-
 ### Section 1: Systems of Linear Equations
 - "Many problems can be formulated as systems of linear equations, and linear algebra gives us the tools for solving them" (p. 19)
 - "In general, for a real-valued system of linear equations we obtain either no, exactly one, or infinitely many solutions. Linear regression (Chapter 9) solves a version of Example 2.1 when we cannot solve the system of linear equations" (p. 21)
@@ -28,7 +27,11 @@
 - A linear combination is an expression formed by multiplying each of a set of vectors by a scalar (a constant number) and then adding the results together
 - A set of linearly independent vectors consists of vectors that have no redundancy, i.e., if we remove any of those vectors from the set, we will lose something
 
-### Chapter 6: Probability and Distributions
+## Chapter 4: Matrix Decompositions
+### Section 2: Eigenvectors and Eigenvalues
+- TODO fill me in
+
+## Chapter 6: Probability and Distributions
 - This reading introduces the ideas of probability, and particularly spends time on the interpretation of probabilities.
 - Quantifying uncertainty requires the idea of a random variable, which is a function that maps outcomes of random experiments to a set of properties that we are interested in
 - Associated with the random variable is a function that measures the probability that a particular outcome (or set of outcomes) will occur; this is called the probability distribution
@@ -37,8 +40,7 @@
     - The sample space
     - The events
     - The probability of an event
-
-#### Section 1
+### Section 1
 - Bayesian vs Frequentist probability
 - Probability space allows us to quantity the idea of a probability
 - Random variables
@@ -83,12 +85,12 @@
 - Standard Deviation
 - Correlation
 - Population vs Sample
-
 ### Chapter 7: Continuous Optimization
 ### Section 1: Linear Programming
+- TODO
 
-### Chapter 8: When Models Meet Data
-#### Section 1: Data, Models and Learning
+## Chapter 8: When Models Meet Data
+### Section 1: Data, Models and Learning
 - Data as Vectors
     - Discusses how data should be tabular usually, where each row represents a vector of features or attributes
     - Definitions for vectors of features (xn) and targets (y)
@@ -119,9 +121,9 @@
     - *model selection* 
     - *nested cross validation* - For non-probabilistic models, model selection is often done using this method
 
-### Chapter 9: Linear Regression
+## Chapter 9: Linear Regression
 - This chapter motivates linear regression from the problem of modeling noisy data, presenting the same linear regression formula as a maximum likelihood solution.
-#### Section 0
+### Section 0
 - Outlines the goal of regression and some applications including time series, robotics, etc.
 - How do you find a regression function?
     - Model type choice
@@ -129,17 +131,15 @@
     - Handling overfitting and model selection
     - Relationship between loss fn and parameter priors
     - Uncertainty modeling
-
-#### Section 1
+### Section 1
 - Describes problem formulation, how we solve for noise etc
-
-#### Section 2 (until 9.2.2)
+### Section 2 (until 9.2.2)
 - How do we find good parameters?
 - Maximum Likelihood Estimation
 - Overfitting
 - Maximum A Posteriori
 
-### Chapter 10: Dimensionality Reduction with Principal Component Analysis
+## Chapter 10: Dimensionality Reduction with Principal Component Analysis
 - "Dimensionality reduction exploits structure and correlation and allows us to work with a more compact representation of the data, ideally without losing information" (p. 317)
 - "principal component analysis (PCA), is an algorithm for linear dimensionality reduction. PCA, proposed by Pearson (1901) and Hotelling (1933), has been around for more than 100 years and is still one of the most commonly used techniques for data compression and data visualization. It is also used for the identification of simple patterns, latent factors, and structures of high-dimensional data." (p. 317).
 ### Section 1: Problem Setting
