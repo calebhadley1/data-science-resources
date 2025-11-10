@@ -313,4 +313,76 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
     - Regularization
 
 ## Chapter 6: Similarity, Neighbors, and Clusters
-- TODO fill this in
+- Fundamental concepts:
+    - Calculating the simililarity of objects described by data
+    - Using similarity for prediction
+    - Clustering as similarity-based segmentation
+- Similarity use cases (p. 141-142):
+    - Retrieve similar things directly
+        - Ex. IBM wants to find customers similar to their best customers
+    - Classification and regression
+    - Clustering
+        - Ex. See if our customer base contains groups of similar customers and what these groups have in common
+    - Reccomendations
+        - Provide reccomendations of similar products or people ("Customers with your browsing history have also looked at...")
+    - Reasoning from similar cases
+        - Ex. A doctor reasons about a new difficult case by recalling a similar case
+- Similarity and Distance
+    - "Once an object can be represented as data, we can begin to talk more precisely about the similarity between objects, or alternatively the distance between objects" (p. 142)
+    - Represent objects as a feature vector. The closer two objects are in the feature space, the more similar they are (For example use Euclidian Distance)
+- Nearest Neighbor Reasoning
+    - Now that we have a metric for computing distance between objects, we can apply it to the business use cases. This method is called nearest neighbors.
+    - An example of computing similar scotches to Bunnahabhain is given (pretty funny).
+- Nearest Neighbors for Predictive Modeling
+    - "Combining functions" for calculating the target prediction based on a number of similar neighbors. i.e. how can we compute target of new example given 5 training samples which are similar to it? Should we average, take the majorty, etc?
+    - Classification
+        - Ex. Predict if customer will respond to credit card offer. We calculate distance of all training set, retreive top N, now what combining function should we use? Lets say that 2/3 training samples have a "Yes" value for target and 1/3 is "No". Should we chose majority? (p. 147)
+    - Probability Estimation
+        - Prob score gives more information than a Yes/No answer for targets. With the CLF example, we could use more data than just the 3 training samples to calculate probability estimation.
+    - Regression
+        - We could use the same distance calulation as in the CLF example, but use a stat like mean or median for generating a pred.
+- How Many Neighbors and How Much Influence?
+    - There is no simple answer. Odd number of neighbors can help break ties for majority votes and 2 class problems
+    - Generally, the greater the k, the more the estimates are smoothed out among neighbors. For example lets say k=size of the dataset. Then you basically take a mean/median of the dataset if you're using those metrics, or always chose majority class if we're doing majority vote
+    - *Weighted voting* and *similarity moderated voting* help us address how closer samples should influence more than distant ones
+- Geometric Interpretation, Overfitting, and Complexity Control
+    - The tendency of k=1 to overfit is discussed on page 152.
+    - How do we choose k?
+        - Cross validation and nested holdout testing can be performed on the training set for a variety of different sizes of k. We chose the one that performs best. Then we build a model from the whole training set and evaluate against holdout set
+- Issues with KNN
+    - Intelligibility
+        - There are two aspects, the justification of a decision, and the intelligibility of the entire model
+        - Justifying a decision can be done by presenting the neighbors used in the decision. Ex. "Viewers who liked XYZ also liked 123"
+            - Note this is good enough for some use cases, but something like a mortgage application this would not be enough. 
+        - What is more difficult is understanding what knowledge was mined from the training set (see p 155-156)
+    - Dimensionality and domain knowledge
+        - Feature selection and scaling are both important for KNN. You can also inject domain knowledge by tweaking the distance function manually if you think some features are more important. 
+        - "The curse of dimensionality"
+    - Computational Efficiency
+        - Training the model is very cheap, you basically just build a database of the training set
+        - At prediction time, we need to find the nearest neighbors. As the size of the training set becomes larger, the runtime explodes. Therefore KNN is impractical when a large training set AND sub 10ms prediction time is needed.
+- Some Important Technical Details Relating to Similarity and Neighbors
+    - Heterogeneous Attributes
+        - Categorical variables must be encoded
+        - Numerical variables have different scales and ranges
+    - Page 158 - 161 covers other distance metrics
+    - Page 162 - 163 covers other combining functions
+- Clustering
+    - Unsupervised segmentation, or more simply, clustering, is finding natural groupings in the data without a specific target
+    - Hierarchical Clustering
+        - Page 166 shows a dendrogram which shows the hierarchical clusters on an example dataset
+        - "Linkage function" computes the distance between clusters
+    - Nearest Neighbors Revisited: Clustering Around Centroids
+        - *centroid* based clustering algorithms such as k-means is outlined from p 171 - 174
+- Understanding the Results of Clustering
+    - One way is to examine the names of the clusters and try to extract meaningful information about why the instances were clustered
+    - Page 180-182 outlines another method, building a decision tree to classify the clusters
+- Stepping Back - Solving a Business Problem Versus Data Exploration
+    - Page 183-185 discuss how unsupervised learning and supervised learning can differ when applied to business problems. Unsupervised learning is often more exploratory, so it is important to connect insights from it to the business application.
+- Summary
+    - Similarity
+    - Distance
+    - Combining Function
+    - KNN
+    - Clustering
+    - K Means
