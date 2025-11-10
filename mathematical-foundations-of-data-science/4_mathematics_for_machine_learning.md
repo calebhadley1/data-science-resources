@@ -29,7 +29,11 @@
 
 ## Chapter 4: Matrix Decompositions
 ### Section 2: Eigenvectors and Eigenvalues
-- TODO fill me in
+- "Every linear mapping has a unique transformation matrix given an ordered basis" (p. 105)
+- Eigenvalues tell us how the eigenvectors are transformed by the linear mapping
+- Two vectors that point in the same direction are codirected
+- Vectors that point in the same or opposite direction are collinear
+- This section also discusses properties and characteristics of eigenvectors and eigenvalues
 
 ## Chapter 6: Probability and Distributions
 - This reading introduces the ideas of probability, and particularly spends time on the interpretation of probabilities.
@@ -85,9 +89,11 @@
 - Standard Deviation
 - Correlation
 - Population vs Sample
-### Chapter 7: Continuous Optimization
-### Section 1: Linear Programming
-- TODO
+
+## Chapter 7: Continuous Optimization
+### Section 3.1: Linear Programming
+- This section talks about convex optimization problems where the functions are linear
+
 
 ## Chapter 8: When Models Meet Data
 ### Section 1: Data, Models and Learning
