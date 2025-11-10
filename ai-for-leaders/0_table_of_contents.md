@@ -89,3 +89,6 @@
         - Nested holdout testing
 9. Similarity, Neighbors, and Clusters Part 1
     - [K-Nearest Neighbour Algorithm](https://www.kaggle.com/code/just4jcgeorge/k-nearest-neighbour-algorithm)
+10. Similarity, Neighbors, and Clusters Part 2
+    - [Data Science for Business - Chapter 6: Similarity, Neighbors, and Clusters](2_data_science_for_business.md)
+    - [Intelligibility is a key component to trust in machine learning](https://rbcborealis.com/research-blogs/intelligibility-key-component-trust-machine-learning/)
