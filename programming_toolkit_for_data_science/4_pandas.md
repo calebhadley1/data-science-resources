@@ -36,6 +36,7 @@ Merge and Joining
     - [Chart Visualization](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
     - [Scatter Matrix](https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html)
     - [Handling Missing Data](https://pandas.pydata.org/docs/user_guide/missing_data.html)
+    - [Smoothing Data](https://medium.com/@uriitai/detecting-defect-segments-by-the-laplace-smoothing-dc3a52333c2a)
     - Supporting Resources (Not Pandas Specific)
         - [Exploratory Data Analysis](https://www.epa.gov/caddis/exploratory-data-analysis)
         - [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/visualizing-associations.html)
