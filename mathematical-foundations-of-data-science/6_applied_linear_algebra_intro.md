@@ -105,8 +105,11 @@ norm-squared values of its subvectors
 ## Chapter 7: Matrix Examples
 - TODO try a few of these in spare time (optional)
 
+## Chapter 8: Linear Equations
+- TODO fill me in
+
 ## Chapter 10: Matrix Multiplication
 - TODO fill me in
 
 ## Chapter 11: Matrix Inverses
-- TODO do section 0-2
+- TODO do section 0-3

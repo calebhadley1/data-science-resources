@@ -22,6 +22,10 @@
     - A^T is the notation
 - Multiplication by scalar
 - Systems of equations as matrices
+
+### Section 3: Solving Systems of Linear Equations
+- TODO
+
 ### Section 5: Linear Independence
 - A basis is a set of vectors with which we can represent every vector in the vector space by adding them together and scaling them
 - A linear combination is an expression formed by multiplying each of a set of vectors by a scalar (a constant number) and then adding the results together
