@@ -92,3 +92,30 @@
 10. Similarity, Neighbors, and Clusters Part 2
     - [Data Science for Business - Chapter 6: Similarity, Neighbors, and Clusters](2_data_science_for_business.md)
     - [Intelligibility is a key component to trust in machine learning](https://rbcborealis.com/research-blogs/intelligibility-key-component-trust-machine-learning/)
+11. Decision Analytic Thinking I: What is a Good Model?
+    - [Data Science for Business - Chapter 7: Decision Analytics Thinking I: What Makes a Good Model?](2_data_science_for_business.md)
+    - [Failure of Classification Accuracy for Imbalanced Class Distributions](https://machinelearningmastery.com/failure-of-accuracy-for-imbalanced-class-distributions/)
+    - Key concepts:
+        - Accuracy
+        - Confusion matrix
+        - Accuracy and unbalanced classes
+        - Compare accuracy and cost/benefit
+        - Expected value
+        - Identify some other metrics—these are important!
+        - Explain what is meant by “doing better than a baseline”
+        - Describe the characteristics of a dataset that can be useful for addressing a real-world problem
+12. Visualizing Model Performance
+    - [Data Science for Business - Chapter 8: Visualizing Model Performance](2_data_science_for_business.md)
+    - [AUC-ROC Curve in Machine Learning Clearly Explained](https://www.kaggle.com/discussions/general/343302)
+    - Key concepts:
+        - Ranking vs classifying
+        - Profit curves
+        - ROC curves (Receiver Operating Characteristic) 
+        - Lift curves
+13. Evidence and Probabilities
+    - [Data Science for Business - Chapter 9: Evidence and Probabilities](2_data_science_for_business.md)
+    - [Bayes' Theorem](https://www.cuemath.com/data/bayes-theorem/)
+    - Key concepts:
+        - Bayes’ Rule
+        - Naïve Bayes
+        - Evidence lift

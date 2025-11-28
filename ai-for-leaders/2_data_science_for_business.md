@@ -386,3 +386,12 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
     - KNN
     - Clustering
     - K Means
+
+## Chapter 7: Decision Analytics Thinking I: What Makes a Good Model?
+- TODO
+
+## Chapter 8: Visualizing Model Performance
+- TODO
+
+## Chapter 9: Evidence and Probabilities
+- TODO
