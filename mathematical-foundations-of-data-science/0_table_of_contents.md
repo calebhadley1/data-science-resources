@@ -202,7 +202,7 @@
         - [CS132 Lecture Notes: The Matrix of a Linear Transformation](https://mcrovella.github.io/CS132-Geometric-Algorithms/L08MatrixofLinearTranformation.html) # TODO read this
         - [CS132 Lecture Notes: The Inverse of a Matrix](https://mcrovella.github.io/CS132-Geometric-Algorithms/L10MatrixInverse.html) # TODO read this
         - [CS132 Lecture Notes: Eigenvectors and Eigenvalues](https://mcrovella.github.io/CS132-Geometric-Algorithms/L16Eigenvectors.html) # TODO read this
-        - [Mathematics of Machine Learning, Chapter 4.2 Eigenvectors and Eigenvalues](4_mathematics_for_machine_learning.md) # TODO read this
+        - [Mathematics of Machine Learning, Chapter 4.2 Eigenvectors and Eigenvalues](4_mathematics_for_machine_learning.md)
         - Personal Reccomendations:
             - [3Blue1Brown - Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
         - Key concepts:

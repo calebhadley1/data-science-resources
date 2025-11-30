@@ -100,7 +100,41 @@ norm-squared values of its subvectors
 - Linear independence holds if Linear dependence is not true
 
 ## Chapter 6: Matrices
-- TODO fill me in. make sure to do sec 2, 4 
+- TODO fill me in. make sure to do sec 2, 4
+### Section 1: Matrices
+- Defines matrices and some common attributes, such as its size or dimensions, elements, and indices.
+- Square, tall and wide matrices
+- Column (e.g. 3x1 vector) and row vectors (e.g. 1x3)
+- Block matrices are matrices of matrices (blocks or submatrices)
+
+### Section 2: Zero and Identity Matrices
+- Zero matrix
+- Identity matrix (diagonal of 1's)
+- Sparse matrix (many entries are zeroes)
+- Diagonal matrix (0 where i != j)
+- Triangular matrix (upper if 0 for i > j. lower if 0 for i < j)
+
+### Section 3: Transpose, Addition and Norm
+- Matrix transpose (A<sub>ij</sub> = A<sub>ji</sub>)
+- Row and column vectors
+    - Transpose converts row vectors into column vectors, and vice versa
+- Transpose of block matrices e.g. [A, B]<sup>T</sup> = [A<sup>T</sup>, B<sup>T</sup>]
+- Document term matrix
+- Data matrix (imagine DataFrame, matrix of features)
+- Symmetric matrix (A == A<sup>T</sup> i.e. A<sub>ij</sub> == A<sub>ji</sub> for all i,j)
+- Matrix addition
+    - Associative
+    - Commutative
+    - Adding zero matrix has no effect
+    - (A + B)<sup>T</sup> = A<sup>T</sup> + B<sup>T</sup>
+- Scalar matrix multiplication
+    - e.g. 2 * [[1,2]], you multiply the scalar by each element
+- Matrix norm
+    - Sqrt of the sum of the squares of its entries
+    - Allows us to measure distance between matrices
+
+### Section 4: Matrix-vector Multiplication
+- TODO finish me
 
 ## Chapter 7: Matrix Examples
 - TODO try a few of these in spare time (optional)
