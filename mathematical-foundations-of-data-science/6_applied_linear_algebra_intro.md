@@ -134,7 +134,9 @@ norm-squared values of its subvectors
     - Allows us to measure distance between matrices
 
 ### Section 4: Matrix-vector Multiplication
-- TODO finish me
+- Defines matrix-vector multiplication
+- Provides examples, such as a matrix multiplied by the zero or identity matrix.
+- Provides use cases, such as multiplying a feature matrix by its weights
 
 ## Chapter 7: Matrix Examples
 - TODO try a few of these in spare time (optional)
