@@ -138,11 +138,25 @@ norm-squared values of its subvectors
 - Provides examples, such as a matrix multiplied by the zero or identity matrix.
 - Provides use cases, such as multiplying a feature matrix by its weights
 
-## Chapter 7: Matrix Examples
-- TODO try a few of these in spare time (optional)
-
 ## Chapter 8: Linear Equations
-- TODO fill me in
+### Section 1: Linear and affine functions
+- Vector-valued functions of vectors
+    - Describes the notation for mapping a vector to another vector using functions (p. 147)
+- The matrix-vector product function
+    - Multiplying a matrix (A) by a vector (x) gives a new vector (b)
+- Superposition and linearity
+    - Superposition basically means "the response to multiple inputs is the sum of the responses to each individual input"
+- Linear (like negation) and non linear functions (like absolute value)
+- Affine function (the graph of an affine fn is always a straight line)
+
+### Section 2: Linear function models
+- "Many functions or relations between variables that arise in natural science, engineering, and social sciences can be approximated as linear or affine functions. In these cases we refer to the linear function relating the two sets of variables as a model or an approximation, to remind us that the relation is only an approximation, and not exact" (p. 149).
+- Some examples of this are provided through the Regression model
+
+### Section 3: Systems of linear equations
+- Defines systems of linear equations
+- Ex. x1 + x2 = 3, x2 + x3 = 2 can be modeled like [[1,1,0,3], [0,1,1,2]]
+- Over and under-determined systems of linear equations (i.e. tall, wide, and squaree matrices)
 
 ## Chapter 10: Matrix Multiplication
 - TODO fill me in
