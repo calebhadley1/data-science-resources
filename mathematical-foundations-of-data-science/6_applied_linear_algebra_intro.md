@@ -162,4 +162,36 @@ norm-squared values of its subvectors
 - TODO fill me in
 
 ## Chapter 11: Matrix Inverses
-- TODO do section 0-3
+- "In this chapter we introduce the concept of matrix inverse. We show how matrix inverses can be used to solve linear equations, and how they can be computed using the QR factorization" (p. 199).
+### Section 1: Left and Right Inverses
+- Left inverse
+    - A matrix X that satisifies XA = I is called the left inverse of A
+    - If this matrix exists then A is left invertible
+    - If A has dimensions m x n, then X will be n x m
+    - Left invertible matrices that have one inverse actually have infinite
+    - If A has a left inverse C then the columns of A are linearly independent
+- Right inverse
+    - Closely related to left inverse
+    - A matrix X that satisifies AX = I is called the right inverse of A
+- Transpose
+    - If matrix A has a right inverse B, then B<sup>T</sup> is the left inverese of A<sup>T</sup> (p. 201)
+    - A matrix is right-invertible if and only if its rows are linearly independent
+    - A tall matrix cannot have a right inverse. Only square or wide matrices can be right-invertible
+
+### Section 2: Inverse
+- If a matrix is left- and right-invertible, then the left and right inverses are unique and equal. This is also known as an "invertible or nonsingular matrix" (proof on p. 202)
+- Invertible matrices must be square, since tall matrices are not right-invertible, while wide matrices are not left-invertible
+- Given Ax=b, if A is invertible, then x=A<sup>-1</sup>b is a solution of the equations (p. 203)
+- "For square matrices, left-invertibility, right-invertibility, and invertibility are equivalent: If a matrix is square and left-invertible, then it is also right-invertible (and therefore invertible) and vice-versa" (p. 203). Additionally you can say that the matrix cols and rows are linearly independent
+- Invertible matrices also have an invertible transpose
+- Inverse of matrix product: (AB)<sup>-1</sup> = B<sup>-1</sup>A<sup>-1</sup>
+- Dual basis (p. 205)
+- Negative matrix powers (p. 206)
+- Triangular matrices are invertible (p. 206)
+- Inverse via QR factorization (p. 206)
+
+### Section 3: Solving Linear Equations
+- Back substitution (p. 207)
+- QR factorization (p. 208)
+- Factor solve methods (p. 208)
+- Sparse matrices can be solved faster than the QR methodology. 

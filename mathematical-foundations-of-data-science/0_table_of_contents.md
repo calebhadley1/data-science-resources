@@ -228,13 +228,13 @@
     - Linear Equations
         - [Mathematics of Machine Learning, Chapter 2.1 Systems of Linear Equations](4_mathematics_for_machine_learning.md)
         - [Introduction to Applied Linear Algebra, Chapters 8: Linear Equations](6_applied_linear_algebra_intro.md)
-        - [Mathematics of Machine Learning, Chapter 2.2.4 Compact Representations of Systems of Linear Equations](4_mathematics_for_machine_learning.md) # TODO read this
+        - [Mathematics of Machine Learning, Chapter 2.2.4 Compact Representations of Systems of Linear Equations](4_mathematics_for_machine_learning.md)
         - [Mathematics of Machine Learning, Chapter 2.3 Solving Systems of Linear Equations](4_mathematics_for_machine_learning.md)
         - [Solving linear systems by substitution | Algebra Basics | Khan Academy](https://www.youtube.com/watch?v=V7H1oUHXPkg)
         - [Gaussian Elimination](https://www.youtube.com/watch?v=1IHsX1lgpRI)
         - [Mathematics of Machine Learning, Chapter 2.5 Linear Independence]
         (4_mathematics_for_machine_learning.md)
-        - [Introduction to Applied Linear Algebra, Chapters 11.3: Solving Systems of Linear Equations](6_applied_linear_algebra_intro.md) # TODO read this
+        - [Introduction to Applied Linear Algebra, Chapters 11.3: Solving Systems of Linear Equations](6_applied_linear_algebra_intro.md)
         - [Inverse Matrices and Matrix Equations](https://www.youtube.com/watch?v=a2S0kuXO3gE)
         - Key concepts:
             - Solve linear equations with one or two variables by hand
