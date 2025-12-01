@@ -246,7 +246,7 @@
             - Solve linear equations with NumPy
 12. Vector Spaces
     - [Subspaces](https://mcrovella.github.io/CS132-Geometric-Algorithms/L14Subspaces.html)
-    - [Mathematics of Machine Learning, Chapter 2.4 Vector Spaces](4_mathematics_for_machine_learning.md) # TODO
+    - [Mathematics of Machine Learning, Chapter 2.4 Vector Spaces](4_mathematics_for_machine_learning.md)
     - [Mathematics of Machine Learning, Chapter 2.6 Basis and Rank](4_mathematics_for_machine_learning.md) # TODO
     - [What is a Vector Space?](https://www.youtube.com/watch?v=ozwodzD5bJM)
     - [Dimension and Rank](https://mcrovella.github.io/CS132-Geometric-Algorithms/L15DimensionRank.html)

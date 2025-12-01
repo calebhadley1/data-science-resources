@@ -22,8 +22,25 @@
     - A^T is the notation
 - Multiplication by scalar
 - Systems of equations as matrices
-
 ### Section 3: Solving Systems of Linear Equations
+- Particular vs general solutions to linear equations
+    - Neither are unique
+    - Particular is a single solution, while general describes the set of all solutions
+- A methodology for finding the particular and general soltuions is presented
+    - Gaussian elimination is provided as a way to get a matrix into a form that makes it easier to find solutions (p. 28). The goal is to get the matrix in row echelon form.
+    - Next we find the inverse (p. 34)
+
+### Section 4: Vector Spaces
+- Groups are defined (p. 36)
+- Vector Spaces are defined as a Set with two operations and some additional properties (p. 37)
+- Vector Subspaces are defined as Sets contained in the original vector space with the property that operations on elements in the subspace will never leave it
+
+### Section 5: Linear Independence
+- Basis is the set of vectors with which you can represent every vector in the vector space
+- Definitions for linear combinations and independence are stated in page 40
+    - Linear independence essentially means a set of vectors has no redundancy
+
+### Section 6: Basis and Rank
 - TODO
 
 ### Section 5: Linear Independence
