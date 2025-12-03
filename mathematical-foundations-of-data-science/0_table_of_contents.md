@@ -250,8 +250,8 @@
     - [Mathematics of Machine Learning, Chapter 2.6 Basis and Rank](4_mathematics_for_machine_learning.md) # TODO
     - [What is a Vector Space?](https://www.youtube.com/watch?v=ozwodzD5bJM)
     - [Dimension and Rank](https://mcrovella.github.io/CS132-Geometric-Algorithms/L15DimensionRank.html)
-    - [Introduction to Applied Linear Algebra, Chapters 5.2: Bases](6_applied_linear_algebra_intro.md) # TODO read this
-    - [Mathematics of Machine Learning, Chapter 2.7 Linear Mappings](4_mathematics_for_machine_learning.md) # TODO
+    - [Introduction to Applied Linear Algebra, Chapters 5.2: Bases](6_applied_linear_algebra_intro.md)
+    - [Mathematics of Machine Learning, Chapter 2.7 Linear Mappings](4_mathematics_for_machine_learning.md)
     - [Orthogonal Sets and Projection](https://mcrovella.github.io/CS132-Geometric-Algorithms/L21OrthogonalSets.html) # TODO
     - [Introduction to Applied Linear Algebra, Chapters 5.4: Gram Schmidt Algo](6_applied_linear_algebra_intro.md) # TODO read this
     - [Mathematics of Machine Learning, Chapter 3.5 Orthonormal Bases](4_mathematics_for_machine_learning.md) # TODO

@@ -98,6 +98,11 @@ norm-squared values of its subvectors
 - This reading defines linear dependence and independence.
 - Linear dependence of a list of vectors does not depend on the ordering of the vectors in the list (p. 89)
 - Linear independence holds if Linear dependence is not true
+### Section 2: Bases
+- Independence-dimension inequality states that any three 2-vectors must be linearly
+dependent (p. 91)
+- A collection of n linearly independent n-vectors (i.e., a collection of linearly
+independent vectors of the maximum possible size) is called a basis (p. 92).
 
 ## Chapter 6: Matrices
 - TODO fill me in. make sure to do sec 2, 4
