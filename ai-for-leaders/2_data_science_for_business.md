@@ -420,10 +420,13 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
         - EV = p(o1) * v(o1) + p(o2) * v(o2) + ...
 - Using Expected Value to Frame Classifier Use (p. 194)
     - An example is provided on pages 194/195 that shows how we will use a model based on the expected value calculation
-- Using Expected Value to Frame Classifier Evaluation (p. 195)
+- Using Expected Value to Frame Classifier Evaluation (p. 196)
     - Fig 7.2 is a great framing of how expected value fits into the larger picture of analysis
-- 
-
+    - An example of the expeected profit calculation is shown. First, the confusion matrix is created. Then, the probabilities of each cell in the matrix is calculated. Next, cost and benefit matrix is calculated (p. 199). Finally, expected profit is calculated using both matrices
+- Evaluation, Baseline Performance, and Implications for Investments in Data (p. 204)
+    - We should find the baseline which models should be compared to
+        - Some interesting examples from weather and fraud modeling are given on p. 205-207
+        - Additionally classifier and regression baseline models are explained
 
 ## Chapter 8: Visualizing Model Performance
 - TODO
