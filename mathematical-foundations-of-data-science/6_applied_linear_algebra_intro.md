@@ -98,15 +98,105 @@ norm-squared values of its subvectors
 - This reading defines linear dependence and independence.
 - Linear dependence of a list of vectors does not depend on the ordering of the vectors in the list (p. 89)
 - Linear independence holds if Linear dependence is not true
+### Section 2: Bases
+- Independence-dimension inequality states that any three 2-vectors must be linearly
+dependent (p. 91)
+- A collection of n linearly independent n-vectors (i.e., a collection of linearly
+independent vectors of the maximum possible size) is called a basis (p. 92).
 
 ## Chapter 6: Matrices
-- TODO fill me in. make sure to do sec 2, 4 
+- TODO fill me in. make sure to do sec 2, 4
+### Section 1: Matrices
+- Defines matrices and some common attributes, such as its size or dimensions, elements, and indices.
+- Square, tall and wide matrices
+- Column (e.g. 3x1 vector) and row vectors (e.g. 1x3)
+- Block matrices are matrices of matrices (blocks or submatrices)
 
-## Chapter 7: Matrix Examples
-- TODO try a few of these in spare time (optional)
+### Section 2: Zero and Identity Matrices
+- Zero matrix
+- Identity matrix (diagonal of 1's)
+- Sparse matrix (many entries are zeroes)
+- Diagonal matrix (0 where i != j)
+- Triangular matrix (upper if 0 for i > j. lower if 0 for i < j)
+
+### Section 3: Transpose, Addition and Norm
+- Matrix transpose (A<sub>ij</sub> = A<sub>ji</sub>)
+- Row and column vectors
+    - Transpose converts row vectors into column vectors, and vice versa
+- Transpose of block matrices e.g. [A, B]<sup>T</sup> = [A<sup>T</sup>, B<sup>T</sup>]
+- Document term matrix
+- Data matrix (imagine DataFrame, matrix of features)
+- Symmetric matrix (A == A<sup>T</sup> i.e. A<sub>ij</sub> == A<sub>ji</sub> for all i,j)
+- Matrix addition
+    - Associative
+    - Commutative
+    - Adding zero matrix has no effect
+    - (A + B)<sup>T</sup> = A<sup>T</sup> + B<sup>T</sup>
+- Scalar matrix multiplication
+    - e.g. 2 * [[1,2]], you multiply the scalar by each element
+- Matrix norm
+    - Sqrt of the sum of the squares of its entries
+    - Allows us to measure distance between matrices
+
+### Section 4: Matrix-vector Multiplication
+- Defines matrix-vector multiplication
+- Provides examples, such as a matrix multiplied by the zero or identity matrix.
+- Provides use cases, such as multiplying a feature matrix by its weights
+
+## Chapter 8: Linear Equations
+### Section 1: Linear and affine functions
+- Vector-valued functions of vectors
+    - Describes the notation for mapping a vector to another vector using functions (p. 147)
+- The matrix-vector product function
+    - Multiplying a matrix (A) by a vector (x) gives a new vector (b)
+- Superposition and linearity
+    - Superposition basically means "the response to multiple inputs is the sum of the responses to each individual input"
+- Linear (like negation) and non linear functions (like absolute value)
+- Affine function (the graph of an affine fn is always a straight line)
+
+### Section 2: Linear function models
+- "Many functions or relations between variables that arise in natural science, engineering, and social sciences can be approximated as linear or affine functions. In these cases we refer to the linear function relating the two sets of variables as a model or an approximation, to remind us that the relation is only an approximation, and not exact" (p. 149).
+- Some examples of this are provided through the Regression model
+
+### Section 3: Systems of linear equations
+- Defines systems of linear equations
+- Ex. x1 + x2 = 3, x2 + x3 = 2 can be modeled like [[1,1,0,3], [0,1,1,2]]
+- Over and under-determined systems of linear equations (i.e. tall, wide, and squaree matrices)
 
 ## Chapter 10: Matrix Multiplication
 - TODO fill me in
 
 ## Chapter 11: Matrix Inverses
-- TODO do section 0-2
+- "In this chapter we introduce the concept of matrix inverse. We show how matrix inverses can be used to solve linear equations, and how they can be computed using the QR factorization" (p. 199).
+### Section 1: Left and Right Inverses
+- Left inverse
+    - A matrix X that satisifies XA = I is called the left inverse of A
+    - If this matrix exists then A is left invertible
+    - If A has dimensions m x n, then X will be n x m
+    - Left invertible matrices that have one inverse actually have infinite
+    - If A has a left inverse C then the columns of A are linearly independent
+- Right inverse
+    - Closely related to left inverse
+    - A matrix X that satisifies AX = I is called the right inverse of A
+- Transpose
+    - If matrix A has a right inverse B, then B<sup>T</sup> is the left inverese of A<sup>T</sup> (p. 201)
+    - A matrix is right-invertible if and only if its rows are linearly independent
+    - A tall matrix cannot have a right inverse. Only square or wide matrices can be right-invertible
+
+### Section 2: Inverse
+- If a matrix is left- and right-invertible, then the left and right inverses are unique and equal. This is also known as an "invertible or nonsingular matrix" (proof on p. 202)
+- Invertible matrices must be square, since tall matrices are not right-invertible, while wide matrices are not left-invertible
+- Given Ax=b, if A is invertible, then x=A<sup>-1</sup>b is a solution of the equations (p. 203)
+- "For square matrices, left-invertibility, right-invertibility, and invertibility are equivalent: If a matrix is square and left-invertible, then it is also right-invertible (and therefore invertible) and vice-versa" (p. 203). Additionally you can say that the matrix cols and rows are linearly independent
+- Invertible matrices also have an invertible transpose
+- Inverse of matrix product: (AB)<sup>-1</sup> = B<sup>-1</sup>A<sup>-1</sup>
+- Dual basis (p. 205)
+- Negative matrix powers (p. 206)
+- Triangular matrices are invertible (p. 206)
+- Inverse via QR factorization (p. 206)
+
+### Section 3: Solving Linear Equations
+- Back substitution (p. 207)
+- QR factorization (p. 208)
+- Factor solve methods (p. 208)
+- Sparse matrices can be solved faster than the QR methodology. 

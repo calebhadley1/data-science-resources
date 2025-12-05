@@ -199,10 +199,10 @@
         - [Mathematics of Machine Learning, Chapter 2.2 Matrices](4_mathematics_for_machine_learning.md)
         - [Introduction to Applied Linear Algebra, Chapters 6: Matrices](6_applied_linear_algebra_intro.md)
         - [CS132 Lecture Notes: Linear Transformations](https://mcrovella.github.io/CS132-Geometric-Algorithms/L07LinearTransformations.html)
-        - [CS132 Lecture Notes: The Matrix of a Linear Transformation](https://mcrovella.github.io/CS132-Geometric-Algorithms/L08MatrixofLinearTranformation.html) # TODO read this
-        - [CS132 Lecture Notes: The Inverse of a Matrix](https://mcrovella.github.io/CS132-Geometric-Algorithms/L10MatrixInverse.html) # TODO read this
-        - [CS132 Lecture Notes: Eigenvectors and Eigenvalues](https://mcrovella.github.io/CS132-Geometric-Algorithms/L16Eigenvectors.html) # TODO read this
-        - [Mathematics of Machine Learning, Chapter 4.2 Eigenvectors and Eigenvalues](4_mathematics_for_machine_learning.md) # TODO read this
+        - [CS132 Lecture Notes: The Matrix of a Linear Transformation](https://mcrovella.github.io/CS132-Geometric-Algorithms/L08MatrixofLinearTranformation.html)
+        - [CS132 Lecture Notes: The Inverse of a Matrix](https://mcrovella.github.io/CS132-Geometric-Algorithms/L10MatrixInverse.html)
+        - [CS132 Lecture Notes: Eigenvectors and Eigenvalues](https://mcrovella.github.io/CS132-Geometric-Algorithms/L16Eigenvectors.html)
+        - [Mathematics of Machine Learning, Chapter 4.2 Eigenvectors and Eigenvalues](4_mathematics_for_machine_learning.md)
         - Personal Reccomendations:
             - [3Blue1Brown - Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
         - Key concepts:
@@ -224,3 +224,71 @@
             - Use row operations in the context of matrix equations 
             - Explain matrix ranks and how they limit the use of matrices
             - Explain when to use Gaussian elimination
+11. Systems of Linear Equations
+    - Linear Equations
+        - [Mathematics of Machine Learning, Chapter 2.1 Systems of Linear Equations](4_mathematics_for_machine_learning.md)
+        - [Introduction to Applied Linear Algebra, Chapters 8: Linear Equations](6_applied_linear_algebra_intro.md)
+        - [Mathematics of Machine Learning, Chapter 2.2.4 Compact Representations of Systems of Linear Equations](4_mathematics_for_machine_learning.md)
+        - [Mathematics of Machine Learning, Chapter 2.3 Solving Systems of Linear Equations](4_mathematics_for_machine_learning.md)
+        - [Solving linear systems by substitution | Algebra Basics | Khan Academy](https://www.youtube.com/watch?v=V7H1oUHXPkg)
+        - [Gaussian Elimination](https://www.youtube.com/watch?v=1IHsX1lgpRI)
+        - [Mathematics of Machine Learning, Chapter 2.5 Linear Independence]
+        (4_mathematics_for_machine_learning.md)
+        - [Introduction to Applied Linear Algebra, Chapters 11.3: Solving Systems of Linear Equations](6_applied_linear_algebra_intro.md)
+        - [Inverse Matrices and Matrix Equations](https://www.youtube.com/watch?v=a2S0kuXO3gE)
+        - Key concepts:
+            - Solve linear equations with one or two variables by hand
+            - Use row operations in the context of systems of linear equations
+            - Explain the basic conditions for linear independence
+            - Check if a pair of equations or matrix rows is collinear
+            - Confirm a row is linearly dependent given the asserted coefficients
+            - Solve small systems of linear equations with Gaussian elimination and back substitution
+            - Solve linear equations with NumPy
+12. Vector Spaces
+    - [Subspaces](https://mcrovella.github.io/CS132-Geometric-Algorithms/L14Subspaces.html)
+    - [Mathematics of Machine Learning, Chapter 2.4 Vector Spaces](4_mathematics_for_machine_learning.md)
+    - [Mathematics of Machine Learning, Chapter 2.6 Basis and Rank](4_mathematics_for_machine_learning.md) # TODO
+    - [What is a Vector Space?](https://www.youtube.com/watch?v=ozwodzD5bJM)
+    - [Dimension and Rank](https://mcrovella.github.io/CS132-Geometric-Algorithms/L15DimensionRank.html)
+    - [Introduction to Applied Linear Algebra, Chapters 5.2: Bases](6_applied_linear_algebra_intro.md)
+    - [Mathematics of Machine Learning, Chapter 2.7 Linear Mappings](4_mathematics_for_machine_learning.md)
+    - [Orthogonal Sets and Projection](https://mcrovella.github.io/CS132-Geometric-Algorithms/L21OrthogonalSets.html) # TODO
+    - [Introduction to Applied Linear Algebra, Chapters 5.4: Gram Schmidt Algo](6_applied_linear_algebra_intro.md) # TODO read this
+    - [Mathematics of Machine Learning, Chapter 3.5 Orthonormal Bases](4_mathematics_for_machine_learning.md) # TODO
+    - [Mathematics of Machine Learning, Chapter 3.4 Angles and Orthogonality](4_mathematics_for_machine_learning.md) # TODO
+    - [Orthogonal Matrices Preserve Angles and Lengths](https://www.youtube.com/watch?v=yDwIfYjKEeo) # TODO
+    - [Mathematics of Machine Learning, Chapter 3.8 Orthogonal Projections](4_mathematics_for_machine_learning.md) # TODO
+    - [Mathematics of Machine Learning, Chapter 8.4.3 Latent Variable Models](4_mathematics_for_machine_learning.md) # TODO
+    - [Angles for Manifold Learning (Up to Section 3)](https://www.lcayton.com/resexam.pdf)
+    - Key concepts:
+        - Vector space: an algebraic structure with a non-empty set of elements along with a vector addition operator and a scalar multiplication function
+        - Linear subspace: a vector space contained within another vector space
+        - Generating set: a set of elements that can generate any element of a vector space using linear combinations
+        - Linear span: a vector space generated by a particular set of elements
+        - Basis of vector space: a minimal generating set for a particular vector space
+        - Dimension of vector space: the size of a basis for a particular vector space
+        - Coordinates: a (usually) smaller vector describing elements of a vector space as a linear combination of a particular basis
+        - Orthogonal basis: a basis whose elements are orthogonal
+        - Orthonormal basis: an orthogonal basis whose elements are also unit vectors
+        - Projection: an idempotent linear transform of a vector space
+13. Linear Dimensionality Reductions
+    - Linear Dimensionality Reductions
+        - [What is dimensionality reduction?](https://www.ibm.com/think/topics/dimensionality-reduction)
+        - [Curse of Dimensionality – A “Curse” to Machine Learning](https://towardsdatascience.com/curse-of-dimensionality-a-curse-to-machine-learning-c122ee33bfeb/)
+        - [The Curse of Dimensionality](https://www.youtube.com/watch?v=oTSj0TTDSPI)
+        - [Terence Tao slides, Compressed Sensing, Or: The Equation Ax=b](https://www.math.hkbu.edu.hk/~ttang/UsefulCollections/compressed-sensing1.pdf)
+        - [IBM Topics: What Is Linear Discriminant Analysis (LDA)](https://www.ibm.com/topics/linear-discriminant-analysis)
+    - Principal Components Analysis
+        - [Dimensionality Reduction and PCA – SVD II](https://mcrovella.github.io/DS701-Tools-for-Data-Science/11-Dimensionality-Reduction-SVD-II.html)
+        - [Mathematics of Machine Learning, Chapter 10-10.2 Dimensionality Reduction with PCA](4_mathematics_for_machine_learning.md) # TODO
+        - [Mathematics of Machine Learning, Chapter 10.3 Projection Perspective](4_mathematics_for_machine_learning.md) # TODO
+        - [Mathematics of Machine Learning, Chapter 10.7 Latent Variable Perspective](4_mathematics_for_machine_learning.md) # TODO
+        - [Least Squares as Springs](https://joshualoftus.com/posts/2020-11-23-least-squares-as-springs/least-squares-as-springs.html)
+        - [Mathematics of Machine Learning, Chapter 10.6 Key Steps of PCA in Practice](4_mathematics_for_machine_learning.md) # TODO
+    - Key concepts:
+        - Explain the benefits of dimensionality reductions for feature creation, computation, and visualization
+        - Define linear dimensionality reductions using matrices 
+        - Implement random projections for dimensionality reduction
+        - Explain principal components analysis as a change of basis 
+        - Explain principal components analysis as a linear dimensionality reduction 
+        - Explain principal components analysis as lossy compression

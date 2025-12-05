@@ -22,10 +22,36 @@
     - A^T is the notation
 - Multiplication by scalar
 - Systems of equations as matrices
+### Section 3: Solving Systems of Linear Equations
+- Particular vs general solutions to linear equations
+    - Neither are unique
+    - Particular is a single solution, while general describes the set of all solutions
+- A methodology for finding the particular and general soltuions is presented
+    - Gaussian elimination is provided as a way to get a matrix into a form that makes it easier to find solutions (p. 28). The goal is to get the matrix in row echelon form.
+    - Next we find the inverse (p. 34)
+### Section 4: Vector Spaces
+- Groups are defined (p. 36)
+- Vector Spaces are defined as a Set with two operations and some additional properties (p. 37)
+- Vector Subspaces are defined as Sets contained in the original vector space with the property that operations on elements in the subspace will never leave it
 ### Section 5: Linear Independence
 - A basis is a set of vectors with which we can represent every vector in the vector space by adding them together and scaling them
 - A linear combination is an expression formed by multiplying each of a set of vectors by a scalar (a constant number) and then adding the results together
 - A set of linearly independent vectors consists of vectors that have no redundancy, i.e., if we remove any of those vectors from the set, we will lose something
+### Section 6: Basis and Rank
+- In the vector space V, we are interested in sets of vectors A that have the property that any vector in V can be obtained by linear combinations of vectors in A.
+    - A is called a generating set of V
+    - A generating set is *minimal* if there is no smaller set that spans V. Every linearly independent gennerating set of V is minimal and called a *basis* of V
+- Every V possesses a basis
+- There is no unique basis for V. Rather there are many basis
+- The number of basis vectors corresponds to the dimensions of the vector space
+- The number of linearly independent columns of a matrix A ∈ R<sup>m×n</sup> equals the number of linearly independent rows and is called the rank rank of A and is denoted by rk(A)
+- Page 47 outlines properties of rank
+### Section 7: Linear Mappings
+- A linear mapping is a function between two vector spaces that preserves vector addition and scalar multiplication. i.e. L(v + w) = L(v) + L(w)
+- Linear mappings can be represented as matrices
+- The transformation matrix is defined on page 51
+- Basis Change
+- Image and Kernal of a linear mapping
 
 ## Chapter 4: Matrix Decompositions
 ### Section 2: Eigenvectors and Eigenvalues

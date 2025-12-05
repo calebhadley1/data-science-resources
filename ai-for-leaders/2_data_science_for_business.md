@@ -386,3 +386,50 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
     - KNN
     - Clustering
     - K Means
+
+## Chapter 7: Decision Analytics Thinking I: What Makes a Good Model?
+- Fundamental concepts (p. 187):
+    - Careful consideration of what is desired from data science results
+    - Expected value as a key evaluation framework
+    - Consideration of appropriate comparative baselines
+- Exemplary techniques (p. 187):
+    - Evaluation metrics
+    - Estimating cost and benefits
+    - Calculating expected profit
+    - Creating baseline methods for comparison
+- Page 187 describes how it is often difficult to measure model success. There is no right metric for every use case. It is important to use analytic thinking when selecting evaluation metrics.
+- Evaluating Classifiers (p. 188)
+    - In Ch 5 we introduced the holdout set for measuring generalization performance. But we never mentioned by which metrics you should measure this
+- Plain Accuracy and its Problems (p. 189)
+    - Just measuring accuracy has problems dicussed by Provost and Fawcett (https://www.researchgate.net/profile/Tom-Fawcett/publication/2373067_The_Case_Against_Accuracy_Estimation_for_Comparing_Induction_Algorithms/links/0fcfd51088470286cf000000/The-Case-Against-Accuracy-Estimation-for-Comparing-Induction-Algorithms.pdf)
+    - We can use confusion matrix to uncover those problems
+- The Confusion Matrix (p. 189)
+    - "Class Confusion" and the "Confusion Matrix"
+- Problems with Unbalanced Classes (p. 190)
+    - Evaluation using accuracy breaks down for unbalanced classes
+- Problems with Unequal Cost and Benefits (p. 193)
+    - Accuracy makes no distinctions in the errors. The reading provides examples of a false negative vs false positive in a cancer diagnosis resulting. False negative is a diagnosis that they do not have cancer, very bad. False positive means they get the diagnosis and take extra tests, not too bad.
+- Generalizing Beyond Classification (p. 193)
+    - The previous examples generalize beyond classification to show that it is really important what evaluation metric we select. You should not simply select a metric that you learned about in a class
+- A Key Analytical Framework: Expected Value (p. 194)
+    - Decomposes data analytic thinking into:
+        1. The structure of the problem
+        2. The elements of the analysis that can be extracted from the data
+        3. The elements of the analysis that need to be acquired from other sources (like SMEs)
+    - Expected value calculation is defined:
+        - EV = p(o1) * v(o1) + p(o2) * v(o2) + ...
+- Using Expected Value to Frame Classifier Use (p. 194)
+    - An example is provided on pages 194/195 that shows how we will use a model based on the expected value calculation
+- Using Expected Value to Frame Classifier Evaluation (p. 196)
+    - Fig 7.2 is a great framing of how expected value fits into the larger picture of analysis
+    - An example of the expeected profit calculation is shown. First, the confusion matrix is created. Then, the probabilities of each cell in the matrix is calculated. Next, cost and benefit matrix is calculated (p. 199). Finally, expected profit is calculated using both matrices
+- Evaluation, Baseline Performance, and Implications for Investments in Data (p. 204)
+    - We should find the baseline which models should be compared to
+        - Some interesting examples from weather and fraud modeling are given on p. 205-207
+        - Additionally classifier and regression baseline models are explained
+
+## Chapter 8: Visualizing Model Performance
+- TODO
+
+## Chapter 9: Evidence and Probabilities
+- TODO
