@@ -429,7 +429,19 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
         - Additionally classifier and regression baseline models are explained
 
 ## Chapter 8: Visualizing Model Performance
-- TODO
+- Fundamental Concepts:
+    - Visualization of model performance under different kinds of uncertainty
+    - Consideration of what is desired from data mining results
+- Exemplary techniques
+    - Profit curves
+    - Cumulative response curves
+    - Lift curves
+    - ROC curves
+- It is often useful to present visualizations rather than calculations like the expected profit in the previous chapter
+- Ranking Instead of Classifying
+    - If you get predictions on a list of cases, you can sort/rank them and act upon only the strongest predictions. This strategy is used when you have budgets
+- Profit Curves
+    - 
 
 ## Chapter 9: Evidence and Probabilities
 - TODO
