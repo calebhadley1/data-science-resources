@@ -441,7 +441,27 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
 - Ranking Instead of Classifying
     - If you get predictions on a list of cases, you can sort/rank them and act upon only the strongest predictions. This strategy is used when you have budgets
 - Profit Curves
-    - 
+    - These curves allow us to visualize how moving a threshholding value in a classifier changes the outcomes of how many positive and negative instances we get
+    - First you rank the probabilities for all instances, and use the threshold to classify which are positive and negative instances
+    - Fig 8.2 on Page 213 gives a great example of this
+    - You can also apply budgets to this concept by finding the cost of each instance to determine the max # of instances you can select, and ranking your classifiers at that given point (p. 214)
+    - ![Profit Curves - Data Science for Business](profit_curves.png)
+- ROC Graphs and Curves
+    - Profit curves are appropriate when you know the conditions under which a classifier will be used
+        - Class priors: The population of pos and neg instances in the target population (base rate).
+        - Costs and Benefits: Expected profit is sensitive to the relative levels of costs and beneifts for the different cells of the cost benefit matrix
+    - If either of those conditions is unknown, you can use ROC Curves
+    - Pages 216-218 discuss how to interpret the ROC curve results
+    - Page 219 details "The Area under the ROC Cure (AUC)"
+    - ![ROC Curves - Data Science for Business](roc.png)
+- Cumulative Response and Lift Curves
+    - ROC curves are not always intuitive for business stakeholders. Other more intuitive visualizations include "cumulative response curve"
+    - This visualization plots the hit rate
+    - ![Response Curves - Data Science for Business](cumulative_response_curve.png) 
+- Example: Churn
+    - Pages 223 - 230 outline how to apply the concepts from this chapter to a case study
+- Summary
+    - "Appropiximate Statistical Tests for Comparing Supervised Classificaiton Learning Algorithms" and "Evaluating Learning Algorithms: A Classification Perspective" are reccomended as follow up resources
 
 ## Chapter 9: Evidence and Probabilities
-- TODO
+- 
