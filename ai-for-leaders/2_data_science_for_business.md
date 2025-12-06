@@ -464,4 +464,34 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
     - "Appropiximate Statistical Tests for Comparing Supervised Classificaiton Learning Algorithms" and "Evaluating Learning Algorithms: A Classification Perspective" are reccomended as follow up resources
 
 ## Chapter 9: Evidence and Probabilities
-- 
+- Fundamental concepts:
+    - Explicit evidence combination with Bayes' Rule
+    - Probabalistic reasoning via assumptions of conditional independence
+- Exemplary techniques
+    - Naive Bayes classification
+    - Evidence lift
+- Example: Targeting Online Customers with Advertisements
+    - A case study of online advertisements is presented. Browser cookies are used for the target variable to know whether someone purchased a hotel after seeing the ads. The other features are which ads a user has seen.
+- Combining Evidence Probabilistically
+    - The issues with trying to find a probability that any customer in the previously outlined case study will buy a hotel is discussed. Namely, "any" customer is really hard since we likely only have a small number of labels to train on. And these labels will not describe all possible customers. So we start by building evidence on specific customers, and try to extend it to all customers afterwards.
+- Joint Probability and Independence
+    - "Joint probability" i.e. p(AB)
+    - If we know p(A) and p(B), we know the joint prob when A and B are independent
+- Bayes' Rule
+    - We can compute the prob of hypothesis H given some evidence E by looking at the prob of E given H, as well as the unconditional prob of H and E
+- Applying Bayes' Rule to Data Science
+    - Bayes' is applied to the case of classification on pages 239/240
+- Conditional Independence and Naive Bayes
+    - Naive Bayes equation is built expanding upon Bayes' Rule using conditional probabilities
+- Advantages and Disadvantages of Naive Bayes
+    - Advantages include its simplicity as a baseline classifier. Drawbacks are that it assumes independence
+- A Model of Evidence "Lift"
+    - Lift is applied to Naive Bayes. Essentially each feature will represent a lift or lower to the chance of an instance being a class
+- Example: Evidence Lifts from Facebook "Likes"
+    - A paper published in "Proceedings of the National Academy of Sciences" on Facebook likes is outlined
+    - Each topic that people like can have a lift on whether they are high IQ, for instance
+- Summary
+    - A new family of methods turn around the discriminant line of models. Linear discriminants ask "What is the best way to distinguish target values." These new models ask "How do different target segments generate feature values" (Which class most likely created this piece of data)
+    - These are called Bayesian methods
+    - Naive Bayes classifier is provided as an example model
+    - Certain Bayesian methods have independence assumptions which can allow us to compute evidence lift (If you like LOTR you are 69% more likely to have high IQ)
