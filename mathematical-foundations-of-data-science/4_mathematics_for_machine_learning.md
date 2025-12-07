@@ -194,3 +194,12 @@
 - Sets the scene for the problem statement. Essentially we have multi dimension data and would like some way to compress the data without losing too much information (*minimize the compression loss*). This is where PCA comes in
 ### Section 2: Maximum Variance Perspective
 - "If we interpret information content in the data as how “space filling” the dataset is, then we can describe the information contained in the data by looking at the spread of the data. From Section 6.4.1, we know that the variance is an indicator of the spread of the data, and we can derive PCA as a dimensionality reduction algorithm that maximizes the variance in the low-dimensional representation of the data to retain as much information as possible. Figure 10.4 illustrates this" (p. 320).
+### Section 3: Projection Perspective
+- This section shows how PCA can be derived
+### Section 6: Key Steps of PCA in Practice
+- Mean subtraction
+- Standardization
+- Eigendecomposition of the covariance matrix
+- Projection
+### Section 7: Latent Variable Perspective
+- Builds upon the previous derivation of PCA by introducing latent variable to include probabilistic modeling

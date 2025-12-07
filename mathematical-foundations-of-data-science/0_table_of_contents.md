@@ -280,11 +280,11 @@
         - [IBM Topics: What Is Linear Discriminant Analysis (LDA)](https://www.ibm.com/topics/linear-discriminant-analysis)
     - Principal Components Analysis
         - [Dimensionality Reduction and PCA – SVD II](https://mcrovella.github.io/DS701-Tools-for-Data-Science/11-Dimensionality-Reduction-SVD-II.html)
-        - [Mathematics of Machine Learning, Chapter 10-10.2 Dimensionality Reduction with PCA](4_mathematics_for_machine_learning.md) # TODO
-        - [Mathematics of Machine Learning, Chapter 10.3 Projection Perspective](4_mathematics_for_machine_learning.md) # TODO
-        - [Mathematics of Machine Learning, Chapter 10.7 Latent Variable Perspective](4_mathematics_for_machine_learning.md) # TODO
+        - [Mathematics of Machine Learning, Chapter 10-10.2 Dimensionality Reduction with PCA](4_mathematics_for_machine_learning.md)
+        - [Mathematics of Machine Learning, Chapter 10.3 Projection Perspective](4_mathematics_for_machine_learning.md)
+        - [Mathematics of Machine Learning, Chapter 10.7 Latent Variable Perspective](4_mathematics_for_machine_learning.md)
         - [Least Squares as Springs](https://joshualoftus.com/posts/2020-11-23-least-squares-as-springs/least-squares-as-springs.html)
-        - [Mathematics of Machine Learning, Chapter 10.6 Key Steps of PCA in Practice](4_mathematics_for_machine_learning.md) # TODO
+        - [Mathematics of Machine Learning, Chapter 10.6 Key Steps of PCA in Practice](4_mathematics_for_machine_learning.md)
     - Key concepts:
         - Explain the benefits of dimensionality reductions for feature creation, computation, and visualization
         - Define linear dimensionality reductions using matrices 

@@ -12,7 +12,6 @@
 - Ones vector (e.g. [1,1,1])
 - A vector is sparse if many elements are zeroes
 - Pages 6-11 covers examples where vectors can be used. For example representing color, time series, etc.
-
 ### Section 2: Vector Addition
 - Vector Addition is the element wise addition of two vectors. e.g. [1,2,3] + [4,5,6] = [5,7,9]
 - Vector Subtraction is the logical opposite of vector addition. e.g. [5,7,9] - [1,2,3] = [4,5,6]
@@ -22,7 +21,6 @@
     - Adding zero vector to a vector has no effect
     - Subtracting a vector from itself yields the zero vector
 - Pages 12-14 covers examples where vector addition may be useful
-
 ### Section 3: Scalar-vector Multiplication
 - Scalar-vector Multiplication is also just known as scalar multiplication
 - Performed by multiplying each element in the vector by a scalar. e.g. (-3) * [1,2,3] = [-3,-6,-9]
@@ -71,7 +69,6 @@
 - Norm of block vectors: The norm-squared of a stacked vector is the sum of the
 norm-squared values of its subvectors
 - Chebyshev inequality (p. 47)
-
 ### Section 2: Distance
 - This reading defines the Euclidean distance between two vectors, and general requirements for distance functions.
 - Euclidian distance: We can use the norm to define the Euclidean distance between two vectors a and b as the norm of their difference: dist(a,b) = ||a-b||
@@ -79,7 +76,6 @@ norm-squared values of its subvectors
 - The origin of the name "triangle inequality" is described on page 49 by building upon the definition of euclidian distance
 - Pages 50-51 include examples
 - Units for heterogeneous vector entries: Basically be careful when using euclidian distance on a vector which describes multiple features because the distances between elements might not describe the same units. (difference of 1 may be huge for one feature and small for another)
-
 ### Section 3: Standard Deviation
 - The standard deviation of a vector x tells us the typical amount by which its entries deviate from their average value
 - Covers standardization of the standard deviation with zscores
@@ -109,20 +105,17 @@ independent vectors of the maximum possible size) is called a basis (p. 92).
 
 
 ## Chapter 6: Matrices
-- TODO fill me in. make sure to do sec 2, 4
 ### Section 1: Matrices
 - Defines matrices and some common attributes, such as its size or dimensions, elements, and indices.
 - Square, tall and wide matrices
 - Column (e.g. 3x1 vector) and row vectors (e.g. 1x3)
 - Block matrices are matrices of matrices (blocks or submatrices)
-
 ### Section 2: Zero and Identity Matrices
 - Zero matrix
 - Identity matrix (diagonal of 1's)
 - Sparse matrix (many entries are zeroes)
 - Diagonal matrix (0 where i != j)
 - Triangular matrix (upper if 0 for i > j. lower if 0 for i < j)
-
 ### Section 3: Transpose, Addition and Norm
 - Matrix transpose (A<sub>ij</sub> = A<sub>ji</sub>)
 - Row and column vectors
@@ -141,7 +134,6 @@ independent vectors of the maximum possible size) is called a basis (p. 92).
 - Matrix norm
     - Sqrt of the sum of the squares of its entries
     - Allows us to measure distance between matrices
-
 ### Section 4: Matrix-vector Multiplication
 - Defines matrix-vector multiplication
 - Provides examples, such as a matrix multiplied by the zero or identity matrix.
@@ -157,18 +149,13 @@ independent vectors of the maximum possible size) is called a basis (p. 92).
     - Superposition basically means "the response to multiple inputs is the sum of the responses to each individual input"
 - Linear (like negation) and non linear functions (like absolute value)
 - Affine function (the graph of an affine fn is always a straight line)
-
 ### Section 2: Linear function models
 - "Many functions or relations between variables that arise in natural science, engineering, and social sciences can be approximated as linear or affine functions. In these cases we refer to the linear function relating the two sets of variables as a model or an approximation, to remind us that the relation is only an approximation, and not exact" (p. 149).
 - Some examples of this are provided through the Regression model
-
 ### Section 3: Systems of linear equations
 - Defines systems of linear equations
 - Ex. x1 + x2 = 3, x2 + x3 = 2 can be modeled like [[1,1,0,3], [0,1,1,2]]
 - Over and under-determined systems of linear equations (i.e. tall, wide, and squaree matrices)
-
-## Chapter 10: Matrix Multiplication
-- TODO fill me in
 
 ## Chapter 11: Matrix Inverses
 - "In this chapter we introduce the concept of matrix inverse. We show how matrix inverses can be used to solve linear equations, and how they can be computed using the QR factorization" (p. 199).
@@ -186,7 +173,6 @@ independent vectors of the maximum possible size) is called a basis (p. 92).
     - If matrix A has a right inverse B, then B<sup>T</sup> is the left inverese of A<sup>T</sup> (p. 201)
     - A matrix is right-invertible if and only if its rows are linearly independent
     - A tall matrix cannot have a right inverse. Only square or wide matrices can be right-invertible
-
 ### Section 2: Inverse
 - If a matrix is left- and right-invertible, then the left and right inverses are unique and equal. This is also known as an "invertible or nonsingular matrix" (proof on p. 202)
 - Invertible matrices must be square, since tall matrices are not right-invertible, while wide matrices are not left-invertible
@@ -198,7 +184,6 @@ independent vectors of the maximum possible size) is called a basis (p. 92).
 - Negative matrix powers (p. 206)
 - Triangular matrices are invertible (p. 206)
 - Inverse via QR factorization (p. 206)
-
 ### Section 3: Solving Linear Equations
 - Back substitution (p. 207)
 - QR factorization (p. 208)
