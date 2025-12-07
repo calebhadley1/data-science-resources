@@ -103,6 +103,10 @@ norm-squared values of its subvectors
 dependent (p. 91)
 - A collection of n linearly independent n-vectors (i.e., a collection of linearly
 independent vectors of the maximum possible size) is called a basis (p. 92).
+### Section 4: Gram Schmidt Algorithm
+- This algorithm allows you to find if a list of n vectors is linearly independent
+- If the vectors are linearly independent, this algo produces an orthonormal collection of vectors
+
 
 ## Chapter 6: Matrices
 - TODO fill me in. make sure to do sec 2, 4

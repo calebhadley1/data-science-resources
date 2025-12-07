@@ -252,13 +252,13 @@
     - [Dimension and Rank](https://mcrovella.github.io/CS132-Geometric-Algorithms/L15DimensionRank.html)
     - [Introduction to Applied Linear Algebra, Chapters 5.2: Bases](6_applied_linear_algebra_intro.md)
     - [Mathematics of Machine Learning, Chapter 2.7 Linear Mappings](4_mathematics_for_machine_learning.md)
-    - [Orthogonal Sets and Projection](https://mcrovella.github.io/CS132-Geometric-Algorithms/L21OrthogonalSets.html) # TODO
-    - [Introduction to Applied Linear Algebra, Chapters 5.4: Gram Schmidt Algo](6_applied_linear_algebra_intro.md) # TODO read this
-    - [Mathematics of Machine Learning, Chapter 3.5 Orthonormal Bases](4_mathematics_for_machine_learning.md) # TODO
-    - [Mathematics of Machine Learning, Chapter 3.4 Angles and Orthogonality](4_mathematics_for_machine_learning.md) # TODO
-    - [Orthogonal Matrices Preserve Angles and Lengths](https://www.youtube.com/watch?v=yDwIfYjKEeo) # TODO
-    - [Mathematics of Machine Learning, Chapter 3.8 Orthogonal Projections](4_mathematics_for_machine_learning.md) # TODO
-    - [Mathematics of Machine Learning, Chapter 8.4.3 Latent Variable Models](4_mathematics_for_machine_learning.md) # TODO
+    - [Orthogonal Sets and Projection](https://mcrovella.github.io/CS132-Geometric-Algorithms/L21OrthogonalSets.html)
+    - [Introduction to Applied Linear Algebra, Chapters 5.4: Gram Schmidt Algo](6_applied_linear_algebra_intro.md)
+    - [Mathematics of Machine Learning, Chapter 3.5 Orthonormal Bases](4_mathematics_for_machine_learning.md)
+    - [Mathematics of Machine Learning, Chapter 3.4 Angles and Orthogonality](4_mathematics_for_machine_learning.md)
+    - [Orthogonal Matrices Preserve Angles and Lengths](https://www.youtube.com/watch?v=yDwIfYjKEeo)
+    - [Mathematics of Machine Learning, Chapter 3.8 Orthogonal Projections](4_mathematics_for_machine_learning.md)
+    - [Mathematics of Machine Learning, Chapter 8.4.3 Latent Variable Models](4_mathematics_for_machine_learning.md)
     - [Angles for Manifold Learning (Up to Section 3)](https://www.lcayton.com/resexam.pdf)
     - Key concepts:
         - Vector space: an algebraic structure with a non-empty set of elements along with a vector addition operator and a scalar multiplication function
