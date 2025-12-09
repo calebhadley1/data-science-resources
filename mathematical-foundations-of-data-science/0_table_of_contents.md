@@ -292,3 +292,46 @@
         - Explain principal components analysis as a change of basis 
         - Explain principal components analysis as a linear dimensionality reduction 
         - Explain principal components analysis as lossy compression
+14. Course Wrap Up
+    - Linear Methods in a Nonlinear World
+        - Big Data is Often Approximately Low Rank
+            - Modern datasets are exploding in size. Numer.ai produced a dataset in 2021 with over 1,000 features and 2 million rows. GPT-3.5 was trained on 570GB of data, over 2,000 features and 400 billion rows
+            - Random matrices have high expected rank (very unlikely for rows to be dependent due to randomness)
+            - ![White Noise](white_noise.png)
+            - Most high dimensional datasets have a low dimensional structure that we call a manifold
+            - Most work in data science has a manifold structure of lower dimension than the number of columns
+            - ![BU CDS](bu.png)
+            - Low rank approximations of matrices can be identified using approaches like PCA. 
+            - [Why are Big Data Matrices Approximately Low Rank?](https://arxiv.org/abs/1705.07474)
+            - [Journal of Cognitive Neuroscience, Eigenfaces for Recognition](https://www.face-rec.org/algorithms/PCA/jcn.pdf) shows that faces have low dimensional representations
+            - [The Bell System Technical Journal, C.E. Shannon, Prediction and Entropy of Printed English](https://ieeexplore.ieee.org/document/6773263)
+            - [Super Massive Data Release: Deep Dive](https://forum.numer.ai/t/super-massive-data-release-deep-dive/4053)
+        - Loss Functions and Gradient Descent
+            - Newton's Method and Gradient Descent are methods for function minimization
+            - [Derivatives… What?](https://www.youtube.com/watch?v=-ktrtzYVk_I)
+            - [Visually Explained: Newton’s Method in Optimization](https://www.youtube.com/watch?v=W7S94pq5Xuo)
+            - [Gradient Descent in 3 Minutes](https://www.youtube.com/watch?v=qg4PchTECck)
+    - Beyond Linear Methods
+        - Natural Encodings of Data
+            - There are often encodings of data that make it easier to reason about and simulate. For example, in a GPS you do not often need x/y/z coorindates, you just need x/y.
+            - [Representing Scenes as Neural Radiance Fields for View Synthesis](https://www.matthewtancik.com/nerf)
+        - Latent Codes and Auto Encoders
+            - Auto encoders define encode/decode functions that allow you to move data to/from latent code (approximate the initial data). For example image encoding/decoding or PCA
+            - Recent advancements in latent codes:
+                - [StyleGAN2](https://arxiv.org/abs/1912.04958) 2019 (this person does not exist website) creates faces, but was pretty slow
+                - [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) in 2020 described progress in diffusion probabalistic models for removing noise from images. They were able to start from images of entirely noise, and derive an image from it. Although this model was very slow
+                - [High Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752) found a worthwhile tradeoff of quality for speed
+                - [Reducing the Dimensionality of Data With Neural Networks](https://www.cs.toronto.edu/~hinton/absps/science.pdf)
+        - Fantastic Methods and When to Use Them
+            - In the next class, DX603 Machine Learning Fundamentals, we will discuss more types of models
+            - Linear Model Variants
+                - Ordinary least squares, Ridge regression, LASSO, ElasticNet
+            - Polynomial Regression (more flexible than Linear models)
+            - Decision Trees (very interpretable)
+            - Ensembles (increase flexibility by combining results of models)
+            - Decision Forest (utilize lots of decision trees to increase performance)
+            - Gradient Boosted Trees (fix mistakes)
+    - Key concepts:
+        - Recognize applications of linear methods beyond explicitly linear cases
+        - Explain the advantages of a small and concise encoding of data
+        - Preview upcoming modeling topics
