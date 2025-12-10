@@ -495,3 +495,6 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
     - These are called Bayesian methods
     - Naive Bayes classifier is provided as an example model
     - Certain Bayesian methods have independence assumptions which can allow us to compute evidence lift (If you like LOTR you are 69% more likely to have high IQ)
+
+## Chapter 10: Representing and Mining Text
+- TODO fill me in

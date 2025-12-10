@@ -119,3 +119,22 @@
         - Bayes’ Rule
         - Naïve Bayes
         - Evidence lift
+14. Representing and Mining Text
+    - Representations
+        - A way of storing data so that we can access it using data science
+    - Bag of Words
+        - A numeric representation for text data
+    - Term frequency-inverse document frequency (TF-IDF)
+        - Evaluates the importance of a word by looking at frequency
+    - N-grams
+        - Counts frequency of sequences of words
+    - Named entity extraction
+        - Allows us to correlate different words with same meaning (NY vs New York)
+    - [Data Science for Business - Chapter 10: Representing and Mining Text](2_data_science_for_business.md)
+    - [How TF-IDF Works](https://towardsdatascience.com/how-tf-idf-works-3dbf35e568f0/)
+    - Key concepts:
+        - Explain representation
+        - Explain bag of words
+        - Explain term frequency-inverse document frequency (TF-IDF)
+        - Explain n-grams
+        - Describe named entity extraction
