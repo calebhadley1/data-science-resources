@@ -217,6 +217,40 @@
         - Compare the performance of different models when evaluated with the same loss functions.
         - Models, features, targets, regression, classification, clustering
 12. Building Models That Generalize
+    - Model Validation
+        - Loss Functions
+        - MSE/L2
+        - MAE/L1
+        - R^2
+        - Logarithmic Loss Functions
+        - Loss Functions used by different Linear Models
+        - Bias/Variance
+        - Irreducible error
+        - Isotonic Regression
+        - Platt Scaling
+        - Model Selection
+        - [SKLearn - Model Evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html)
+        - [SKLearn - Metrics](https://scikit-learn.org/stable/api/sklearn.metrics.html)
+        - [A Modern Take on the Bias-Variance Tradeoff in Neural Networks](https://arxiv.org/abs/1810.08591)
+        - [Predicting Good Probabilities With Supervised Learning](https://www.cs.cornell.edu/~alexn/papers/calibration.icml05.crc.rev3.pdf)
+        - [SKLearn - 1.16. Probability calibration](https://scikit-learn.org/stable/modules/calibration.html)
+        - [SKLearn - Isotonic Regression](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_isotonic_regression.html)
+        - [Overfitting, Underfitting, and Bad Data Are Ruining Your Predictive Models](https://www.youtube.com/watch?v=0RT2Q0qwXSA)
+        - [Understanding Deep Learning Requires Rethinking Generalization](https://arxiv.org/pdf/1611.03530)
+        - [Mathematics for Machine Learning - Chapter 8.6: Model Selection](../mathematical-foundations-of-data-science/4_mathematics_for_machine_learning.md)
+        - [MFML 064 - What is a holdout set and how do you use it?](https://www.youtube.com/watch?v=CpFEdDjOHdY&list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG&index=65)
+        - [SKLearn - Model Selection](https://scikit-learn.org/stable/api/sklearn.model_selection.html)
+        - [SKLearn - Train Test Split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
+        - [Mathematics for Machine Learning - Chapter 8.2.4: Cross-Validation](../mathematical-foundations-of-data-science/4_mathematics_for_machine_learning.md)
+        - [Python Data Science Handbook - Hyperparameters and Model Validation](https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html)
+        - [SKLearn - Cross Validation](https://scikit-learn.org/stable/modules/cross_validation.html)
+        - [MFML 065 - Understanding k-fold cross-validation](https://www.youtube.com/watch?v=zqD0lQy_w40&list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG&index=66)
+        - [MFML 069 - Model validation done right](https://www.youtube.com/watch?v=eRiXR_tSg0E&list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG&index=70)
+        - [MFML 071 - What's the difference between testing and validation?](https://www.youtube.com/watch?v=-yda0fNYYG8)
+    - Key concepts:
+        - Calculate standard metrics for model evaluation
+        - Calibrate a model to improve accuracy
+        - Implement best practices to avoid overfitting data
 13. Preprocessing Data
 14. Course Wrap-Up
     - Working Outside Notebooks
