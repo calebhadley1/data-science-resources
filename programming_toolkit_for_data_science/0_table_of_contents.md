@@ -172,7 +172,50 @@
         - Filter data using dataframe queries
         - Join data from different data frames
 10. Exploratory Data Analysis
+    - Visualizing Data with Pandas
+        - [Pandas - Chart visualization](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
+    - Exploratory Data Analysis
+        - [Pandas - How do I create plots in pandas?](https://pandas.pydata.org/docs/getting_started/intro_tutorials/04_plotting.html)
+        - [Pandas - Scatter Matrix](https://pandas.pydata.org/docs/reference/api/pandas.plotting.scatter_matrix.html)
+        - [Pandas - Missing Data](https://pandas.pydata.org/docs/user_guide/missing_data.html)
+        - [EPA - Exploratory Data Analysis](https://www.epa.gov/caddis/exploratory-data-analysis)
+        - [Visualizing associations among two or more quantitative variables](https://clauswilke.com/dataviz/visualizing-associations.html)
+        - [Laplace smoothing](https://medium.com/@uriitai/detecting-defect-segments-by-the-laplace-smoothing-dc3a52333c2a)
+    - Key concepts:
+        - Visualize data using pandas
+        - Perform basic exploratory analysis using pandas
+        - Identify important variables for modeling
+        - Check for weird data provided for analysis
 11. Exploratory Data Analysis
+    - Object Oriented Design in Python
+        - [Object-Oriented Programming, Simplified](https://www.youtube.com/watch?v=pTB0EiLXUC8)
+        - [Classes and Objects](https://www.youtube.com/watch?v=Rp2j6BSmzHg)
+        - [Attributes and Methods](https://www.youtube.com/watch?v=XdhDmcBcSC8)
+        - [Python Classes and Objects](https://www.youtube.com/watch?v=apACNr7DC_s)
+        - [Pep8](https://peps.python.org/pep-0008/#designing-for-inheritance)
+        - [Method Resolution Order](https://www.python.org/download/releases/2.3/mro/)
+        - `type` and `isinstance` functions
+    - Build a Model Fast (Introduction to Scikit-learn)
+        - [Python Data Science Handbook - Introducing Scikit-Learn](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html)
+        - [Python Data Science Handbook - In Depth: Linear Regression](https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html)
+        - [Learning Scikit-Learn](https://www.youtube.com/watch?v=rvVkVsG49uU)
+        - [Python Data Science Handbook - In-Depth: Decision Trees and Random Forests](https://jakevdp.github.io/PythonDataScienceHandbook/05.08-random-forests.html)
+        - [SKLearn - 1.1. Linear Models](https://scikit-learn.org/stable/modules/linear_model.html)
+        - [SKLearn - LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+        - [SKLearn - DecisionTreeRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)
+        - [SKLearn - Why the focus on modeling numeric variables](https://scikit-learn.org/stable/faq.html#why-do-categorical-variables-need-preprocessing-in-scikit-learn-compared-to-other-tools)
+        - [Python Data Science Handbook - Chapter 5. Machine Learning](https://jakevdp.github.io/PythonDataScienceHandbook/05.00-machine-learning.html)
+        - [Python Data Science Handbook - In Depth: Naive Bayes Classification](https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html)
+        - [Python Data Science Handbook - In Depth: Principal Components Analysis](https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html)
+    - Key concepts
+        - Describe the basic use of objects in programming.
+        - Describe inheritance in object oriented design.
+        - Write new classes extending existing base classes.
+        - Find the implementation of a particular method given the object's class and access to the source code.
+        - Build basic regression models quickly in scikit-learn.
+        - Visualize the output of different models together.
+        - Compare the performance of different models when evaluated with the same loss functions.
+        - Models, features, targets, regression, classification, clustering
 12. Building Models That Generalize
 13. Preprocessing Data
 14. Course Wrap-Up
