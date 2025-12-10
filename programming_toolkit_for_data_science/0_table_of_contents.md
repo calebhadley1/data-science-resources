@@ -97,6 +97,29 @@
         - Label charts clearly
         - Plot charts using small multiples
 6. Working With Lots of Numbers (Intro to Numpy)
+    - Introduction to Numpy
+        - [IBM - NumPy vs SciPy](https://www.youtube.com/watch?v=l3s-_8uTBVA)
+        - [Travis Oliphant: NumPy, SciPy, Anaconda, Python & Scientific Programming | Lex Fridman Podcast #224](https://www.youtube.com/watch?v=gFEE3w7F0ww&t=3089s)
+            - Fantastic video on the history of Numpy, Scipy, Anaconda etc.
+        - [Python Data Science Handbook - Introduction to NumPy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html)
+        - [Numpy - Converting Python sequences to NumPy arrays](https://numpy.org/doc/stable/user/basics.creation.html#converting-python-sequences-to-numpy-arrays)
+        - [Numpy - From existing data](https://numpy.org/doc/stable/reference/routines.array-creation.html#from-existing-data)
+        - Data Types including float64,32,16, int64, and uint64
+        - [Python Data Science Handbook - Understanding Data Types in Python](https://jakevdp.github.io/PythonDataScienceHandbook/02.01-understanding-data-types.html)
+        - [Numpy - Array creation](https://numpy.org/doc/stable/user/basics.creation.html)
+        - Useful functions for array creation: arange, array, asarray, fromiter, linspace, ones, ones_like, zeros, zeros_like
+        - [Python Data Science Handbook - Computation on Arrays: Broadcasting](https://jakevdp.github.io/PythonDataScienceHandbook/02.05-computation-on-arrays-broadcasting.html)
+        - [Numpy - Broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html)
+        - [Python Data Science Handbook - Aggregations: Min, Max, and Everything In Between](https://jakevdp.github.io/PythonDataScienceHandbook/02.04-computation-on-arrays-aggregates.html)
+        - [Python Data Science Handbook - Universal Functions](https://jakevdp.github.io/PythonDataScienceHandbook/02.03-computation-on-arrays-ufuncs.html)
+        - [Numba](https://numba.pydata.org/)
+        - [Numpy - Input and output](https://numpy.org/doc/stable/reference/routines.io.html)
+    - Key concepts:
+        - Explain why specialized numeric arrays are useful
+        - Create and populate a NumPy array
+        - Read a NumPy array from a file
+        - Test whether a module is installed in the current environment
+        - Find NumPy documentation for a given function
 7. Deep Numpy
 8. Structured Data Management with Data Frames (Intro to Pandas)
 9. Querying Your Data (More Pandas)
