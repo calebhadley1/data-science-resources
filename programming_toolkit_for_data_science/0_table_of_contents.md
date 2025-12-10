@@ -252,6 +252,25 @@
         - Calibrate a model to improve accuracy
         - Implement best practices to avoid overfitting data
 13. Preprocessing Data
+    - Cleaning Data
+        - `isna` and `isnull` methods in pandas
+        - [Pandas - Working with missing data](https://pandas.pydata.org/docs/user_guide/missing_data.html)
+        - [Data Quality Explained](https://www.youtube.com/watch?v=5HcDJ8e9NwY)
+        - [SKLearn - 7.4. Imputation of missing values](https://scikit-learn.org/stable/modules/impute.html)
+        - [Does analysis using “last observation carried forward” introduce bias in dementia research?](https://pmc.ncbi.nlm.nih.gov/articles/PMC2553855/)
+            - This article argues that the repeating old values where newer values are missing introduces dangerous bias in the context of medical research.
+        - [SKLearn - SimpleImputer](https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html)
+        - [SKLearn - MissingIndicator](https://scikit-learn.org/stable/modules/generated/sklearn.impute.MissingIndicator.html)
+        - [Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002683)
+        - [Pretraining on the Test Set Is All You Need](https://arxiv.org/abs/2309.08632)
+    - Feature Engineering
+        - [Normalization Vs. Standardization (Feature Scaling in Machine Learning)](https://www.youtube.com/watch?v=bqhQ2LWBheQ)
+        - [SKLearn - StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
+        - [Python Data Science Handbook - Feature Engineering](https://jakevdp.github.io/PythonDataScienceHandbook/05.04-feature-engineering.html)
+    - Key concepts:
+        - Detect common cases of bad data
+        - Detect and handle common cases of missing data
+        - Apply standard preprocessing techniques to prepare raw data for modeling
 14. Course Wrap-Up
     - Working Outside Notebooks
         - Run Python programs using `python3 test.py` syntax
