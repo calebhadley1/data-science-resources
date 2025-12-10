@@ -140,6 +140,15 @@
         - Explain the usage of less common NumPy array structures
         - Identify slow array creation patterns and explain how to avoid them
 8. Structured Data Management with Data Frames (Intro to Pandas)
+    - [Pandas - Package overview](https://pandas.pydata.org/docs/getting_started/overview.html)
+    - [Python Data Science Handbook - Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html)
+    - [Python Data Science Handbook - Introducing Pandas Objects](https://jakevdp.github.io/PythonDataScienceHandbook/03.01-introducing-pandas-objects.html)
+    - [NumPy vs Pandas](https://www.youtube.com/watch?v=KHoEbRH46Zk)
+    - [Pandas - 10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
+    - [Spark](https://spark.apache.org/)
+        - Also built around the idea of Data Frames
+    - Key concepts:
+        - Manipulate data in a more structured fashion using data frames
 9. Querying Your Data (More Pandas)
 10. Exploratory Data Analysis
 11. Exploratory Data Analysis
