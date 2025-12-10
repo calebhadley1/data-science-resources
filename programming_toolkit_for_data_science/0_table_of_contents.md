@@ -150,6 +150,27 @@
     - Key concepts:
         - Manipulate data in a more structured fashion using data frames
 9. Querying Your Data (More Pandas)
+    - Grouping Data with Pandas
+        - [Pandas - Group by: split-apply-combine](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html)
+        - [Python Data Science Handbook - Aggregation and Grouping](https://jakevdp.github.io/PythonDataScienceHandbook/03.08-aggregation-and-grouping.html)
+        - [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerpenguins/)
+    - Querying Your Data (More Pandas)
+        - [Python Data Science Handbook - High-Performance Pandas: eval() and query()](https://jakevdp.github.io/PythonDataScienceHandbook/03.12-performance-eval-and-query.html)
+        - [Pandas - query](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.query.html)
+        - [Pandas - eval](https://pandas.pydata.org/docs/reference/api/pandas.eval.html)
+        - [Pandas - expression evaluation via eval()](https://pandas.pydata.org/docs/user_guide/enhancingperf.html#expression-evaluation-via-eval)
+        - [xkcd - SQL Injection](https://xkcd.com/327/)
+        - [Pandas - Comparison with SQL](https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sql.html)
+        - [Python Data Science Handbook - Combining Datasets: Concat and Append](https://jakevdp.github.io/PythonDataScienceHandbook/03.06-concat-and-append.html)
+        - [Python Data Science Handbook - Combining Datasets: Merge and Join](https://jakevdp.github.io/PythonDataScienceHandbook/03.07-merge-and-join.html)
+        - [Pandas - Combining Multiple DataFrames](https://pandas.pydata.org/docs/getting_started/intro_tutorials/08_combine_dataframes.html)
+        - [Pandas - Duplicates](https://pandas.pydata.org/docs/user_guide/duplicates.html)
+        - [Pandas - Reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html)
+        - [Pandas - Merge, join, concatenate and compare](https://pandas.pydata.org/docs/user_guide/merging.html)
+    - Key concepts:
+        - Group data and generate aggregate statistics using pandas
+        - Filter data using dataframe queries
+        - Join data from different data frames
 10. Exploratory Data Analysis
 11. Exploratory Data Analysis
 12. Building Models That Generalize
