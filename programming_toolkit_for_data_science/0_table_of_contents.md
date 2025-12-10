@@ -66,6 +66,36 @@
         - Save data in Python using appropriate built-in data structures.
         - Write files in Python that can be easily read by common tools.
 5. Effective Data Visualization
+    - Introduction to Matplotlib
+        - [plt.plot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
+        - Common plotting arguments:
+            - `color`
+            - `linestyle`
+            - `marker`
+            - `legend`
+            - `scatter`
+            - `xlabel/ylabel`
+            - `annotate`
+        - Common chart types
+            - scatter, bar
+        - Saving plots with `plt.savefig`
+        - [Python Data Science Handbook - Simple Line Plots](https://jakevdp.github.io/PythonDataScienceHandbook/04.01-simple-line-plots.html)
+        - [Matplotlib Quick Start](https://matplotlib.org/stable/users/explain/quick_start.html)
+    - Effective Data Visualization
+        - Pick appropriate Axis Ranges (Ex. Starting X at 0 for positive data can help distinguish delta)
+        - Keep Colors and Symbols Consistent (Ex. If plotting a group of data multiple times, keep it the same color for clarity)
+        - [Python Data Science Handbook - Customizing Plot Legends](https://jakevdp.github.io/PythonDataScienceHandbook/04.06-customizing-legends.html)
+        - [Fundamentals of  Data Visualization 17.1: Visualizations along linear axes](https://clauswilke.com/dataviz/proportional-ink.html#visualizations-along-linear-axes)
+        - [Atlassian: A complete guide to heatmaps](https://www.atlassian.com/data/charts/heatmap-complete-guide)
+        - Use Subplots to present >1 chart together
+        - Plot Small Multiples to compare different subsets of the data (Ex. Comparing features dist for each species of flower)
+        - [Python Data Science Handbook - Multiple Subplots](https://jakevdp.github.io/PythonDataScienceHandbook/04.08-multiple-subplots.html)
+        - [Fundamentals of  Data Visualization 21.1 Small multiples](https://clauswilke.com/dataviz/multi-panel-figures.html#small-multiples)
+    - Key concepts:
+        - Plot line charts and scatter plots with Matplotlib
+        - Design charts to clearly communicate with data
+        - Label charts clearly
+        - Plot charts using small multiples
 6. Working With Lots of Numbers (Intro to Numpy)
 7. Deep Numpy
 8. Structured Data Management with Data Frames (Intro to Pandas)
