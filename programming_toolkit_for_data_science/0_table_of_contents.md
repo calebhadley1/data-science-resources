@@ -121,6 +121,24 @@
         - Test whether a module is installed in the current environment
         - Find NumPy documentation for a given function
 7. Deep Numpy
+    - Numpy Views
+        - Calculating Array offsets with `strides`
+        - [Numpy - Internal memory layout of an ndarray](https://numpy.org/doc/stable/reference/arrays.ndarray.html#internal-memory-layout-of-an-ndarray)
+        - [Row-major order vs column-major order: Samuel's tutorial](https://www.youtube.com/watch?v=b5lYGvcBjy4)
+        - [Numpy - Copies and views](https://numpy.org/doc/stable/user/basics.copies.html)
+        - [Python Data Science Handbook - The Basics of NumPy Arrays](https://jakevdp.github.io/PythonDataScienceHandbook/02.02-the-basics-of-numpy-arrays.html)
+        - [Numpy - Indexing on ndarrays](https://numpy.org/doc/stable/user/basics.indexing.html)
+        - [NeurIPS Proceedings - ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)
+    - Numpy Wrap-Up
+        - [Numpy - Linear algebra](https://numpy.org/doc/stable/reference/routines.linalg.html)
+            - Some useful methods include dot, matrix_rank, solve, inv
+    - Key concepts:
+        - Describe the behavior of NumPyviews and when they can be used
+        - Use standard views to reshape and transform arrays
+        - Check if a given NumPy array is a view or not
+        - Find and use NumPy functions for linear algebra and other operations as needed
+        - Explain the usage of less common NumPy array structures
+        - Identify slow array creation patterns and explain how to avoid them
 8. Structured Data Management with Data Frames (Intro to Pandas)
 9. Querying Your Data (More Pandas)
 10. Exploratory Data Analysis
