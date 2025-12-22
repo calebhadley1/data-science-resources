@@ -165,13 +165,15 @@
     - *hyperparameter*
     - *model selection* 
     - *nested cross validation* - For non-probabilistic models, model selection is often done using this method
-### Section 2: Cross Validation
-- TODO
+### Section 2.4: Cross Validation
+- K-fold cross validation is explained in this section
 ### Section 4.3: Latent Variable Models
 - "Latent variables may describe the data-generating process, thereby contributing to the interpretability of the model" (p. 275)
 - Latent variables can be used in PCA
 ### Section 6: Model Selection
-- TODO
+- Nested cross-validation is outlined as an extension of cross-validation
+- Bayesian model selection
+- Bayes factor for model comparison
 
 ## Chapter 9: Linear Regression
 - This chapter motivates linear regression from the problem of modeling noisy data, presenting the same linear regression formula as a maximum likelihood solution.
