@@ -497,4 +497,47 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
     - Certain Bayesian methods have independence assumptions which can allow us to compute evidence lift (If you like LOTR you are 69% more likely to have high IQ)
 
 ## Chapter 10: Representing and Mining Text
-- TODO fill me in
+- Fundamental concepts:
+    - The importance of constructing mining-friendly data representations
+    - Representation of text for data mining
+- Exemplary techniques:
+    - Bag of words
+    - TFIDF calculation
+    - N-grams
+    - Stemming
+    - Named entity extraction
+    - Topic models
+- Data does not always come in the form required for DS methods. Therefore we must develop new methods to work with other types of data, or engineer the data to match the expected format.
+- Why text is important
+    - There is a vast amount of text data, we must be able to convert it to a meaningful form
+- Why text is difficult
+    - Text is unstructured and context is important
+- Representation
+    - A document is one piece of text
+    - A document is made up of many tokens or terms 
+    - A collection of documents is a corpus
+- Bag of Words
+    - This approach treats each document as a collection of words, ignoring grammar, order, punctuation
+    - Simply, we reduce a document to a list of words
+- Term Frequency
+    - This approach builds on Bag of Words by introducing a count of each word (p. 255)
+- Measuring Sparseness: Inverse Document Frequency
+    - Applications usually impose a lower limit for how many documents a word must appear in for it to be considered
+    - Likewise, an upper limit is imposed to remove meaningless words like "and" or "it"
+    - IDF can be used to give a boost to rare words
+- Combining Them: TFIDF
+    - Term counts within the document form the TF values for each term
+    - Document counts across the corpus form the IDF values
+- Example: Jazz Musicians
+    - Page 258 outlines an example of applying these concepts
+- N-grams Sequences
+    - Bag of Words ignores the order of words. This strategy implements sequencing
+- Named Entity Extraction
+    - This strategy knows when sequences correspond to proper names
+- Topic Models
+    - Adds a topic layer between the words and model (p. 267)
+- Example: Mining News Stories to Predict Stock Prices
+    - Page 268 outlines this example
+
+## Chapter 11
+- TODO
