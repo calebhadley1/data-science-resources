@@ -562,3 +562,10 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
     - Ensembles of models
     - Causal reasoning from data
 - This chapter outlines a number of other techniques that can be employed
+
+## Chapter 13: Data Science and Business Strategy
+- Fundamental concepts:
+    - Our principles as the basis of success for a data driven business
+    - Acquiring and sustaining competitive advantage via DS
+    - Importance of careful curation of DS capability
+- This chapter covers a variety of topics including advice for DS managers, talent gap in DS, how to attract and keep talent, and how to keep teams on track
