@@ -539,5 +539,26 @@ Chapter 3: Introduction to Predictive Modeling: From Correlation to Supervised S
 - Example: Mining News Stories to Predict Stock Prices
     - Page 268 outlines this example
 
-## Chapter 11
-- TODO
+## Chapter 11: Decision Analytic Thinking II: Toward Analytical Engineering
+- Fundamental concepts
+    - Solving business problems with DS starts with analytical engineering
+    - Designing an analytical solution, based on the data, tools, and techniques available
+- Exemplary techniques
+    - Expected value as a framework for DS solution design
+- This chapter provides two case studies showng how to decompose business problems into DS solutions
+
+## Chapter 12: Other Data Science Tasks and Techniques
+- Fundamental concepts
+    - Our fundamental concepts as the basis for many common data science techniquesw
+    - The importance of familiarity with the building blocks of data science
+- Exemplary techniques
+    - Associaton and co-occurences
+    - Behavior profiling
+    - Link prediction
+    - Data reduction
+    - Latent information mining
+    - Movie reccomendations
+    - Bias variance decomposition of error
+    - Ensembles of models
+    - Causal reasoning from data
+- This chapter outlines a number of other techniques that can be employed
