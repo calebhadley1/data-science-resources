@@ -1,10 +1,13 @@
 # Table of Contents
 
 1. Introduction to Machine Learning
-    - [An Introduction to Statistical Learning: With Applications in Python](2026\spring\machine-learning-fundamentals\1_introduction_to_statistical_learning.md) - Chapter 1-2.1.1
-    - [Hands-on machine learning with Scikit-Learn, Keras and TensorFlow](2026\spring\machine-learning-fundamentals\2_hands_on_machine_learning_with_sklearn_keras_and_tensorflow.md) - Chapter 1 (pages 1-26)
+    - [An Introduction to Statistical Learning: With Applications in Python](1_introduction_to_statistical_learning.md) - Chapter 1-2.1.1, 2.1.4
+    - [Hands-on machine learning with Scikit-Learn, Keras and TensorFlow](2_hands_on_machine_learning_with_sklearn_keras_and_tensorflow.md) - Chapter 1 (pages 1-26)
     - [Introduction to ML: What is Machine Learning? | ML for Beginners](https://www.youtube.com/watch?v=bk12t0Xz5FM)
     - [AI, Machine Learning, Deep Learning and Generative AI Explained](https://www.youtube.com/watch?v=qYNweeDHiyU)
+    - [Supervised & Unsupervised Machine Learning](https://www.youtube.com/watch?v=wvODQqb3D_8)
+    - [Humans are biased. Generative AI is even worse (Bloomberg.com)](https://www.bloomberg.com/graphics/2023-generative-ai-bias/)
+    - [How I'm fighting bias in algorithms | Joy Buolamwini (TED)](https://www.youtube.com/watch?v=UG_X_7g63rY)
     - Key concepts:
         - Describe the basic types of machine learning algorithms and the problems they address
         - Explain the importance of creating ML models that generalize to unseen data
