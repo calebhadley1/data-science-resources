@@ -2,7 +2,6 @@
 Géron, Aurélien
 
 ## Chapter 1: The Machine Learning Landscape
-- TODO pages 1-26
 - The first application of ML, spam filters, is used as an example for why ML should be used. Instead of maintaining a complicated list of spam filters, you can let ML learn the patterns for you
 - ML is great for (p. 7):
     - Problems requiring complicated or long lists of rules
@@ -18,4 +17,21 @@ Géron, Aurélien
     - Unsupervised learning uses unlabeled data (dimensionality reduction, clustering, anomaly detection)
     - Semi-supervised uses partially labeled data (Think when you upload photos of your family to a photo app. At the start they are unlabeled, so clustering is used, then once a label is assigned to one it knows all the others are the same)
     - Self-supervised. Generating labeled dataset from unlabeled one. An image based example is provided on page 15
-- 
+    - Reinforcement learning uses rewards and penalties to get an agent to reach the best strategy (policy). 
+- Batch vs Online Learning
+    - Batch
+        - Model is trained once and deployed into production to utilize its learnings
+        - Can suffer from model rot/data drift
+        - If you have a huge dataset to train on and data frequently changes, batch is probably not a good fit due to training cost
+    - Online
+        - System is trained incrementally by feeding data individually or in mini batches
+        - This can help when training set is too large for the memory of the machine training the model (p. 19)
+        - Learning rate is important to decide on for this learning type
+        - One drawback is that new data can corrupt a model without you knowing. You need good monitoring
+- Instance Based vs Model Based Learning
+    - Instance (p. 21)
+        - Models like KNN use a similarity metric to see how close an instance is to other ones it was trained on
+        - The model learns examples by heart and generalizes new examples based on the prior ones
+    - Model (p. 22)
+        - Model of the training examples is built and predictions are made using that model
+    - Python Snippets for the KNN / Reg models are provided on pages 23 - 25
