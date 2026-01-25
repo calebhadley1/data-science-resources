@@ -35,3 +35,5 @@ Géron, Aurélien
     - Model (p. 22)
         - Model of the training examples is built and predictions are made using that model
     - Python Snippets for the KNN / Reg models are provided on pages 23 - 25
+## Chapter 4: TODO
+- TODO

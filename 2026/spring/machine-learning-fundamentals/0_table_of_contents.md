@@ -39,3 +39,17 @@
         - Interpretability: The ability for a human to understand how a machine learning model makes decisions
         - Bias (of a dataset): Errors or distortions in the data that result in unfair or unequal outcomes, often reflecting societal inequalities or imbalanced data collection
         - Fairness: Ensuring models do not produce biased or discriminatory outcomes
+2. Linear Regression
+    - [An Introduction to Statistical Learning: With Applications in Python](1_introduction_to_statistical_learning.md) - Chapter 3 Section 1
+    - [Hands-on machine learning with Scikit-Learn, Keras and TensorFlow](2_hands_on_machine_learning_with_sklearn_keras_and_tensorflow.md) - Chapter 4 (pages 131-151)
+    - [Video 1: Introduction to Simple Linear Regression](https://www.youtube.com/watch?v=owI7zxCqNY0)
+    - Key concepts:
+        - Linear Regression
+        Multiple Regression
+        Polynomial Regression
+        Gradient Descent
+        Mean Square Error (MSE)
+        Root Mean Square Error
+        Coefficient of Determination or R squared
+        Assumptions of Linear Regression: Includes linearity, independence of errors, normality with mean 0, and homoscedasticity (constant variance of errors across all levels of the independent variables)
+        Hyperparameters

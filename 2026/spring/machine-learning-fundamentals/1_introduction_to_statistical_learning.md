@@ -25,3 +25,6 @@ James, G., Witten, D., Hastie, T., Tibshirani, R., & Taylor, J. (2023)
     - Can the relationship between Y and each predictor be summarized using linear equation? Or more complicated?
 #### Subsection 4: Supervised vs Unsupervised Learning
 - This section discusses the difference between supervised and unsupervised learning. Specifically the lack of response variables in unsupervised learning and what you can do instead
+## Chapter 3: TODO
+### Section 1: TODO
+- TODO
