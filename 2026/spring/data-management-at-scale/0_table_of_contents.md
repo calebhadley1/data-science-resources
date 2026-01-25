@@ -16,5 +16,10 @@
         - Azure Data Factory
         - [Get started with data engineering on Azure](https://learn.microsoft.com/en-us/training/paths/get-started-data-engineering/)
             - Complete Part 1: Introduction to data engineering on Azure, Part 2: Introduction to Azure Data Lake Storage Gen2, and Part 3: Introduction to Azure Synapse Analytics. 
-        - [Getting Started in Azure Data Factory | Azure Fundamentals](https://www.youtube.com/watch?si=V9xeBETvEord_2fU&t=1&v=sge9qTf8GdY&feature=youtu.be)
-        - []()
+        - [Getting Started in Azure Data Factory | Azure Fundamentals](https://www.youtube.com/watch?v=sge9qTf8GdY&t=1s)
+        - [Introduction to Cloud Infrastructure: Describe cloud concepts](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/)
+        - [Getting started in the Azure Portal](https://www.youtube.com/watch?v=leJRc0JWzSY)
+        - [Unlock the Secrets of Azure Storage Accounts - What You MUST Know Before You Start!](https://www.youtube.com/watch?v=nZ1G5a0lPG4)
+    - Managing Your Azure Budget
+        - [How to apply budgets to subscriptions using the Azure portal | Azure Portal Series](https://www.youtube.com/watch?v=UrkHiUx19Po)
+    
