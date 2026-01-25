@@ -40,9 +40,11 @@
         - Bias (of a dataset): Errors or distortions in the data that result in unfair or unequal outcomes, often reflecting societal inequalities or imbalanced data collection
         - Fairness: Ensuring models do not produce biased or discriminatory outcomes
 2. Linear Regression
-    - [An Introduction to Statistical Learning: With Applications in Python](1_introduction_to_statistical_learning.md) - Chapter 3 Section 1
+    - [An Introduction to Statistical Learning: With Applications in Python](1_introduction_to_statistical_learning.md) - Chapter 3 Section 1, Chapter 5 Section 2
     - [Hands-on machine learning with Scikit-Learn, Keras and TensorFlow](2_hands_on_machine_learning_with_sklearn_keras_and_tensorflow.md) - Chapter 4 (pages 131-151)
     - [Video 1: Introduction to Simple Linear Regression](https://www.youtube.com/watch?v=owI7zxCqNY0)
+    - [Deriving the least squares estimators of the slope and intercept (simple linear regression)](https://www.youtube.com/watch?v=ewnc1cXJmGA)
+    - [Gradient Descent Explained](https://www.youtube.com/watch?v=i62czvwDlsw)
     - Key concepts:
         - Linear Regression
         Multiple Regression

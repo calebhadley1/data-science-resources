@@ -28,3 +28,5 @@ James, G., Witten, D., Hastie, T., Tibshirani, R., & Taylor, J. (2023)
 ## Chapter 3: TODO
 ### Section 1: TODO
 - TODO
+## Chapter 5 TODO
+### Section 2 TODO
