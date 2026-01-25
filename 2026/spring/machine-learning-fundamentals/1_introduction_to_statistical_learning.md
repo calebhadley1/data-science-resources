@@ -12,7 +12,6 @@ James, G., Witten, D., Hastie, T., Tibshirani, R., & Taylor, J. (2023)
 - Pages 8-10 discuss the books notation
 - Page 12 includes a table of the datasets used throughout the book 
 ## Chapter 2. Statistical Learning
-- TODO up to 2.1.1. Also read 2.1.4
 ### Section 1: What is Statistical Learning
 - Page 15 introduces the notion of features (X) and the response or independent variable (Y)
 - Page 17 discusses estimating a function (f) to predict the independent variable
