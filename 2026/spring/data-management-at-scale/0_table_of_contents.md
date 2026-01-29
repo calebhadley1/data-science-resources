@@ -22,4 +22,43 @@
         - [Unlock the Secrets of Azure Storage Accounts - What You MUST Know Before You Start!](https://www.youtube.com/watch?v=nZ1G5a0lPG4)
     - Managing Your Azure Budget
         - [How to apply budgets to subscriptions using the Azure portal | Azure Portal Series](https://www.youtube.com/watch?v=UrkHiUx19Po)
-    
+2. Data Integration
+    - [Data Integration in Data Mining](https://www.geeksforgeeks.org/machine-learning/data-integration-in-data-mining/)
+    - [Data Wrangling: What It Is & Why It’s Important](https://online.hbs.edu/blog/post/data-wrangling)
+    - Key concepts:
+        - Data Integration
+        - Data Wrangling vs Cleaning
+        - ETL vs ELT
+        - Data sources such as flat file, API, direct DB access, etc
+        - Challenges with Data Integration including entity identification, redundancy and correlation, tuple duplication, and data conflict resolution
+        - Integration types such as tight coupling (ETL/ELT), ​Manual Integration (ad hoc scripts), ​Middleware-based Integration (such as wrapper APIs), ​Application-based Integration (such as Azure Data Factory), Data Virtualization, ​Data Warehousing/Enterprise Data Warehousing, Data Lakes
+        - ELT/ETL considerations:
+            - Data availability and integration
+            - Data transformation and quality
+            - Scalability and performance
+            - Compliance and governance
+            - Cost efficiency
+            - Flexibility and adaptability
+        - Integration approaches
+            - Batching, Streaming, and Hybrid
+        - Best practices:
+            - Start with a well defined strategy:
+                - Business use cases, data sources and their roles, real time vs batch, and infra requirements for scaling
+            - Data quality from the start
+                - Data cleaning & enrichment early in the pipeline
+                - Data validation rules to fix inconsistencies in the data
+                - Regularly monitor and maintain data quality
+            - Automate ETL/ELT where possible
+            - Adopt scalable and flexible architectures
+                - Modern solutions like AWS Glue
+            - APIs and Middleware for Complex Integrations
+            - Ensure Data Governance and Security
+                - Metadata management to track and document data sources and transformations. 
+                - Access controls
+                - Compliance monitoring to ensure adherence to regulatory requirements, such as GDPR, HIPAA, and CCPA. 
+                - Encryption during data transfer and storage
+            - Embrace Real-Time Integration for Fast Decision-Making where possible
+            - Use Master Data Management (MDM)
+            - Monitor and Optimize Performance
+            - Plan for Future Growth and Evolution
+            - Utilize Data Virtualization
