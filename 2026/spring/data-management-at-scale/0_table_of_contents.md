@@ -25,6 +25,11 @@
 2. Data Integration
     - [Data Integration in Data Mining](https://www.geeksforgeeks.org/machine-learning/data-integration-in-data-mining/)
     - [Data Wrangling: What It Is & Why It’s Important](https://online.hbs.edu/blog/post/data-wrangling)
+    - Azure Account Setup:
+        - [Azure Student Account Creation](https://azure.microsoft.com/en-us/free/students/)
+        - [How to create an Azure resource group from the Azure portal](https://www.educative.io/answers/how-to-create-an-azure-resource-group-from-the-azure-portal)
+        - [Create an Azure storage account](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal)
+        - [Quickstart: Upload, download, and list blobs with the Azure portal](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container)
     - Key concepts:
         - Data Integration
         - Data Wrangling vs Cleaning
