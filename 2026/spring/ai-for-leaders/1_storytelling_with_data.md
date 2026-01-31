@@ -11,3 +11,12 @@ https://www.storytellingwithdata.com/books
     4. Focus attention where you want it
     5. Think like a designer
     6. Tell a story
+## Chapter 1: The Importance of Context
+- TODO
+- Exploratory vs Explanatory Analysis
+    - When presenting findings, we do not need to show the whole exploratory process. Focus on the findings
+- Who, What and How
+    - Who: Your audience (p. 21)
+    - What: The action you want the audience to take (p. 23)
+    - How: Use data to explain your point. How can we back up the argument for what action they should take? (p. 26)
+- Identify your 3-minute pitch/big idea and use it to drive the analysis (p. 31)
