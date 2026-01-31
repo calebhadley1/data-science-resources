@@ -35,5 +35,17 @@ Géron, Aurélien
     - Model (p. 22)
         - Model of the training examples is built and predictions are made using that model
     - Python Snippets for the KNN / Reg models are provided on pages 23 - 25
-## Chapter 4: TODO
-- TODO go up to pg 154
+## Chapter 4: Training Models (Or at least up to page 154)
+- This chapter dives deeper into the black box that is a "model". It discusses deriving the closed form equation and utilizing gradient descent to find the optimal parameters
+- Linear Regression is formalized on page 132
+- The Normal Equation, the closed form solution for Linear Regression, and the math to calculate it is discussed on page 135. It turns out that calculating the normal equation is more expensive than utilizing gradient descent. 
+- Gradient Descent, a method for finding optimal solutions for a number of different problems, is introduced on page 138
+    - Random parameter initialization
+    - Learning rate, and the consequences of choosing too high or low of a rate (p. 139-140)
+    - Feature scaling and how it affects gradient descent (p. 141)
+    - Varieties of gradient descent
+        - Batch (p. 142)
+        - Stochastic (p. 145) is less regular than Batch, but it can jump out of local minima easier
+        - Mini-Batch (p. 148) calculates gradients against random subsets of the training set instead of the entire set
+- Polynomial Regression (p. 149) allows us to model more complicated relationships
+    - Learning rates (p. 152-153) should be examined to ensure models are not over/underfitting
