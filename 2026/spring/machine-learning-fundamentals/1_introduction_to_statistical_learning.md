@@ -27,7 +27,19 @@ James, G., Witten, D., Hastie, T., Tibshirani, R., & Taylor, J. (2023)
 - This section discusses the difference between supervised and unsupervised learning. Specifically the lack of response variables in unsupervised learning and what you can do instead
 ## Chapter 3: TODO
 ### Section 1: TODO
-- TODO
+- Formulas for describing a linear relationship betweeen X and Y are derived on pages 70-71
+- Coefficient estimation (p. 71)
+    - Residual sum of squares (RSS)
+- Accuracy of coefficient estimation (p. 72)
+    - Y = f(x) + error. When approximation f(x) we can use Y = B0 + B1X + E
+        - The error term is a catch all
+    - Population regression line vs least squares line
+        - We can only optimize coefs based on available data. The full population data is not available so these lines are not equal. See fig 3.3 on page 74
+    - Residual standard error (RSE) (p. 75)
+        - Can be used to calculate *confidence intervals*
+    - T Statistic (p. 76)
+- Assessing the Accuracy of the Model (p. 77)
+    - RSE + R^2 (p. 77 - 79)
 ### Section 2: TODO
 - TODO up to 2.1
 ## Chapter 5 TODO
