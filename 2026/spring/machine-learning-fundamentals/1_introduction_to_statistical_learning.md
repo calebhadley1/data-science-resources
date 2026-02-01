@@ -25,8 +25,8 @@ James, G., Witten, D., Hastie, T., Tibshirani, R., & Taylor, J. (2023)
     - Can the relationship between Y and each predictor be summarized using linear equation? Or more complicated?
 #### Subsection 4: Supervised vs Unsupervised Learning
 - This section discusses the difference between supervised and unsupervised learning. Specifically the lack of response variables in unsupervised learning and what you can do instead
-## Chapter 3: TODO
-### Section 1: TODO
+## Chapter 3: Linear Regression
+### Section 1: Simple Linear Regression
 - Formulas for describing a linear relationship betweeen X and Y are derived on pages 70-71
 - Coefficient estimation (p. 71)
     - Residual sum of squares (RSS)
@@ -40,7 +40,9 @@ James, G., Witten, D., Hastie, T., Tibshirani, R., & Taylor, J. (2023)
     - T Statistic (p. 76)
 - Assessing the Accuracy of the Model (p. 77)
     - RSE + R^2 (p. 77 - 79)
-### Section 2: TODO
-- TODO up to 2.1
-## Chapter 5 TODO
-### Section 2 TODO
+### Section 2: Multiple Linear Regression
+- By extending the Simple Linear Regression, we can use multiple predictors. It is not effective to train multiple models for each feature
+## Chapter 5: Resampling Methods 
+### Section 2: The Bootstrap
+- Used to "quantify the uncertainty associated with a given estimator or statistical learning method" (p. 212)
+- This method can estimate standard errors of the coefs from a lin reg fit. It can also be adapted to many other statistical learning methods
