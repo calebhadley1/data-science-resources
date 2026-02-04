@@ -10,7 +10,8 @@ James, G., Witten, D., Hastie, T., Tibshirani, R., & Taylor, J. (2023)
 - A Brief History of Statistical Learning (p. 5)
     - This section describes the origins of regression, classification, neural nets, etc.
 - Pages 8-10 discuss the books notation
-- Page 12 includes a table of the datasets used throughout the book 
+- Page 12 includes a table of the datasets used throughout the book
+
 ## Chapter 2. Statistical Learning
 ### Section 1: What is Statistical Learning
 - Page 15 introduces the notion of features (X) and the response or independent variable (Y)
@@ -25,6 +26,10 @@ James, G., Witten, D., Hastie, T., Tibshirani, R., & Taylor, J. (2023)
     - Can the relationship between Y and each predictor be summarized using linear equation? Or more complicated?
 #### Subsection 4: Supervised vs Unsupervised Learning
 - This section discusses the difference between supervised and unsupervised learning. Specifically the lack of response variables in unsupervised learning and what you can do instead
+### Section 2: TODO
+#### Subsection 1: TODO
+- fill me in Measuring the Quality of Fit
+
 ## Chapter 3: Linear Regression
 ### Section 1: Simple Linear Regression
 - Formulas for describing a linear relationship betweeen X and Y are derived on pages 70-71
@@ -42,6 +47,7 @@ James, G., Witten, D., Hastie, T., Tibshirani, R., & Taylor, J. (2023)
     - RSE + R^2 (p. 77 - 79)
 ### Section 2: Multiple Linear Regression
 - By extending the Simple Linear Regression, we can use multiple predictors. It is not effective to train multiple models for each feature
+
 ## Chapter 5: Resampling Methods 
 ### Section 2: The Bootstrap
 - Used to "quantify the uncertainty associated with a given estimator or statistical learning method" (p. 212)

@@ -48,11 +48,19 @@
     - [Multiple Regression | Ch. 4, Linear Regression](https://www.youtube.com/watch?v=xVgqM35YSDY)
     - Key concepts:
         - Linear Regression
-        Multiple Regression
-        Polynomial Regression
-        Gradient Descent
-        Mean Square Error (MSE)
-        Root Mean Square Error
-        Coefficient of Determination or R squared
-        Assumptions of Linear Regression: Includes linearity, independence of errors, normality with mean 0, and homoscedasticity (constant variance of errors across all levels of the independent variables)
-        Hyperparameters
+        - Multiple Regression
+        - Polynomial Regression
+        - Gradient Descent
+        - Mean Square Error (MSE)
+        - Root Mean Square Error
+        - Coefficient of Determination or R squared
+        - Assumptions of Linear Regression: Includes linearity, independence of errors, normality with mean 0, and homoscedasticity (constant variance of errors across all levels of the independent variables)
+        - Hyperparameters
+3. Generalization, Errors, and the Bias-Variance Tradeoff
+    - [An Introduction to Statistical Learning: With Applications in Python](1_introduction_to_statistical_learning.md) - Chapter 2 Section 2.1: Measuring the Quality of Fit
+    - [Generalization and Overfitting](https://www.youtube.com/watch?v=ggkSrsxa5kU)
+    - [Bias-Variance Tradeoff](https://www.youtube.com/watch?v=UiYGlz6BVFs)
+    - Key concepts:
+        - Underfitting and overfitting
+        - Generalization
+        - Bias-variance tradeoff
