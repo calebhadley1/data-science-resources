@@ -67,3 +67,11 @@
             - Monitor and Optimize Performance
             - Plan for Future Growth and Evolution
             - Utilize Data Virtualization
+3. Data Schemas and Governance
+    - [Database schema defined](https://www.ibm.com/think/topics/database-schema)
+    - [Data governance overview](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/govern)
+    - [A systematic literature review of data governance and cloud data governance](https://www.researchgate.net/publication/322259947_A_systematic_literature_review_of_data_governance_and_cloud_data_governance)
+    - Key concepts:
+        - Schemas
+        - Data Governance
+        - Tools for Data Cataloging (Alation, Collibra, and Informatica) and Data Quality Management (Talend, Trifacta (now Alteryx Designer Cloud), and Microsoft’s Data Quality Services)

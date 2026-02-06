@@ -20,3 +20,4 @@ https://www.storytellingwithdata.com/books
     - What: The action you want the audience to take (p. 23)
     - How: Use data to explain your point. How can we back up the argument for what action they should take? (p. 26)
 - Identify your 3-minute pitch/big idea and use it to drive the analysis (p. 31)
+## Chapter 2: TODO

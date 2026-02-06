@@ -21,3 +21,10 @@
         - Reproduce a graph/data visualization from an example graph/data visualization
         - Analyze existing data visualizations to identify strengths and weaknesses 
         - Apply principles from Storytelling with Data (SWD) to create graphs
+3. Univariate Analysis 1
+    - [Storytelling with Data: Chapter 2](1_storytelling_with_data.md)
+    - [A complete guide to violin plots](https://www.atlassian.com/data/charts/violin-plot-complete-guide)
+    - Key concepts:
+        - Chart types and their tradeoffs
+        - Univariate analysis
+        - Data Visualizations with Matplotlib
