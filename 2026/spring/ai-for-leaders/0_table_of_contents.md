@@ -22,9 +22,23 @@
         - Analyze existing data visualizations to identify strengths and weaknesses 
         - Apply principles from Storytelling with Data (SWD) to create graphs
 3. Univariate Analysis 1
-    - [Storytelling with Data: Chapter 2](1_storytelling_with_data.md)
+    - [Storytelling with Data: Chapter 2 (up to section about bar charts)](1_storytelling_with_data.md)
     - [A complete guide to violin plots](https://www.atlassian.com/data/charts/violin-plot-complete-guide)
     - Key concepts:
         - Chart types and their tradeoffs
         - Univariate analysis
         - Data Visualizations with Matplotlib
+4. Univariate Analysis 2
+    - [Storytelling with Data: Chapter 2 (from bar charts to end of chapter)](1_storytelling_with_data.md)
+    - Key concepts:
+        - Construct effective visuals
+        - Distinguish between various types of charts and graphs (Histogram, bar/stacked bar, KDE, swarm, violin, box)
+        - Explain the strengths and weaknesses of various data visualization formats (Histogram, bar / stacked bar, KDE, swarm, violin, box)
+        - Select the most appropriate visualization based on the type of data
+        - Create plots/graphs in a variety of formats
+        - Describe univariate analysis
+        - Analyze how different visualizations can affect audience interpretation
+        - Create data visualizations using Matplotlib
+        - Reproduce a graph/data visualization from an example graph/data visualization
+        - Analyze existing data visualizations to identify strengths and weaknesses 
+        - Apply principles from Storytelling with Data (SWD) to create graphs
