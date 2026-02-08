@@ -26,9 +26,11 @@ James, G., Witten, D., Hastie, T., Tibshirani, R., & Taylor, J. (2023)
     - Can the relationship between Y and each predictor be summarized using linear equation? Or more complicated?
 #### Subsection 4: Supervised vs Unsupervised Learning
 - This section discusses the difference between supervised and unsupervised learning. Specifically the lack of response variables in unsupervised learning and what you can do instead
-### Section 2: TODO
-#### Subsection 1: TODO
-- fill me in Measuring the Quality of Fit
+### Section 2: Assessing Model Accuracy
+#### Subsection 1: Measuring the Quality of Fit
+- Mean Squared Error (MSE)
+- We need to evaluate the evaluation metric against the *test set*, not the training set exclusively. As the model is given more flexibility it will fit the training set better, but it may overfit.
+- Cross validation can be used to ensure that the choice of training set does not majorly influence the resulting model
 
 ## Chapter 3: Linear Regression
 ### Section 1: Simple Linear Regression
