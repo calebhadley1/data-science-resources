@@ -64,3 +64,8 @@
         - Underfitting and overfitting
         - Generalization
         - Bias-variance tradeoff
+4. Generalization; Sampling Methods: Training, Testing, and Validation Sets; Cross-Validation
+    - [Stats 101: What is the ​Sampling Theory](https://thinkingneuron.com/what-is-the-sampling-theory/)
+    - [Hands-on machine learning with Scikit-Learn, Keras and TensorFlow](2_hands_on_machine_learning_with_sklearn_keras_and_tensorflow.md) Read Chapter 2, End-to-End Machine Learning Project, pp. 88-89, Chapter 4, Training Models, pp.151-154
+    - [Why do we split data into train test and validation sets?](https://www.youtube.com/watch?v=dSCFk168vmo)
+    - [Machine Learning Fundamentals: Cross Validation](https://www.youtube.com/watch?v=fSytzGwwBVw&t=165s)
