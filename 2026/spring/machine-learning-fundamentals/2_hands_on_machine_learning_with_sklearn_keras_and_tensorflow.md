@@ -35,6 +35,10 @@ Géron, Aurélien
     - Model (p. 22)
         - Model of the training examples is built and predictions are made using that model
     - Python Snippets for the KNN / Reg models are provided on pages 23 - 25
+
+## Chapter 2: 
+- TODO read pages 88-89 and anything else interesting in this chapter
+
 ## Chapter 4: Training Models (Or at least up to page 154)
 - This chapter dives deeper into the black box that is a "model". It discusses deriving the closed form equation and utilizing gradient descent to find the optimal parameters
 - Linear Regression is formalized on page 132
@@ -49,3 +53,4 @@ Géron, Aurélien
         - Mini-Batch (p. 148) calculates gradients against random subsets of the training set instead of the entire set
 - Polynomial Regression (p. 149) allows us to model more complicated relationships
     - Learning rates (p. 152-153) should be examined to ensure models are not over/underfitting
+- TODO finish rest of ch 4
