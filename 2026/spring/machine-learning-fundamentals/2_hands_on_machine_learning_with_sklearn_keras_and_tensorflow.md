@@ -37,7 +37,7 @@ Géron, Aurélien
     - Python Snippets for the KNN / Reg models are provided on pages 23 - 25
 
 ## Chapter 2: 
-- TODO read pages 88-89 and anything else interesting in this chapter
+- Pages 88-89 discuss the consequences of training and evaluating a model based on the training set. It can result in overfitting since there is no test set held out
 
 ## Chapter 4: Training Models (Or at least up to page 154)
 - This chapter dives deeper into the black box that is a "model". It discusses deriving the closed form equation and utilizing gradient descent to find the optimal parameters
@@ -52,5 +52,4 @@ Géron, Aurélien
         - Stochastic (p. 145) is less regular than Batch, but it can jump out of local minima easier
         - Mini-Batch (p. 148) calculates gradients against random subsets of the training set instead of the entire set
 - Polynomial Regression (p. 149) allows us to model more complicated relationships
-    - Learning rates (p. 152-153) should be examined to ensure models are not over/underfitting
-- TODO finish rest of ch 4
+    - Learning rates (p. 152-154) should be examined to ensure models are not over/underfitting

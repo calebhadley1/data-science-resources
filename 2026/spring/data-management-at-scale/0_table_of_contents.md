@@ -75,3 +75,63 @@
         - Schemas
         - Data Governance
         - Tools for Data Cataloging (Alation, Collibra, and Informatica) and Data Quality Management (Talend, Trifacta (now Alteryx Designer Cloud), and Microsoft’s Data Quality Services)
+4. Data Quality and Master Data Management
+    - Data Quality
+        - Why is it important?
+            - Decisions made on bad quality data could be incorrect
+            - Minimizes the need for re-work/corrections
+            - Regulations (like in finance or healthcare)
+        - Dimensions:
+            - Accuracy
+            - Completeness
+            - Timeliness
+            - Validity
+            - Uniqueness
+            - Integrity
+        - How can Data Governance help?
+            - Defines data ownership and which stakeholders are responsible for ensuring quality
+            - Establishes data quality metrics/standards
+            - Data Stewardship
+            - Standards result in data consistency across systems
+            - Data quality monitoring and auditing is put in place
+            - Helps orgs meet regulatory requirements
+        - Challenges
+            - Diverse data sources make it difficult for consistent quality standards across different data types like structured, unstructured, and semi-structured
+            - Defining which metrics to evaluate quality on depend on business priorities
+            - Data silos & Legacy systems
+            - Human error
+            - Balancing quality vs speed
+        - How can we improve data quality?
+            - Data profiling
+            - Data cleansing
+            - Data dashboards
+    - Master Data Management
+        - Core principles
+            - Single source of truth (golden record) aggregates data from multiple systems to provide a trusted view
+            - Data integration and consolidation combines data from CRMs, ERP systems, etc into a unified repository
+            - Data governance defines standards, policies, and roles to ensure consistency and quality
+            - Data quality management implements profiling, cleansing, and validation processes
+            - Scalability and flexibility ensures the system can accomodate new and larger data volumes
+        - Core components
+            - Master data repository
+            - Data integration layer (ETL)
+            - Data quality management (profiling, cleansing, standardization of data)
+            - Data governance and stewardship (standards, policies, and roles)
+            - Workflows and business rules engine (processes for data approval, validation, and updates)
+            - UI / Reporting tools
+        - Architectures
+            - Centralized, registry, hybrid, federated, and coexistence
+        - Challenges
+            - Integrating disparate systems can be difficult
+            - Lack of clear ownership and governance
+            - Data quality issues can be time consuming
+            - Choosing correct architecture for the org
+            - Scalability and performance concerns
+            - High implementation costs and time requirements
+        - Best practices
+            - Establish Strong Data Governance 
+            - Focus on Data Quality 
+            - Start with a Pilot Project 
+            - Select the Appropriate MDM Architecture 
+            - Encourage User Adoption and Manage Change 
+            - Monitor and Continuously Improve 
