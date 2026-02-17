@@ -57,3 +57,5 @@ https://www.storytellingwithdata.com/books
 - Other types of graphs
     - Avoid 3rd graphs, pie charts (p. 62-63)
     - Secondary y axis is generally not a good idea. It can be confusing to understand which data corresponds to which axis
+## Chapter 3: TODO
+- TODO fill me in
