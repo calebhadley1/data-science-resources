@@ -42,3 +42,11 @@
         - Reproduce a graph/data visualization from an example graph/data visualization
         - Analyze existing data visualizations to identify strengths and weaknesses 
         - Apply principles from Storytelling with Data (SWD) to create graphs
+5. Bivariate Analysis 1
+    - Key concepts:
+        - Define what constitutes clutter and visual order in data visualization
+        - Describe how cognitive load can impact decisions on how best to create a data visualization
+        - Determine what data types or pairs in a provided data set produce the most meaningful or impactful data visualizations
+        - Describe bivariate analysis
+        - Identify the components of effective (good) data visualization
+        - Reproduce a graph/data visualization from an example graph/data visualization
