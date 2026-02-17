@@ -135,3 +135,12 @@
             - Select the Appropriate MDM Architecture 
             - Encourage User Adoption and Manage Change 
             - Monitor and Continuously Improve 
+5. Structured Data and Database Fundamentals
+    - [What is a Database - Beginning Oracle SQL for Oracle database](https://bu.primo.exlibrisgroup.com/discovery/fulldisplay?docid=cdi_springer_books_10_1007_978_1_4842_4430_2_1&context=PC&vid=01BOSU_INST:BU&lang=en&search_scope=MyInst_and_CI_NoLondon&adaptor=Primo%20Central&tab=Everything&query=any,contains,https:%2F%2Fdoi.org%2F10.1007%2F978-1-4842-4430-2_1&sortby=rank&mode=Basic)
+    - [Entities and data Relationships -  Relational database design clearly explained (pp. 11-45).](https://bu.primo.exlibrisgroup.com/discovery/fulldisplay?context=L&vid=01BOSU_INST:BU&search_scope=MyInst_and_CI_NoLondon&tab=Everything&docid=alma99208275040001161)
+    - [What Is a Relational Database? (RDBMS)? - Oracle](https://www.oracle.com/database/what-is-a-relational-database/)
+    - [One-To-One and Many-to-Many Database Relationships](https://blog.supportgroup.com/getting-started-with-relational-databases-one-to-one-and-many-to-many-relationships)
+    - [Understanding SQL Joins – All You Need To Know About SQL Joins](https://www.edureka.co/blog/sql-joins-types)
+    - Key concepts:
+        - Differentiate between structured, unstructured, and semi-structured data  
+        - RDMS fundamentals
