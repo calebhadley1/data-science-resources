@@ -54,3 +54,5 @@ James, G., Witten, D., Hastie, T., Tibshirani, R., & Taylor, J. (2023)
 ### Section 2: The Bootstrap
 - Used to "quantify the uncertainty associated with a given estimator or statistical learning method" (p. 212)
 - This method can estimate standard errors of the coefs from a lin reg fit. It can also be adapted to many other statistical learning methods
+
+# TODO read pages 86-87 on feature selection
