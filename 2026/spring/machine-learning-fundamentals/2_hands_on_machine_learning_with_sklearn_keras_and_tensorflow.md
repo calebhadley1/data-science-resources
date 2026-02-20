@@ -53,3 +53,4 @@ Géron, Aurélien
         - Mini-Batch (p. 148) calculates gradients against random subsets of the training set instead of the entire set
 - Polynomial Regression (p. 149) allows us to model more complicated relationships
     - Learning rates (p. 152-154) should be examined to ensure models are not over/underfitting
+- TODO: Read Chapter 4, Training Models, pp. 155-161

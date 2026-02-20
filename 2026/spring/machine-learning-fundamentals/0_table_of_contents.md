@@ -78,4 +78,6 @@
         - Leave-One-Out Cross Validation
 5. Feature Selection and Regularization
     - [An Introduction to Statistical Learning: With Applications in Python](1_introduction_to_statistical_learning.md) -Read Deciding on Important Variables, pp. 86-87 carefully as it contains a rigorous explanation of feature selection. 
+    - [Hands-on machine learning with Scikit-Learn, Keras and TensorFlow](2_hands_on_machine_learning_with_sklearn_keras_and_tensorflow.md) Read Chapter 4, Training Models, pp. 155-161
     - [How to Choose a Feature Selection Method For Machine Learning](https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/)
+    - [Regularization](https://www.youtube.com/watch?v=8t5vaZroVjw)
