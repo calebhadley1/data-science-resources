@@ -49,10 +49,9 @@ James, G., Witten, D., Hastie, T., Tibshirani, R., & Taylor, J. (2023)
     - RSE + R^2 (p. 77 - 79)
 ### Section 2: Multiple Linear Regression
 - By extending the Simple Linear Regression, we can use multiple predictors. It is not effective to train multiple models for each feature
+- Pages 86-76 discuss methods for feature selection, including forward, backward, and mixed selection
 
 ## Chapter 5: Resampling Methods 
 ### Section 2: The Bootstrap
 - Used to "quantify the uncertainty associated with a given estimator or statistical learning method" (p. 212)
 - This method can estimate standard errors of the coefs from a lin reg fit. It can also be adapted to many other statistical learning methods
-
-# TODO read pages 86-87 on feature selection

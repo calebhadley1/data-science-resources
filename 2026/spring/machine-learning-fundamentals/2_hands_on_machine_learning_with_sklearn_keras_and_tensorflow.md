@@ -53,4 +53,7 @@ Géron, Aurélien
         - Mini-Batch (p. 148) calculates gradients against random subsets of the training set instead of the entire set
 - Polynomial Regression (p. 149) allows us to model more complicated relationships
     - Learning rates (p. 152-154) should be examined to ensure models are not over/underfitting
-- TODO: Read Chapter 4, Training Models, pp. 155-161
+- Regularized Models (p. 155-161)
+    - Constraining a model can prevent overfitting
+    - Ridge regression adds a regularization term to the MSE, which helps to keep the model weights as small as possible
+    - Lasso regression adds a regularization term as well, but uses the L1 norm instead. It tends to eliminate the weights of the least important features
