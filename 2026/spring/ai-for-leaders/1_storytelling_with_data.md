@@ -57,5 +57,17 @@ https://www.storytellingwithdata.com/books
 - Other types of graphs
     - Avoid 3rd graphs, pie charts (p. 62-63)
     - Secondary y axis is generally not a good idea. It can be confusing to understand which data corresponds to which axis
-## Chapter 3: TODO
-- TODO fill me in
+## Chapter 3: Clutter is your Enemy
+- Clutter causes extra cognitive load
+- Gestalt Principles of Visual Perception
+    - Proximity (p. 75)
+    - Similarity (p. 76)
+    - Enclosure (p. 77)
+    - Closure (p. 78)
+    - Continuity (p. 79)
+    - Connection (p. 80)
+- Visual order should be considered to reduce cognitive load (p. 81-82)
+- Alignment (p. 84)
+- White space (p. 85)
+- Contrast (p. 86)
+- The chapter closes by giving a step by step process to de-clutter charts
