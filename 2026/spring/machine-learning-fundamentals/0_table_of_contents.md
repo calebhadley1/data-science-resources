@@ -82,16 +82,66 @@
     - [How to Choose a Feature Selection Method For Machine Learning](https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/)
     - [Regularization](https://www.youtube.com/watch?v=8t5vaZroVjw)
 6. Decision Trees
-    - Regression Tree
-    - Classification Tree
-    - Split
-    - Recursive Binary Splitting
-    - Impurity
-    - Pruning
-    - Tree Pruning
-    - Maximum Depth
-    - Minimum Samples per Leaf
-    - Feature Importance
     - [Hands-on machine learning with Scikit-Learn, Keras and TensorFlow](2_hands_on_machine_learning_with_sklearn_keras_and_tensorflow.md) Read Chapter 6, Decision Trees
     - [Decision Tree Regression Clearly Explained!](https://www.youtube.com/watch?v=UhY5vPfQIrA)
     - [Pruning Decision Trees](https://www.geeksforgeeks.org/machine-learning/pruning-decision-trees/)
+    - Key concepts:
+        - Regression Tree
+        - Classification Tree
+        - Split
+        - Recursive Binary Splitting
+        - Impurity
+        - Pruning
+        - Tree Pruning
+        - Maximum Depth
+        - Minimum Samples per Leaf
+        - Feature Importance
+7. Ensemble Methods: Bagging, Boosting, and Random Forests
+    - [Machine Learning Tutorial Python - 21: Ensemble Learning - Bagging](https://www.youtube.com/watch?v=RtrBtAKwcxQ)
+    - [StatQuest: Random Forests Part 1 - Building, Using and Evaluating](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ)
+    - [AdaBoost, Clearly Explained](https://www.youtube.com/watch?v=LsK-xG1cLYA)
+    - Key concepts:
+        - Bagging
+            - Bootstrap Sampling
+            - Train Individual Models
+            - Averages Predictions
+                - In Reg we average preds
+                - In clf we vote, pick from majority
+            - The central limit theorem: by averaging preds, we reduce the effect of random fluctuations or noise
+            - Reduces the variance and overfitting risk
+            - Balances model predictions. Individual trees could overfit but the bagging smooths it out
+            - More stable models
+            - Out of Bag (OOB) Error Estimation
+                - Model performance can be measured without needing a separate validation set
+            - How many samples (how many trees) (B hyperparam)?
+                - Cross validation using K-Fold CV. Stop when further increases in B do not improve perf
+                - OOB Error. Track OOB as you increase B. When the error stabalizes youve likely found a good value
+                - Practical advice: start with B in range of 50 to 100. Increase if dataset is too large or complex
+            - Bias Variance Tradeoff
+                - Bagging reduces variance but does not change bias
+        - Random Forests
+            - Adds extra level of randomness to bagging. In standard Bagging, each decision tree is trained on a different bootstrap sample of the data, but when splitting nodes, the algorithm searches over all available features to find the best split. This can lead to overemphasis on certain strong features, causing many trees in the ensemble to look quite similar. RF uses "feature sampling"
+        - Boosting
+            - While Random Forests build multiple independent trees in parallel, Boosting builds trees sequentially. Each new tree learns from the mistakes of the previous trees, gradually correcting errors to improve the overall fit.
+            - Parameters
+                - Shrinkage Factor: Determines how much each new tree can change the existing model. A smaller ﻿lambda﻿ forces each tree to make only slight adjustments, helping to avoid overfitting. Typical values are around 0.1 to 0.3.
+                - Number of Trees: More trees lead to a more refined model, but computational cost increases. Often, hundreds or thousands of trees are used.
+                - Tree Depth: Unlike Bagging, Boosting typically uses shallow trees. Each tree is a "weak learner," meaning it captures only basic patterns. This also helps in preventing overfitting.
+8. Classification
+    - [Hands-on machine learning with Scikit-Learn, Keras and TensorFlow](2_hands_on_machine_learning_with_sklearn_keras_and_tensorflow.md) Read Chapter 4, Logistic Regression (p. 164-173) and Chapter 7, Ensemble Learning and Random Forests
+    - [Classification in Machine Learning: An Introduction](https://www.datacamp.com/blog/classification-machine-learning)
+    - [Difference Between Classification and Regression in Machine Learning](https://machinelearningmastery.com/classification-versus-regression-in-machine-learning/)
+    - [Machine Learning Fundamentals: The Confusion Matrix](https://www.youtube.com/watch?v=Kdsp6soqA7o&t=15s)
+    - Key concepts:
+        - Types of classification problems:
+            Binary: Classification with two possible outcomes (e.g., spam vs. not spam)
+            Multi-Class: Classification with more than two possible outcomes, where each data point is assigned one class (e.g., classifying handwritten digits 0-9)
+            Multi-Label: Classification where each data point can belong to multiple classes simultaneously (e.g., tagging photos with "dog" and "beach")
+        - Categorical Data: Data representing discrete categories with no inherent order (e.g., blood types A, B, AB, O)
+        - Ordinal Data: Categorical data with a meaningful order (e.g., grades A, B, C)
+        - Confusion Matrix: A table summarizing the performance of a classification model by showing true positives, false negatives, false positives, and true negatives
+        - Metrics used in classification:
+            - Accuracy: The percentage of correct predictions out of total predictions
+            - Precision: The proportion of positive predictions that are actually correct
+            - Recall (Sensitivity): The proportion of actual positives that are correctly identified
+            - F1-Score: The harmonic mean of precision and recall, balancing their trade-off

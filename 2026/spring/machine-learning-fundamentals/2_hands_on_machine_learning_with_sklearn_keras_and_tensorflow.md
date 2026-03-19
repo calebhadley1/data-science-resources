@@ -57,6 +57,10 @@ Géron, Aurélien
     - Constraining a model can prevent overfitting
     - Ridge regression adds a regularization term to the MSE, which helps to keep the model weights as small as possible
     - Lasso regression adds a regularization term as well, but uses the L1 norm instead. It tends to eliminate the weights of the least important features
+- TODO finish part on logistic reg
 
 ## Chapter 6: Decision Trees
 - TODO
+
+## Chapter 7: Ensemble Learning and Random Forests
+# TODO
