@@ -145,3 +145,25 @@
             - Precision: The proportion of positive predictions that are actually correct
             - Recall (Sensitivity): The proportion of actual positives that are correctly identified
             - F1-Score: The harmonic mean of precision and recall, balancing their trade-off
+9. Variable Importance Measures
+    - [Variable Importance](https://www.youtube.com/watch?v=_Mv9kIHiTkc&t=9s)
+    - Key concepts:
+        - Variable Importance: A metric quantifying how much each feature contributes to the predictive performance of a machine learning model
+        - Feature Selection: The process of choosing a subset of relevant features for model building, often guided by variable importance measures
+        - Traditional Variable Importance: Measures importance by evaluating the reduction in an error metric when a feature is used in decision tree splits, often biased toward high-cardinality features
+        - Permutation Importance: Evaluates feature importance by measuring the change in model performance when the values of a feature are randomly shuffled, providing an unbiased estimate
+            - Advantages:
+                - Captures the feature’s true contribution to the model’s performance, avoiding biases from high-cardinality features
+                - Model-agnostic, meaning it can be used with any machine learning algorithm, not just tree-based models. 
+                - Can be used on out-of-bag data, validation sets, or testing sets, providing a more realistic and generalizable measure of feature importance. 
+            - Disadvantages:
+                - Computationally expensive since it re-evaluates model multiple times
+        - Error Reduction: A traditional importance measure that calculates how much a feature decreases the prediction error in tree-based models
+            - Disadvantages:
+                - Bias Toward High-Cardinality Features: Features with many unique values (like ID numbers) are more likely to reduce error when used for splits, leading to inflated importance scores, even if the feature doesn’t truly improve the model’s predictive power, resulting in misleading interpretations
+                - Specific to Tree-Based Models: This method is most relevant for decision trees and tree-based ensembles and does not generalize to other types of models
+                - May Not Reflect True Generalization: Since error reduction is calculated on the training set, it does not accurately measure the importance of individual features in contributing to prediction performance on new, unseen data–the most critical factor in assessing model performance!
+        - Model-Agnostic: A characteristic of a method, such as permutation importance, that allows it to be applied across different types of machine learning models
+        - Baseline Performance: The initial predictive performance of a model before any modifications, used for comparison in permutation importance
+        - Bias in Variable Importance: Systematic errors in feature importance rankings caused by methods favoring features with specific characteristics, such as many unique values or strong correlations with other features
+        - Feature Interaction Effects: Situations where the combined influence of two or more features on the target variable is greater than the sum of their individual contributions
