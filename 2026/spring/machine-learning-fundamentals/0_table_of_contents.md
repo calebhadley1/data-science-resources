@@ -168,6 +168,12 @@
         - Bias in Variable Importance: Systematic errors in feature importance rankings caused by methods favoring features with specific characteristics, such as many unique values or strong correlations with other features
         - Feature Interaction Effects: Situations where the combined influence of two or more features on the target variable is greater than the sum of their individual contributions
 10. Causal Inference
+    - [2.6 Correlation is not causation | Basic Statistics | Correlation and Regression | UvA](https://www.youtube.com/watch?v=yxRHfBwAYR0)
+    - [The danger of mixing up causality and correlation: Ionica Smeets at TEDxDelft](https://www.youtube.com/watch?v=8B271L3NtAw)
+    - [Understanding Confounding Variables: A Comprehensive Guide](https://medium.com/@jhalaksurve/understanding-confounding-variables-a-comprehensive-guide-846b30462b6b)
+    - [Causal Inference - EXPLAINED!](https://www.youtube.com/watch?v=Od6oAz1Op2k)
+    - [Correlation vs Causation: Learn the Difference](https://amplitude.com/blog/causation-correlation)
+    - [Causal Inference with Machine Learning - EXPLAINED!](https://www.youtube.com/watch?v=MFnOYNU5sbk)
     - Key concepts:
         - Causation: A relationship where one event (the cause) directly affects another event (the effect)
         - Correlation: A statistical association between two variables, where changes in one variable are related to changes in another, without necessarily implying causation
