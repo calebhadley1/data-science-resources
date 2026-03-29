@@ -144,3 +144,61 @@
     - Key concepts:
         - Differentiate between structured, unstructured, and semi-structured data  
         - RDMS fundamentals
+6. Relational Database Development and Querying
+    - Data Normalization Process
+        - [Description of the database normalization basics](https://learn.microsoft.com/en-us/troubleshoot/microsoft-365-apps/access/database-normalization-description)
+        - 1st - 5th Normal Forms
+        - Balance Normalization and Denormalization
+            - Business Need
+                - Analyze DMLs required
+                - Is data consistency or query performance most important?
+            - Normalize to necessary level (at least 3NF)
+            - Identify Performance Bottlenecks
+            - Denormalize for specific use cases
+                - Adding summary tables by pre-aggregating data for faster reporting. 
+                - Duplicating frequently accessed columns, reducing the need for joins in high-traffic queries. 
+                - Combining related tables by merging tables accessed together frequently to streamline retrieval. 
+                - Document and control redundant data to ensure that updates remain consistent across the database. 
+            - Use indexing and caching
+            - Consider partitioning
+            - Test and Iterate
+            - Maintain Data Integrity
+    - Fundamentals of Relational Database Management
+        - Normalization, Keys and Relationships, Data Integrity, and Scalability and Performance
+    - Query Behavior
+        - [Introduction to SQL](https://www.w3schools.com/sql/sql_intro.asp)
+        - [SQL Order of Operations](https://learnsql.com/blog/sql-order-of-operations/)
+        - DDLs, DMLs, relationships + joins, indexing + query optimization, constraints
+7. Intermediate Database Techniques and Data Warehousing
+    - Intermediate Relational Database Concepts
+        - [Transactions in SQL Server for beginners](https://www.sqlshack.com/transactions-in-sql-server-for-beginners/)
+        - [SQL TRANSACTIONS](https://www.geeksforgeeks.org/sql/sql-transactions/)
+        - SPs
+        - ACID
+    - Database Business Continuity Planning
+        - HADR Architecture
+        - [Business continuity and database recovery - SQL Server](https://learn.microsoft.com/en-us/sql/database-engine/sql-server-business-continuity-dr?view=sql-server-ver16)
+        - [Application patterns and development strategies for SQL Server on Azure Virtual Machines](https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/application-patterns-development-strategies?view=azuresql)
+        - Database Recovery Strategies
+        - High Availability
+    - Data Warehousing Fundamentals
+        - [Data warehouse Normalized approach vs Dimensional Approach](https://en.wikipedia.org/wiki/Data_warehouse#Normalized_approach)
+        - [Data modeling and data analytics: A survey from a big data perspective](https://www.researchgate.net/figure/Example-of-two-star-schema-models-for-the-Academic-Management-System_fig1_288872507)
+        - [Inmon or Kimball? The debate of the century](https://kurtzahrabi.wordpress.com/2015/06/20/inmon-or-kimball-the-debate-of-the-century/)
+8. Semi-structured Data: NoSQL Databases
+    - Semi-structured Data
+        - [What is Semi-Structured Data? Key Benefits & Examples](https://atlan.com/what-is/semi-structured-data/)
+    - NoSQL Databases
+        - [The basics of NoSQL databases — and why we need them](https://www.freecodecamp.org/news/nosql-databases-5f6639ed9574/)
+    - Key-value and Document Databases
+        - [Difference between Document Database VS Key Value](https://databasetown.com/document-database-vs-key-value/)
+9. NoSQL Databases Continued: Graph Databases and Wide-Column Databases
+    - GraphDBs
+        - [Seven Bridges of Königsberg](https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg)
+        - [What is a graph database](https://neo4j.com/docs/getting-started/graph-database/)
+        - [Graph Databases for Beginners: Why Graph Technology Is the Future](https://neo4j.com/blog/graph-database/why-graph-databases-are-the-future/)
+        - [Graph Databases VS Relational Databases – Learn How a Graph Database Works](https://www.freecodecamp.org/news/graph-database-vs-relational-database/)
+        - [GQL Standard](https://www.gqlstandards.org/)
+    - Wide-column DBs
+        - [What Is a Wide Column Database?](https://www.dataversity.net/data-concepts/wide-column-database/)
+        - [NoSQL wide-column stores demystified](https://blog.logrocket.com/nosql-wide-column-stores-guide/)
