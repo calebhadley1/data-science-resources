@@ -167,3 +167,9 @@
         - Baseline Performance: The initial predictive performance of a model before any modifications, used for comparison in permutation importance
         - Bias in Variable Importance: Systematic errors in feature importance rankings caused by methods favoring features with specific characteristics, such as many unique values or strong correlations with other features
         - Feature Interaction Effects: Situations where the combined influence of two or more features on the target variable is greater than the sum of their individual contributions
+10. Causal Inference
+    - Key concepts:
+        - Causation: A relationship where one event (the cause) directly affects another event (the effect)
+        - Correlation: A statistical association between two variables, where changes in one variable are related to changes in another, without necessarily implying causation
+        - Confounding Variable: An external factor that influences both the independent variable and the dependent variable, potentially distorting the perceived relationship between them. This can lead to incorrect conclusions about causation or association in a model.
+        - Randomized Controlled Trial (RCT): An experimental method that randomly assigns subjects to different groups to measure the effect of an intervention
