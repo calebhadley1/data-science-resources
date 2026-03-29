@@ -51,3 +51,40 @@
         - Describe bivariate analysis
         - Identify the components of effective (good) data visualization
         - Reproduce a graph/data visualization from an example graph/data visualization
+6. Bivariate Analysis 2
+    - [Storytelling with Data: Chapter 3](1_storytelling_with_data.md)
+    - Key concepts:
+        - Define what constitutes clutter and visual order in data visualization
+        - Describe how cognitive load can impact decisions on how best to create a data visualization
+        - Determine what data types or pairs in a provided data set produce the most meaningful or impactful data visualizations
+        - Describe bivariate analysis
+        - Identify the components of effective (good) data visualization
+        - Reproduce a graph/data visualization from an example graph/data visualization
+7. Milestone 3
+    - [Storytelling with Data: Chapter 4](1_storytelling_with_data.md)
+    - Key concepts:
+        - Preattentive Attributes
+8. Multivariate Analysis 1
+    - [Storytelling with Data: Chapter 5](1_storytelling_with_data.md)
+    - Key concepts:
+        - Apply visual hierarchy principles and techniques (color, size positioning) to emphasize key data points in a visualization
+        - Describe principal component analysis
+        - Create a bubble plot
+        - Describe how a multiple regression is performed
+        - Create a heatmap
+        - Reproduce a graph/data visualization from an example graph/data visualization
+9. Multivariate Analysis 2
+    - [Storytelling with Data: Chapter 5](1_storytelling_with_data.md)
+    - Key concepts:
+        - Apply visual hierarchy principles and techniques (color, size positioning) to emphasize key data points in a visualization
+        - Describe principal component analysis
+        - Create a bubble plot
+        - Describe how a multiple regression is performed
+        - Create a heatmap
+        - Reproduce a graph/data visualization from an example graph/data visualization
+10. Modeling 1
+    - [Storytelling with Data: Chapter 6](1_storytelling_with_data.md)
+    - Key concepts:
+        - Apply principles of data visualization/design principles to create various types of visual elements
+        - Implement models (i.e., Correlation coefficients and linear regression) 
+        - Reproduce a graph/data visualization from an example graph/data visualization
