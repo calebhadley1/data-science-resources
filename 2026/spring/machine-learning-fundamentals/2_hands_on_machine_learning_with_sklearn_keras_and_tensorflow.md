@@ -39,7 +39,7 @@ Géron, Aurélien
 ## Chapter 2: 
 - Pages 88-89 discuss the consequences of training and evaluating a model based on the training set. It can result in overfitting since there is no test set held out
 
-## Chapter 4: Training Models (Or at least up to page 154)
+## Chapter 4: Training Models
 - This chapter dives deeper into the black box that is a "model". It discusses deriving the closed form equation and utilizing gradient descent to find the optimal parameters
 - Linear Regression is formalized on page 132
 - The Normal Equation, the closed form solution for Linear Regression, and the math to calculate it is discussed on page 135. It turns out that calculating the normal equation is more expensive than utilizing gradient descent. 
@@ -57,10 +57,27 @@ Géron, Aurélien
     - Constraining a model can prevent overfitting
     - Ridge regression adds a regularization term to the MSE, which helps to keep the model weights as small as possible
     - Lasso regression adds a regularization term as well, but uses the L1 norm instead. It tends to eliminate the weights of the least important features
-- TODO finish part on logistic reg
+- Logistic Regression (p. 164 - 174)
+    - Estimates the probability that an instance belongs to a class
+    - Prob is estimated by calculating the *logit* of the weighted sum of the input features
+    - Cost function is convex
+    - Softmax regression extends logistic regression from binary to multiple classes
 
 ## Chapter 6: Decision Trees
-- TODO
+- Gini impurity vs entropy (p. 197 & 201)
+- CART training algo (p. 199)
+- Hyperparameter regularization (p. 202)
+- Decision Tree regression (p. 204)
+- Sensitivity to data axis orientation (p. 207) and using PCA to resolve it (p. 207)
+- The high variance problem
 
 ## Chapter 7: Ensemble Learning and Random Forests
-# TODO
+- Page 211 has a nice quote on the *wisdom of the crowd*
+- Voting Classifiers + hard voting / soft voting (p. 212)
+- Bagging + Pasting (p. 215)
+    - Out of Bag Evaluation vs train/test split (p. 218)
+- Random Forest (p. 220)
+    - Automatic feature importance (p. 221)
+- Boosting (p. 222)
+    - AdaBoost (p. 223) and Gradient Boosting (p. 226)
+- Stacking (p. 231)
