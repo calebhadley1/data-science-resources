@@ -179,3 +179,54 @@
         - Correlation: A statistical association between two variables, where changes in one variable are related to changes in another, without necessarily implying causation
         - Confounding Variable: An external factor that influences both the independent variable and the dependent variable, potentially distorting the perceived relationship between them. This can lead to incorrect conclusions about causation or association in a model.
         - Randomized Controlled Trial (RCT): An experimental method that randomly assigns subjects to different groups to measure the effect of an intervention
+11. Bias and Fairness
+    - [MIT 6.S191: AI Bias and Fairness](https://www.youtube.com/watch?v=wmyVODy_WD8&t=262s)
+    - [The Continuity of Barriers: How AI Job Recruiters Discriminate](https://harvardtechnologyreview.com/2024/09/15/the-continuity-of-barriers-how-ai-job-recruiters-discriminate/)
+    - [Definitions of Fairness in Machine Learning | Equal Opportunity, Equalized Odds & Disparate Impact](https://www.youtube.com/watch?v=c2_ezuAnCrA)
+    - [How to Test Models for Fairness with Fairlearn Deep-Dive](https://www.youtube.com/watch?app=desktop&v=Ts6tB2p97ek)
+    - Key concepts:
+        - Fairness: The principle that machine learning models should provide equitable outcomes across different demographic groups, avoiding disproportionate harm or benefit
+        - Bias: Systematic errors in data or models that lead to unfair outcomes, often reflecting societal inequalities or flawed algorithms
+        - Selection Bias: A type of bias caused by non-representative training data, which can misrepresent certain groups or characteristics
+        - Measurement Bias: Bias introduced by inaccuracies or errors in data collection methods
+        - Proxy Bias: When a feature indirectly represents a sensitive attribute (e.g., ZIP codes correlating with race or income)
+        - Algorithmic Bias: Bias introduced by the design or behavior of machine learning algorithms, even when trained on unbiased data
+        - Interaction Bias: Bias arising from user interactions that reinforce existing prejudices or patterns in a model
+        - Fairlearn: An open-source toolkit designed to assess and mitigate biases in machine learning models by providing fairness metrics and algorithms
+12. Final Project Management
+    - [Hands-on machine learning with Scikit-Learn, Keras and TensorFlow](2_hands_on_machine_learning_with_sklearn_keras_and_tensorflow.md) Read Appendix B, Machine Learning Project Checklist. pp. 779-784
+    - [How to Use a Machine Learning Checklist to Get Accurate Predictions, Reliably](https://machinelearningmastery.com/machine-learning-checklist/)
+    - Key concepts:
+        - Develop a project problem statement, objectives, and success metrics, ensuring alignment with business or real-world goals
+        - Identify, source, and prepare datasets for analysis while ensuring compliance with ethical, legal, and organizational standards
+        - Conduct EDA to uncover patterns, relationships, and potential issues in the data, documenting insights to guide model development
+        - Develop baseline and advanced models, evaluate performance using appropriate metrics, and apply validation techniques to ensure robustness
+        - Evaluate model findings through visualizations and narratives, ensuring results are interpretable and actionable for both technical and non-technical stakeholders
+        - Implement best practices for project organization and team collaboration to ensure transparency, reproducibility, and accountability throughout the workflow
+        - Analyze trade-offs between competing objectives, such as accuracy, fairness, and interpretability, to make informed decisions throughout the project lifecycle
+13. Unsupervised Learning
+    - [Hands-on machine learning with Scikit-Learn, Keras and TensorFlow](2_hands_on_machine_learning_with_sklearn_keras_and_tensorflow.md) Read Chapter 8, Dimensionality Reduction. pp. 237-249. This chapter presents all the major issues, with great insights, beautiful illustrations, and code. Read Chapter 9, Unsupervised Learning Techniques. pp. 259-272. This chapter discusses K-means with code.
+    - [StatQuest: K-means clustering](https://www.youtube.com/watch?v=4b5d3muPQmA&t=41s)
+    - [StatQuest: Hierarchical Clustering](https://www.youtube.com/watch?v=7xHsRkOdVwo)
+    - [Principal Component Analysis (PCA) clearly explained (2015)](https://www.youtube.com/watch?v=_UVHneBUBW0)
+    - Key concepts:
+        - Unsupervised Learning: A type of machine learning that finds patterns in data without labeled outcomes
+        - Clustering: A method of grouping similar data points together based on shared features
+        - K-Means Clustering: A clustering algorithm that partitions data into a specified number of clusters, minimizing variance within clusters
+        - Dimensionality Reduction: Techniques used to reduce the number of features in a dataset while retaining essential information
+        - Principal Component Analysis (PCA): A dimensionality reduction method that transforms data into a smaller number of uncorrelated components, preserving maximum variance
+14. Deep Learning
+    - [Gradient Descent: All You Need to Know](https://medium.com/hackernoon/gradient-descent-aynk-7cbe95a778da)
+    - [Convolutional Neural Networks, Explained](https://towardsdatascience.com/convolutional-neural-networks-explained-9cc5188c4939/)
+    - [Introduction to Recurrent Neural Networks](https://www.geeksforgeeks.org/machine-learning/introduction-to-recurrent-neural-network/)
+    - [But what is a neural network? | Deep learning chapter 1](https://www.youtube.com/watch?v=aircAruvnKk&list=PL_h2yd2CGtBHEKwEH5iqTZH85wLS-eUzv)
+    - Key concepts:
+        - Deep Learning: A subset of machine learning that uses artificial neural networks with many layers to model complex patterns in data
+        - Artificial Neural Network (ANN): A computational model inspired by biological neural networks consisting of layers of interconnected artificial neurons
+        - Neuron: A basic computational unit in a neural network that performs weighted summation of inputs followed by an activation function
+        - Activation Function: A non-linear function applied to the output of a neuron to introduce non-linearity, enabling the network to learn complex patterns (e.g., sigmoid, ReLU, tanh)
+        - Loss Function: A mathematical function that measures the difference between the predicted output and the actual target (e.g., Mean Squared Error, Cross-Entropy Loss)
+        - Softmax Function: A function that converts a vector of raw scores into probabilities for multi-class classification, ensuring the outputs sum to 1
+        - Feedforward Network: A type of neural network where information flows in one direction from input to output without loops
+        - Convolutional Neural Network (CNN): A neural network architecture specialized for processing grid-like data, such as images, using convolution and pooling layers
+        - Recurrent Neural Network (RNN): A neural network architecture designed to handle sequential data by maintaining a "memory" of past inputs through feedback loops

@@ -81,3 +81,12 @@ Géron, Aurélien
 - Boosting (p. 222)
     - AdaBoost (p. 223) and Gradient Boosting (p. 226)
 - Stacking (p. 231)
+
+## Chapter 8: Dimensionality Reduction
+- TODO pages 237-249
+
+## Chapter 9: Unsupervised Learning Techniques
+- TODO pages 259-272
+
+## Appendix B
+- Pages 779-784 discuss the essential machine learning project checklist
