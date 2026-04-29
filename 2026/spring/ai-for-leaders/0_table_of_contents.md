@@ -88,3 +88,21 @@
         - Apply principles of data visualization/design principles to create various types of visual elements
         - Implement models (i.e., Correlation coefficients and linear regression) 
         - Reproduce a graph/data visualization from an example graph/data visualization
+11. Modeling 2
+    - [Storytelling with Data: Chapter 7](1_storytelling_with_data.md)
+    - Key concepts:
+        - Apply principles of data visualization/design principles to create various types of visual elements
+        - Implement models (i.e., Correlation coefficients and linear regression) 
+        - Reproduce a graph/data visualization from an example graph/data visualization
+12. Final Project: Capstone Proposal
+    - [Storytelling with Data: Chapter 8](1_storytelling_with_data.md)
+    - Key concepts:
+        - Develop a plan to address a real-world problem using data analytic techniques
+13. Statistics 1
+    - [Storytelling with Data: Chapter 9](1_storytelling_with_data.md)
+    - Key concepts:
+        - Apply statistical techniques to dataset(s), including a t-test, ANOVA, Chi Square, and Contingency table/cross tab
+14. Statistics 2
+    - [Storytelling with Data: Chapter 10](1_storytelling_with_data.md)
+    - Key concepts:
+        - Apply statistical techniques to dataset(s), including a t-test, ANOVA, Chi Square, and Contingency table/cross tab

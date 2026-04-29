@@ -71,3 +71,36 @@ https://www.storytellingwithdata.com/books
 - White space (p. 85)
 - Contrast (p. 86)
 - The chapter closes by giving a step by step process to de-clutter charts
+## Chapter 4: Focus your audience's attention
+- Preattentive Attributes (p. 102)
+    - Visual strategies are shown on page 105 
+    - Text strategies are shown  on page 107
+    - Graph strategies are shown on page 110
+        - Size
+        - Color (and handling color-blindness, brand colors)
+        - Position on page
+## Chapter 5: Think like a designer
+- Affordances (p. 128)
+    - Highlight the important stuff (bold, color, size etc)
+    - Eliminate distractions
+    - Create a clear visual hierarchy of information
+- Accessibility (p. 138)
+    - Don't overcomplicate
+    - Text is your friend
+- Aesthetics (p. 145)
+    - Color, alignment, and white space
+- Acceptance (p. 149)
+    - Articulate the benefits of the new or different approach
+    - Show the side-by-side
+    - Provide multiple options and seek input
+    - Get a vocal audience member on board
+## Chapter 6: Dissecting Model Visuals
+- This chapter goes in depth into analyzing existing visuals like case studies on how to implement the aforementioned strategies (examples on pages 152, 154, 156, 158, and 161)
+## Chapter 7: Lessons in storytelling
+- This chapter lays out a framework for storytelling with data (p. 170). It should be a good reference for validating your presentation material before bringing it to an audience
+## Chapter 8: Pulling it all together
+- This chapter builds on existing plots, implementing the topics discussed so far in the book. It provides a variety of examples
+## Chapter 9: Case studies
+- Case studies on color considerations with dark backgrounds, animation, logic in order, avoiding the spaghetti graph, and alternatives to pie charts
+## Chapter 10: Final thoughts
+- This chapter rehashes the topics covered in the book and urges the importance of storytellng with data
