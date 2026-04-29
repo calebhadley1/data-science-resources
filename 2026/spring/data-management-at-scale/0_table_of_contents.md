@@ -202,3 +202,58 @@
     - Wide-column DBs
         - [What Is a Wide Column Database?](https://www.dataversity.net/data-concepts/wide-column-database/)
         - [NoSQL wide-column stores demystified](https://blog.logrocket.com/nosql-wide-column-stores-guide/)
+10. Big Data Fundamentals and Architectures
+    - Big Data and Its Uses
+        - Volume, Velocity, Variety
+        - [BIG DATA FOUNDATIONS PART -1](https://divithraju.medium.com/big-data-foundations-part-1-cf8ffb29266a)
+        - Challenges in Big Data Utilization
+            - Data volume and storage limitations
+            - Data quality and integration
+            - Data processing and speed
+            - Security and privacy
+            - Ethics and Bias
+            - Workforce/Talent shortage
+        - Opportunities through Big Data
+            - Enhanced Decision-making and Predictive Analytics 
+            - Business Intelligence and Competitive Advantage 
+            - Personalization and Customer Experience 
+            - Cost Optimization and Process Automation 
+            - Health Care and Scientific Breakthroughs 
+            - Real-time Monitoring and Fraud Detection 
+            - Sustainability and Smart Cities 
+    - Big Data Architectures
+        - Tools
+            - Data Ingestion (Apache Kafka, Flume, and AWS Kinesis)
+            - Data Storage (HDFS, Amazon S3, and Google Cloud Storage)
+            - Processing Frameworks (Apache Spark, Apache Flink)
+            - Data Querying and Analysis (Apache Hive, Presto, and Google BigQuery)
+            - Orchestration and Workflow Management (Apache Airflow, AWS Glue, and Google Cloud Dataflow)
+        - Lambda, Kappa and Data Lake Architectures
+        - [Big Data Architecture – Detailed Explanation](https://www.interviewbit.com/blog/big-data-architecture/)
+        - [Database Sharding and Partitioning](https://profitpt.com/2018/01/09/supply_chain_optimization_database_sharding_partitioning/)
+        - [What is a distributed database?](https://www.techtarget.com/searchoracle/definition/distributed-database)
+11. Distributed Compute and Big Data Processing
+    - Distributed Compute and Big Data Processing
+        - Challenges
+            - Network Latency and Communication Overhead
+            - Resource Management and Load Balancing 
+            - Security and Reliability
+            - [Memory vs Storage: What Are the Differences?](https://www.enterprisestorageforum.com/hardware/memory-vs-storage/)
+            - [Comparison-of-different-storage-devices-in-terms-of-cost-GB-and-performance](https://www.researchgate.net/figure/Comparison-of-different-storage-devices-in-terms-of-cost-GB-and-performance-IOPS_fig1_350147759)
+        - Patterns
+            - Lambda Architecture
+            - Data Lake Architecture
+    - Hadoop Ecosystem
+        - HDFS, MapReduce, Hive, Pig, Sqoop, HBase, YARN, Flume and Kafka
+        - [What Is Hadoop and What Is It Used For?](https://phoenixnap.com/blog/what-is-hadoop)
+    - MapReduce Processing
+        - [Map Reduce in Hadoop](https://www.geeksforgeeks.org/big-data/map-reduce-in-hadoop/)
+        - Tuning the Number of Mappers and Reducers
+        - Data Partitioning 
+        - Fine-tuning Resource Allocation 
+    - Spark Ecosystem
+        - [What is Apache Spark?](https://intellipaat.com/blog/what-is-apache-spark/)
+        - [Hadoop vs Spark – Detailed Comparison](https://phoenixnap.com/kb/hadoop-vs-spark)
+        - [Difference Between Hadoop and Spark](https://www.geeksforgeeks.org/cloud-computing/difference-between-hadoop-and-spark/)
+        - [Resilient Distributed Datasets (Spark RDD)](https://phoenixnap.com/kb/resilient-distributed-datasets)
+        - Optimizing Spark
