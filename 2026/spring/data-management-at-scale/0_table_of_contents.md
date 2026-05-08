@@ -257,3 +257,85 @@
         - [Difference Between Hadoop and Spark](https://www.geeksforgeeks.org/cloud-computing/difference-between-hadoop-and-spark/)
         - [Resilient Distributed Datasets (Spark RDD)](https://phoenixnap.com/kb/resilient-distributed-datasets)
         - Optimizing Spark
+12. Real Time Data Processing and Streaming
+    - Real-time Data Processing
+        - Spark Streaming & Kafka
+        - Windowing/Watermarking
+        - Challenges with Real Time Data
+            - Data Volume and Storage Limitations 
+            - Data Quality and Integration 
+            - Data Processing and Speed 
+            - Security and Privacy Concerns 
+            - Ethical Considerations and Bias 
+            - Skilled Workforce and Talent Shortage
+        - Opportunities through real time data
+            - Enhanced Decision-making and Predictive Analytics 
+            - Business Intelligence and Competitive Advantage 
+            - Personalization and Customer Experience
+            - Cost Optimization and Process Automation
+            - Health Care and Scientific Breakthroughs
+            - Real-time Monitoring and Fraud Detection
+            - Sustainability and Smart Cities 
+        - [Real-Time Data: An Overview and Introduction](https://www.splunk.com/en_us/blog/learn/real-time-data.html)
+    - Streaming Data Architectures
+        - Kappa and Lambda architectures
+        - Fault tolerance
+        - [IoT architecture](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/big-data#iot-architecture)
+    - Applications of Real-time Data Processing
+        - Fraud detection, algorithmic trading, network performance, customer engagement, etc
+13. Data Privacy, Security, and Compliance
+    - Data Privacy and Its Importance
+        - Anonymization / pseudonymization
+        - Challenges with Data Privacy
+            - Data Breaches
+            - Complexity of Data Sharing and Third-Party Access
+            - Ethical Concerns
+            - Balancing Convenience and Security
+            - Regulatory Compliance
+        - Ways to enhance data privacy
+            - Encryption
+            - Privacy-Enhancing Computation Techniques
+            - Access Controls and Identity Management Solutions
+            - Taking Control of Personal Data
+            - Preventing Privacy Risk in Real Time
+            - Privacy-by-Design
+    - Data Security Best Practices
+        - Access Control
+        - Data Security Threats
+        - AES, RSA, TLS, SSL
+        - [What is data security? - IBM](https://www.ibm.com/think/topics/data-security)
+    - Data Compliance Regulations
+        - GDPR and CCPA
+        - [What is GDPR, the EU’s new data protection law?](https://gdpr.eu/what-is-gdpr/)
+        - [What Is The CCPA? Here’s How To Comply](https://www.forbes.com/advisor/business/what-is-ccpa/)
+    - Implementing Security Measures
+        - Creating a plan
+            - Identify Types of Data Collected and How the Organization Handles It
+            - Define Clear Data Handling Guidelines
+            - Develop Strong Privacy Policy and Security Measures
+            - Regularly Review and Update Policy
+        - Data Anonymization and Masking
+        - Continuous Monitoring and Auditing
+14. Data Visualization and Dashboards
+    - Importance of Data Visualization
+        - [Solve the Right Problems](https://data-goblins.com/power-bi/solving-problems)
+        - [from Data to Viz](https://www.data-to-viz.com)
+    - Data Visualization Tools
+        - When selecting, consider:
+            - Data Complexity
+            - Visual Capabilities
+            - User Skill Level
+            - Collaborative Tools
+        - [See the Unseen — Medivis SurgicalAR Technology Using Augmented Reality](https://www.youtube.com/watch?v=bkzkelf7IpI&source_ve_path=MjM4NTE&embeds_referring_euri=https%3A%2F%2Flearn.bu.edu%2F)
+        - [BBC News Reporting on Climate Data Using the Arti AR Platform Outside the Studio](https://www.youtube.com/watch?v=Ub1Ewv51NiM)
+    - Interactive Dashboards
+        - [8 Essential Dashboard Design Principles for Effective Data Visualization](https://medium.com/@mokkup/8-essential-dashboard-design-principles-for-effective-data-visualization-40653c5fd135)
+        - [25 Dashboard Design Principles & Best Practices To Enhance Your Data Analysis](https://www.rib-software.com/en/blogs/bi-dashboard-design-principles-best-practices)
+    - Effective Data Visualizations
+        - Proximity, Similarity, Continuity, Figure-Ground Relationship
+        - Pitfalls in Data Visualization
+            - Misleading Scales 
+            - Overcrowding Visuals 
+            - Inappropriate Chart Types
+        - [Let's Dive Deeper into Dimensional Modeling: Advanced Techniques and Tips](https://www.capellasolutions.com/blog/lets-dive-deeper-into-dimensional-modeling-advanced-techniques-and-tips)
+        - [Web Accessibility - WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/)
