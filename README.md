@@ -12,3 +12,5 @@ This repository contains a collection of books, articles, and case studies on Da
     - [AI for Leaders (Part 2)](2026/spring/ai-for-leaders/0_table_of_contents.md)
 - Summer 2026:
     - [Experimental Design and Causality](2026/summer/experimental_design_and_causality/0_table_of_contents.md)
+    - [Responsible and Ethical Data Science](2026/summer/responsible_and_ethical_data_science/0_table_of_contents.md)
+    - [Data Science Capstone](2026/summer/data_science_capstone/0_table_of_contents.md)
