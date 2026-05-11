@@ -10,3 +10,5 @@ This repository contains a collection of books, articles, and case studies on Da
     - [Machine Learning Fundamentals](2026/spring/machine-learning-fundamentals/0_table_of_contents.md)
     - [Data Management at Scale](2026/spring/data-management-at-scale/0_table_of_contents.md)
     - [AI for Leaders (Part 2)](2026/spring/ai-for-leaders/0_table_of_contents.md)
+- Summer 2026:
+    - [Experimental Design and Causality](2026/summer/experimental_design_and_causality/0_table_of_contents.md)
