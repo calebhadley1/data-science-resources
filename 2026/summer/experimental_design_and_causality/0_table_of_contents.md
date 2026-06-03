@@ -8,6 +8,5 @@
         - Conduct a regression discontinuity study 
         - Invent your own regression discontinuity example 
     - Instrumental Variables
-        - Reading | Huntington-Klein, N. (2022, January 5). The effect: An introduction to research design and causality. Chapman & Hall.  
         - [The effect: An introduction to research design and causality](1_the_effect_intro_to_research_design_and_causality.md) Chapters 8 and 9
     - Regression Discontinuity
