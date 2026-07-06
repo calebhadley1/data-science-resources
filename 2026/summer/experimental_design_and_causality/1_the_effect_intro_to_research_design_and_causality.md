@@ -15,3 +15,21 @@ Chapter 4: Describing Relationships
 Chapter 5: Identification 
 - To understand causal relationships, we must know something about the DGP. 
 - Performing experiments to test hypotheses — what if we didn’t do a controlled experiment? How would we draw conclusions anyway? 
+
+Chapter 6: Causal Diagrams 
+
+Chapter 7: Drawing Causal Diagrams 
+
+Chapter 8: Causal Paths and Closing Back Doors 
+
+Chapter 9: Finding Front Doors 
+
+Chapter 10: Treatment Effects 
+
+Chapter 11: Causality with Less Modeling 
+
+Chapter 13: ?
+
+Chapter 14: Matching
+
+Chapter 15: Simulation

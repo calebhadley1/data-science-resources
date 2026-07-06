@@ -52,11 +52,20 @@
         - Identify confounders in causal diagrams. 
         - Identify colliders in causal diagrams. 
         - Draw causal diagrams that use time to permit feedback loops. 
+    - Causal Diagrams
+        - Directed Acyclic Graphs
+        - Front Door Paths
+        - Colliders
+        - [The effect: An introduction to research design and causality](1_the_effect_intro_to_research_design_and_causality.md) Chapters 10 and 11
 6. Treatment Effects
     - Key concepts:
         - Calculate treatment effects such as ATE, ATT, and ATUT (average treatment effect on the untreated). 
         - Explain why treatment effects are defined in a particular way. 
         - Choose the right treatment effect for a given situation. 
+    - Treatment Effects
+        - ATT, ATUT, ATE
+    - Alternative Treatment Effects
+        - Conditional Average Treatment Effect (CATE), Optimal Treatment Effect (OTE), Variance-Weighted Treatment Effect (VWTE), Distribution-Weighted Treatment Effect, Intent-to-Treat Effect, Local Average Treatment Effect (LATE)
 7. Regression
     - Key concepts:
         - Explain the difference between error terms and residuals in regression 
@@ -64,11 +73,17 @@
         - Explain the common assumptions for a regression model 
         - Interpret statistical measures to assess regression model accuracy 
         - Compute slope in simple regression and distinguish between error terms and residuals for accurate modeling 
+    - Regression Concepts and Error Terms
+        - [The effect: An introduction to research design and causality](1_the_effect_intro_to_research_design_and_causality.md) Chapters 13
+    - Statistical Significance and Model Evaluation
 8. Matching
     - Key concepts:
         - Explain matching and its application to average treatment effect (ATE), ATT (average treatment effect on the treated), and ATUT (average treatment effect on the untreated) 
         - Perform inverse probability weighting and propensity score matching  
-        - Explain matching variants such as the Mahalanobis distance and the Epanechnikov kernel 
+        - Explain matching variants such as the Mahalanobis distance and the Epanechnikov kernel
+    - Matching Fundamentals and Strategies
+        - [The effect: An introduction to research design and causality](1_the_effect_intro_to_research_design_and_causality.md) Chapters 14
+    - Practical Considerations and Advanced Techniques
 9. Simulation
     - Key concepts:
         - Design simulations to validate statistical methods when theoretical proofs are not available. 
