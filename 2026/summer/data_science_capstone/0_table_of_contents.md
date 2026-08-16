@@ -7,7 +7,12 @@
         - Detect multicollinearity using a variance inflation factor or correlation. 
         - Apply continuous and categorical features in linear regression. 
         - Design an optimal modeling strategy that selects between polynomial terms, interactive terms, and/or continuous and categorical features based on dataset characteristics. 
-2. ?
+2. Linear Regression: Part 2
+    - Key concepts:
+        - Perform lasso, ridge, and elastic net regression techniques to analyze a dataset. 
+        - Compare the effects of different lambda parameters on model outcomes.
+        - Analyze how different regularization approaches affect model performance across various metrics.
+        - Design an optimal modeling strategy that selects between lasso, ridge, or elastic net regression techniques based on dataset characteristics.
 3. Linear Regression: Part 3
     - Key concepts:
         - Discern the appropriate conditions for using forward and backward selection, PCR, and PLSR on your project’s dataset. 
@@ -51,12 +56,22 @@
         - Compare the impact of different learning rates on model performance and complexity. 
         - Evaluate how tree depth and number of estimators impact the risks of underfitting or overfitting. 
         - Apply regularization techniques in gradient boosting, including limiting tree complexity, setting sample thresholds, and subsampling. 
-10. TODO
+10. Clustering Part 1
     - Key concepts:
-11. TODO
+        - Explain the k-means clustering algorithm 
+        - Apply the elbow method to determine the optimal number of clusters 
+        - Describe the calculations for the elbow method and the Silhouette score for cluster evaluation 
+        - Explain the importance of distance metrics and feature scaling in k-means 
+11. Clustering Part 2
     - Key concepts:
-12. TODO
+        - Explain how DBSCAN applies to cluster datasets and how it identifies core, border, and noise points based on given ϵ and MinPts values. 
+        - Define a cluster in DBSCAN based on the concept of core point connectivity. 
+        - Compare and contrast linkage methods (single, complete, average, Ward’s) in hierarchical agglomerative clustering and explain how each influences cluster merging. 
+        - Interpret dendrograms to determine a suitable number of clusters in HAC. 
+12. Milestone 2
     - Key concepts:
+        - Show evidence of applying a variety of models explained across Weeks 8–11 to your Integrated Capstone Project dataset. 
+        - Effectively communicate the results and evidence-based conclusions of applying various models to your Integrated Capstone Project dataset. 
 13. TODO
     - Key concepts:
 14. TODO
