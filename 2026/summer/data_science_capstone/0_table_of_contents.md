@@ -72,7 +72,13 @@
     - Key concepts:
         - Show evidence of applying a variety of models explained across Weeks 8–11 to your Integrated Capstone Project dataset. 
         - Effectively communicate the results and evidence-based conclusions of applying various models to your Integrated Capstone Project dataset. 
-13. TODO
+13. Naive Bayes
     - Key concepts:
-14. TODO
+        - Explain how the Naive Bayes algorithm works and what makes it "naive." 
+        - Use Naive Bayes to make predictions for your project’s dataset. 
+        - Distinguish between Bernoulli, Multinomial, and Gaussian variants of Naive Bayes. 
+14. Gaussian Mixture Models
     - Key concepts:
+        - Describe how GMMs use multiple Gaussian distributions to model data clusters in multidimensional space. 
+        - Differentiate between spherical and ellipsoidal Gaussian distributions in the context of clustering. 
+        - Interpret the probabilistic formulations of GMMs, including a prior probabilities P(cluster), likelihoods P(data | cluster), and posterior probabilities P(cluster | data)
