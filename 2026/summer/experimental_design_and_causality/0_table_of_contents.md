@@ -91,13 +91,94 @@
         - Construct data using directed acyclic graphs (DAGs) to model relationships and dependencies. 
         - Evaluate the impact of different assumptions on the accuracy of statistical estimators. 
         - Perform power analysis to determine the sample size required for detecting significant effects in regression models.
-10. TODO
+10. Fixed Effects
     - Key concepts:
-11. TODO
+        Apply fixed effects and two-way fixed effects models. 
+        Understand random effects. 
+        Review heteroskedasticity and nonlinear regression. 
+    - Fixed Effects Models
+        - Fixed Effects: Controlling for the Unseen in Regression
+        - Additive Effects and Fixed Effects Regression
+        - Controlling for Unobserved Confounders
+        - Between and Within Variation
+        - Fixed Effects in Action
+        - Regression Estimators
+        - Multiple Sets of Fixed Effects (Two way fixed effects)
+        - Random Effects Model
+        - Random Effects
+        - Clustered Standard Errors
+        - Advanced Random Effects
+        - Interaction Terms
+        - Nonlinear Regression
+        - HeteroskedasticityErrors That Fail to Be Independent
+        - Sample Weights
+        - Collinearity
+        - Measurement Error 
+        - Penalized Regression 
+        - [The effect: An introduction to research design and causality](1_the_effect_intro_to_research_design_and_causality.md) Chapters 16
+11. Event Studies
     - Key concepts:
-12. TODO
+        - Perform event studies using methods developed for financial markets. 
+        - Perform event studies with multiple affected groups. 
+        - Use placebo tests with event studies. 
+    - Event Studies
+        - Foundations
+            - What are event studies
+            - Prediction and Deviation
+        - Event Study Methods and Models
+            - Event Studies in the Stock Market 
+                - Means-adjusted returns model
+                - Market-adjusted returns model
+                - Market model
+            - Event Studies with Regression 
+            - Diving Deeper: Event Studies with Single or Multiple Groups
+            - Event Studies with Multiple Affected Groups
+        - Time Series Forecasting and Model Validity
+            - Forecasting Properly with Time Series Methods
+            - The Joint-Test Problem
+        - [The effect: An introduction to research design and causality](1_the_effect_intro_to_research_design_and_causality.md) Chapters 17
+12. Differences-in-Differences
     - Key concepts:
-13. TODO
+        - Apply differences-in-differences to data. 
+        - Understand and test the parallel trends assumption. 
+        - Review some regression topics from Week 7
+    - Differences-in-differences
+        - Core concepts
+            - Understanding Two-Way Fixed Effects and Treatment Effects in Difference-in-Differences
+            - Prior Trends Test and Placebo Tests
+            - Untreated Groups and Parallel Trends
+            - Two-Way Fixed Effects
+            - Treatment Effects in Differences-in-differences
+            - [The effect: An introduction to research design and causality](1_the_effect_intro_to_research_design_and_causality.md) Chapters 13 + 18
+        - Extensions, Diagnostics, and Comparisons
+            - Supporting the Parallel Trends Assumption
+                - A Test of Prior Trends
+                - Placebo Test
+            - Dynamic Treatment Effects
+                - Rollout Designs and Multiple Treatment Periods
+                - Picking an Untreated Group with Matching
+                - Contrasting Differences-in-differences vs. Event Studies
+13. Instrumental Variables
     - Key concepts:
-14. TODO
+        - Perform Wald estimates. 
+        - Perform two-state least squares (2SLS). 
+        - Describe validity issues with instrumental variables
+    - Instrumental Variables
+        - Core Concepts and Assumptions of Instrumental Variables
+            - What Are Instrumental Variables and Why Do We Use Them?
+            - The Wald Estimator and Covariance Approach
+            - [The effect: An introduction to research design and causality](1_the_effect_intro_to_research_design_and_causality.md) Chapters 19
+        - Estimation Techniques and Practical Use of IVs
+            - Common Instruments and Real-World Examples 
+            - Two-Stage Least Squares (2SLS) and Other Estimation Methods 
+14. Regression Discontinuity
     - Key concepts:
+        - Explain cutoffs, running variable, and bandwidth. 
+        - Explain how regression discontinuity works to control for the running variable. 
+        - Distinguish sharp and fuzzy regression designs. 
+    - Regression Discontinuity
+        - Understanding Regression Discontinuity: Setup, Assumptions, and Estimation
+            - Types of cutoffs (Geographic, Elections, Policies)
+            - [The effect: An introduction to research design and causality](1_the_effect_intro_to_research_design_and_causality.md) Chapters 19
+        - Extensions and Challenges in RD
+            - Fuzzy regression discontinuity
