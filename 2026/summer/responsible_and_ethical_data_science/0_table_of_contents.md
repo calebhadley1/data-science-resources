@@ -32,8 +32,45 @@
 4. Ethical Reasoning and Persuasion
     - Case Study: Fatal Uber Crash
         - [Self-driving Uber car that hit and killed woman did not recognize that pedestrians jaywalk](https://www.nbcnews.com/tech/tech-news/self-driving-uber-car-hit-killed-woman-did-not-recognize-n1079281)
-
-
+5. Codes of Ethics
+    - Reading |Tavani, H. T. (2024). Chapter 4 Professional ethics, codes of conduct, and moral responsibility. In Ethics and technology: Controversies, questions, and strategies for ethical computing (5th ed.). Wiley. 
+    - [Blueprint for an AI Bill of Rights - White House](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/)
+    - [IEEE Code of Ethics](https://www.ieee.org/about/corporate/governance/p7-8)
+    - [ACM Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics)
+    - [Ethical Guidelines for Statistical Practice - ASA](https://www.amstat.org/your-career/ethical-guidelines-for-statistical-practice)
+    - [Ethics guidelines for trustworthy AI - European Commission](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
+6. The Digital Divide and Descriptive Ethics
+    - Read | Tavani, H. T. (2024). Chapter 10 The digital divide, democracy, and work. In Ethics and Technology: Controversies, Questions, and Strategies for Ethical Computing (5th ed.). Wiley. 
+    - [AI is poised to drive 160% increase in data center power demand](https://www.goldmansachs.com/insights/articles/AI-poised-to-drive-160-increase-in-power-demand)
+    - [Apple’s credit card is being investigated for discriminating against women](https://www.theverge.com/2019/11/11/20958953/apple-credit-card-gender-discrimination-algorithms-black-box-investigation)
+    - [Apple's 'sexist' credit card investigated by US regulator](https://www.bbc.com/news/business-50365609)
+    - [Report on Apple Card Investigation - NY State Dept of Financial Services](https://www.dfs.ny.gov/system/files/documents/2021/03/rpt_202103_apple_card_investigation.pdf)
+7. Networks and Community
+    - Read |Tavani, H. T. (2024). Chapter 11: Online communities, virtual reality, and artificial intelligence. In Ethics and technology: Controversies, questions, and strategies for ethical computing (5th ed.). Wiley. 
+    - [Automated Content Moderation: A Primer](https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/automated_content_moderation_a_primer.pdf)
+    - [Everything in Moderation](https://d1y8sb8igg2f8e.cloudfront.net/documents/Everything_in_Moderation_2019-07-15_142127_tq36vr4.pdf)
+    - [How Nextdoor Addressed Racial Profiling on Its Platform](https://hbr.org/2018/05/how-nextdoor-addressed-racial-profiling-on-its-platform)
+    - [How Nextdoor reduced racist posts by 75%](https://www.jezebel.com/how-nextdoor-reduced-racist-posts-by-75-1793861389)
+    - [Prevent racial profiling on Nextdoor](https://help.nextdoor.com/s/article/Prevent-racial-profiling?language=en_US)
+8. Data Privacy and Monetization
+    - Read |Tavani, H. T. (2024). Chapter 5: Privacy in cyberspace. In Ethics and technology: Controversies, questions, and strategies for ethical computing (5th ed.). Wiley.
+    - [Practical ways to keep your IT systems safe and secure](https://ico.org.uk/for-organisations/advice-for-small-organisations/information-security/data-security-advice/practical-ways-to-keep-your-it-systems-safe-and-secure/)
+    - Jean, C., & Lefrere, V. (2023). Use of personal data for monetization purposes: The case of mobile applications. Journal of Economic Issues, 57(4), 1095–1102.
+    - [How 23andMe Is Monetizing Your DNA](https://www.fastcompany.com/3040356/what-23andme-is-doing-with-all-that-dna)
+    - [Harvard genetics pioneer wants to monetize DNA with digital currency, and defeat 23andMe](https://www.cnbc.com/2018/02/08/harvard-genetics-pioneer-will-monetize-dna-with-digital-currency.html)
+    - [23andMe Is Sharing Genetic Data with Drug Giant](https://www.scientificamerican.com/article/23andme-is-sharing-genetic-data-with-drug-giant/)
+9. Cybersecurity and Cybercrime
+    - Read |Tavani, H. T. (2024). Chapter 6: Security and cyberspace. In Ethics and technology: Controversies, questions, and strategies for ethical computing (5th ed.). Wiley. 
+    - Read |Tavani, H. T. (2024). Chapter 7: Cybercrime and Cyber‐Related Crimes. In Ethics and technology: Controversies, questions, and strategies for ethical computing (5th ed.). Wiley. 
+    - [Equifax Data Breach](https://archive.epic.org/privacy/data-breach/equifax/)
+    - [Welcome To The Equifax Data Breach Settlement Website](https://www.equifaxbreachsettlement.com)
+    - [Equifax Data Breach Settlement](https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement)
+    - [Equifax data breach FAQ: What happened, who was affected, what was the impact?](https://www.csoonline.com/article/567833/equifax-data-breach-faq-what-happened-who-was-affected-what-was-the-impact.html)
+    - [Frequently asked questions about the Equifax data breach](https://www.mass.gov/info-details/frequently-asked-questions-about-the-equifax-data-breach)
+10. Social Credit and Surveillance
+11. Generative AI and Intellectual Property
+12. Regulatory Frameworks
+13. Misinformation and Disinformation
 
 
 
